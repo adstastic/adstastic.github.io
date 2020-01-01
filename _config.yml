@@ -31,7 +31,7 @@ github_username:  adstastic
 
 # Build settings
 # theme: minima
-theme: jekyll-text-theme
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
