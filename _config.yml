@@ -3,7 +3,7 @@ title: "~/Adi"
 description: "Thoughts & Musings"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
-author: "John Doe"
+author: "Adi Mukherjee"
 email: contact@adimukherjee.com
 
 # Build settings
