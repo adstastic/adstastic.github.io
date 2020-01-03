@@ -19,6 +19,6 @@ Hopefully I can build this into a habit that continues after life gets busy agai
 Footnotes:
 
 
-[^travel-documents-stolen]: It's been a challenging experience, and I gained solace from a few blog posts by people who went through it before me. I'm writing up my own experience, and will be posting on here soon.
+[^travel-documents-stolen]: It's been a challenging experience, and I gained solace from a few blog posts by people who went through it before me. To pay that forward, I'm writing up my own experience, and will be posting on here soon.
 
 [^david-perell-discovery]: I came across David Perell's blog when his ["Coolest things I learned in 2019"](https://www.perell.com/blog/2019/12/11/coolest-things-i-learned-in-2019) made the Hacker News top 10. It's a great read.
