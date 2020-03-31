@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Authenticating sudo with TouchID
-tags: [tech, guide]
+tags: [software]
 ---
 
 TouchID is great - a seamless way to authenticate on the new Macbooks. I enjoy the ease of logins, admin passwords, unlocking apps, etc, but the one place I wish I had it is in the Terminal, to authenticate `sudo`.
@@ -9,7 +9,7 @@ TouchID is great - a seamless way to authenticate on the new Macbooks. I enjoy t
 My wish has been granted! 
 
 1. Sudo open `/etc/pam.d/sudo`. The file should look something like:
-```{.line-numbers}
+```python
 # sudo: auth account password session
 auth       sufficient     pam_smartcard.so
 auth       required       pam_opendirectory.so
@@ -18,7 +18,7 @@ password   required       pam_deny.so
 session    required       pam_permit.so
 ```
 2. Add `auth sufficient pam_tid.so` to the top of the file (below the comment):
-```{.line-numbers}
+```python
 # sudo: auth account password session
 auth       sufficient     pam_tid.so
 auth       sufficient     pam_smartcard.so

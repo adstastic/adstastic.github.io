@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, world!
-tags: [Meta, Blog]
+tags: [meta, blog]
 ---
 The end of the year is a good time for reflection. 
 

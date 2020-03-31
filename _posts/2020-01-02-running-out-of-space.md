@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running out of Google space
-tags: [Tech, Cloud Services, Google, Google Drive]
+tags: [software, backup]
 ---
 I received a notification from Google that I was nearly out of storage, so I started to clean up my Google Drive to free space so my [Gmail wouldn’t stop working](https://support.google.com/mail/answer/6374270?hl=en).
 
@@ -23,7 +23,9 @@ So there you have it! I freed up the majority of space in my Google Drive, downl
 
 *Later on, I went further than this and downloaded all my Google Photos. That story has some interesting challenges and good learnings, coming up next.*
 
+
 Footnotes:
+
 
 [^google-photos-space-oddity]: Although the free tier of Google Drive only has 15 GB storage, I had over 17 GB of photos in my old Google Photos folder, plus a lot of other stuff. This could be due to [16 MP or smaller photos being stored for free](https://support.google.com/photos/answer/6220791) in Google Photos (i.e. it doesn’t affect your storage). It seems that this behaviour was retained even after Google Photos was split from Drive, so the only space I saved by downloading this folder was the photos and videos higher quality than 16 MP and 1080p, respectively.
 
