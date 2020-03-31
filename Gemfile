@@ -5,6 +5,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'tagging'
     gem 'jekyll-tagging-related_posts'
+    gem 'github-pages'
 end
 gem 'html-proofer'
 gem 'tzinfo'
