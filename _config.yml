@@ -7,9 +7,12 @@ author: "Adi Mukherjee"
 email: contact@adimukherjee.com
 
 # Build settings
-kramdown:
-  input: GFM
+markdown: CommonMark
 permalink: pretty
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["tagfilter", "tasklist", "strikethrough", "autolink", "table"]
 
 # Third-party services
 # just leave empty to disable it

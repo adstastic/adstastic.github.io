@@ -10,6 +10,8 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
+    commonmarker (0.21.0)
+      ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -43,6 +45,9 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-commonmark (1.3.1)
+      commonmarker (~> 0.14)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.4.0)
@@ -70,6 +75,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rouge (3.14.0)
+    ruby-enum (0.8.0)
+      i18n
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -90,6 +97,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   html-proofer
+  jekyll-commonmark
   jekyll-sitemap
   rake (~> 12.0)
   textlog!
@@ -97,4 +105,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
