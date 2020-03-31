@@ -4,15 +4,12 @@ description: "Thoughts & Musings"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
 author: "Adi Mukherjee"
-email: contact@adimukherjee.com
+email: hi@adimin.net
 
 # Build settings
-markdown: CommonMark
+kramdown:
+    input: GFM
 permalink: pretty
-
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["tagfilter", "tasklist", "strikethrough", "autolink", "table"]
 
 # Third-party services
 # just leave empty to disable it
@@ -21,5 +18,8 @@ disqus_shortname:
 
 plugins:
   - jekyll-sitemap
+  - jemoji
+  - tagging
+  - jekyll-tagging-related_posts
 
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
