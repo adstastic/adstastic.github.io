@@ -155,6 +155,8 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-stickyposts (1.2.2)
+      jekyll (~> 3.0)
     jekyll-swiss (1.0.0)
     jekyll-tagging (1.1.0)
       nuggets
@@ -276,6 +278,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll-sitemap
+  jekyll-stickyposts
   jekyll-tagging-related_posts
   jemoji
   rake (~> 12.0)
