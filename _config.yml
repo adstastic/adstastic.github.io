@@ -9,7 +9,7 @@ email: hi@adimin.net
 # Build settings
 kramdown:
     input: GFM
-permalink: pretty
+permalink: /:title/
 
 # Third-party services
 # just leave empty to disable it
@@ -21,6 +21,5 @@ plugins:
   - jemoji
   - tagging
   - jekyll-tagging-related_posts
-  - jekyll-stickyposts
 
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]

@@ -24,6 +24,6 @@ Footnotes:
 
 
 [^1]: I've been watching Boris Johnson's daily briefings and taking my own notes, then comparing them against what BBC, Sky, Guardian headlines and articles say and the difference can be striking.
-[^2]: Just to state what I hope is obvious to everyone by this point: these highly altruistic people (and their counterparts in healthcare worldwide) are risking their lives for complete strangers by working non-stop, wearing little to no protection, to do everything they possibly can for anyone who comes in. Do your part to help them and stay home. If you want to help further, see the [COVID-19 List]({% post_url 2020-03-30-covid19 %}).
+[^2]: Just to state what I hope is obvious to everyone by this point: these highly altruistic people (and their counterparts in healthcare worldwide) are risking their lives for complete strangers by working non-stop, wearing little to no protection, to do everything they possibly can for anyone who comes in. Do your part to help them and stay home. If you want to help further, see the [COVID-19 List](/covid19).
 [^3]: Based on my hype/bullshit detector. Exercise good judgement and high levels of skepticism before believing anything you read: do background research, find primary sources, corroborate with informed third parties.
 [^4]: I hope I'm the first to come up with this phrase.

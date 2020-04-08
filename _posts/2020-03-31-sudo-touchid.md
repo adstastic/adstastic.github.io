@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Authenticating sudo with TouchID
+title: Sudo with TouchID
 tags: [software]
 ---
 

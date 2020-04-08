@@ -9,11 +9,24 @@ layout: default
 	</section>
 	<section>
 		<ul class="post-list">
-			{% assign sorted = site.posts | sort: "stickiness" %}
+			{% assign sorted = site.posts %}
 			{% for post in sorted %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-			</li>
+				{% if post.pinned %}
+				<li>
+					<span class="badge badge-danger">Pinned</span> <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> {{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
+	<section>
+		<ul class="post-list">
+			{% for post in sorted %}
+				{% if post.pinned == null %}
+				<li>
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> {{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				</li>
+				{% endif %}
 			{% endfor %}
 		</ul>
 	</section>
