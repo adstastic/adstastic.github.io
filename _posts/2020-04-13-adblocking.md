@@ -15,10 +15,8 @@ tags: [software, privacy, tutorial]
 1. Download and install the [Raspberry Pi Imager](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 2. Insert the SD card into your computer
 3. Run the imager
-4. Select the OS and SD card in the Imager, and Run
-{% figure caption:"I chose Raspbian Lite because I didn't need Desktop as I would only be running webapps" %}
+4. Select the OS and SD card in the Imager, and Run. I chose Raspbian Lite because I didn't need Desktop as I would only be running webapps.
 ![raspberry pi imager](/assets/rpi-imager.gif)
-{% endfigure %}
 5. After the image has been written to the SD card, create a new file `ssh` on the `boot` volume: `touch ssh`. This allows it to start with SSH enabled, for headless setup. Additional instructions [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) for WiFi setup, if you can't connect the Pi via Ethernet.
 6. Connect the Pi to power and your local network.
 7. Find the Pi's IP address using a tool like [Fing](https://www.fing.com/), your router's DHCP page, or `arp -a` - look for `raspberrypi`.

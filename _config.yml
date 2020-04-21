@@ -21,9 +21,5 @@ plugins:
   - jemoji
   - tagging
   - jekyll-tagging-related_posts
-  - jekyll-figure
-
-jekyll-figure:
-  paragraphs: false
 
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
