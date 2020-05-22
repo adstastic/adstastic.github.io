@@ -4,7 +4,7 @@ title: "Best Reads #1"
 tags: [review, links]
 ---
 
-I've long desired to have a practice of periodically reviewing the information I've consumed so I'm going to dip my toes in the water with (hopefully) regular short posts of the best things I've read. 
+I've long desired to have a practice of periodically reviewing the information I've consumed so I'm going to dip my toes in the water with (hopefully) regular short posts of the best things I've read. Please check out the original content, the excerpts are just what jumped out at me most and may not make sense without a proper read.
 
 ## This Is What Uncertainty Feels Like
 
