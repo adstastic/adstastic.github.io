@@ -38,7 +38,7 @@ GEM
     ffi (1.13.1)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    git (1.7.0)
+    git (1.11.0)
       rchardet (~> 1.8)
     github-pages (209)
       github-pages-health-check (= 1.16.1)
