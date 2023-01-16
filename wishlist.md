@@ -15,5 +15,5 @@ Expensive:
 - [ ] [Aer Travel Pack 3 Small X-Pac](https://londonundercover.co.uk/products/aer-travel-pack-3-small-x-pac)
 
 Really expensive:
-- [ ] [Expresive-E Osmose](https://www.expressivee.com/2-osmose)
+- [ ] [Expressive-E Osmose](https://www.expressivee.com/2-osmose)
 - [ ] [Neural DSP Quad Cortex](https://neuraldsp.com/quad-cortex)
