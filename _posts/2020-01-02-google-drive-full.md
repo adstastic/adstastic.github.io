@@ -15,9 +15,9 @@ Given that this folder is essentially a duplicate of what’s in Google Photos a
 
 My plan was to add this to the Photo Library on my Mac, but in my experience the upload to iCloud would take days if not weeks, and I wanted to store the archive in a more accessible way.
 
-I had been eyeing up [Backblaze Backup](https://www.backblaze.com/cloud-backup.html) for a while, and I noticed they also offer Cloud Storage with their [B2](https://www.backblaze.com/b2/cloud-storage.html) service (similar to AWS S3), and the first 10 GB is free. 
+I had been eyeing up [Backblaze Backup](https://www.backblaze.com/cloud-backup/personal) for a while, and I noticed they also offer Cloud Storage with their [B2](https://www.backblaze.com/cloud-storage) service (similar to AWS S3), and the first 10 GB is free.
 
-I created an account, a B2 bucket, and [installed their command line tool](https://www.backblaze.com/b2/docs/quick_command_line.html). After authenticating with my API key, I used it to upload the Google Photos ZIP I had downloaded from Google Drive.
+I created an account, a B2 bucket, and [installed their command line tool](https://www.backblaze.com/docs/cloud-storage-command-line-tools). After authenticating with my API key, I used it to upload the Google Photos ZIP I had downloaded from Google Drive.
 
 So there you have it! I freed up the majority of space in my Google Drive, downloaded a bunch of my media and backed them up somewhere else.
 
