@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mental Forex
+title: Mental Currency Conversion
 tags: [software, ai, project]
 ---
 
