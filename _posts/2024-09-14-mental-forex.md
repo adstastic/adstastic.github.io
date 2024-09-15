@@ -4,7 +4,7 @@ title: Mental Forex
 tags: [software, ai, project]
 ---
 
-**tl;dr** I used OpenAI's `o1-preview` model to code a web app that uses `gpt-4o-mini` to generate simple mental maths rules for converting between currencies. If you have an OpenAI API key, go check it out at https://adim.in/mental-forex/
+**tl;dr** I used OpenAI's `o1-preview` model to code a web app that uses `gpt-4o-mini` to generate simple mental maths rules for converting between currencies. If you have an OpenAI API key, go check it out at [here](https://adim.in/mental-forex/)
 
 ---
 Recently, a friend was travelling to Columbia and asked me how to convert prices back to GBP while out and about. I looked it up: `1 GBP = 5486 COP` (Columbian Pesos). I thought about it for a bit and said "Drop the last 3 digits and divide by 5". 
