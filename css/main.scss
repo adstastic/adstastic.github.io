@@ -28,6 +28,12 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-:              800px;
 
+hr {
+    border: none;           // Remove the default border
+    height: 1px;            // Set the height
+    background-color: $text-color; // Change the color (use your desired color)
+}
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
