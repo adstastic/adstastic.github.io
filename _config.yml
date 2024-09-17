@@ -1,6 +1,6 @@
 # Site settings
 title: "~/Adi"
-description: "Thoughts & Musings"
+description: "Notes on stuff"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
 author: "Adi Mukherjee"
