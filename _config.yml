@@ -9,12 +9,7 @@ email: hi@adimin.net
 # Build settings
 kramdown:
     input: GFM
-permalink: /blog/:title/
-
-# Third-party services
-# just leave empty to disable it
-google_analytics:
-disqus_shortname: 
+permalink: /blog/:title/ 
 
 plugins:
   - jekyll-sitemap
