@@ -7,7 +7,7 @@ group :jekyll_plugins do
     gem 'jekyll-tagging-related_posts'
     gem 'github-pages'
 end
-gem 'html-proofer'
+gem 'html-proofer', '~> 3.19.4'
 gem 'tzinfo'
 gem 'tzinfo-data'
 gem "kramdown", ">= 2.3.0"
