@@ -22,7 +22,7 @@ Life involves a lot of neccessary suffering. Don't be averse to it. Hardship bui
 #### The world is a museum of passion projects.
 [[source](https://x.com/collision/status/1529452415346302976)] [[quote](/blog/quoting-john-collison)]
 #### Put in an unreasonable amount of time.
-[[source](https://allenpike.com/2024/an-unreasonable-amount-of-time))] [[quote](/blog/quoting-allen-pike)]
+[[source](https://allenpike.com/2024/an-unreasonable-amount-of-time)] [[quote](/blog/quoting-allen-pike)]
 #### If you don’t try to be the best, you won’t even be good.
 [[source](http://paulgraham.com/greatwork.html)] [[quote](/blog/quoting-paul-graham)]
 #### Consistency over intensity
