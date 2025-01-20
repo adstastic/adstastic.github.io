@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Quoting Andrej Karpathy on No Priors &#35;80
+title: Andrej Karpathy - No Priors 80
 tags: [software, robotics, ai, notes, podcast]
 ---
 
 Quoting Andrej Karpathy from [No Priors #80](https://www.youtube.com/watch?v=hM_h0UA7upI). 
-
-_These quotes are extracted from the episode transcript based on my notes, and cleaned up and reorganised for easier reading, so they may not be verbatim or in order._
 
 #### Self-Driving Cars
 
