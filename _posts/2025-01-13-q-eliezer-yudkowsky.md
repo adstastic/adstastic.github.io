@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quoting: Working hurts less than procrastinating, we fear the twinge of starting"
+title: "Quoting: Working hurts less than procrastinating"
 tags: [quote]
 ---
 

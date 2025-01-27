@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quoting: Making Beliefs Pay Rent (in Anticipated Experiences)"
+title: "Quoting: Making Beliefs Pay Rent"
 slug: q-eliezer-yudkowsky
 tags: [quote]
 ---
