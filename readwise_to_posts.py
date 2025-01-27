@@ -2,11 +2,12 @@ from datetime import datetime
 import httpx
 from pathlib import Path
 import logging
-from typing import TypedDict, List, Optional
+from typing import TypedDict, List, Optional, Dict
 import click
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import os
+import json
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -23,6 +24,8 @@ class Document(BaseModel):
     tags: Optional[dict]
     notes: Optional[str]
     summary: Optional[str]
+    parent_id: Optional[str]
+    content: Optional[str]
 
 class ReadwiseAPI:
     def __init__(self, token: str):
@@ -62,6 +65,9 @@ def create_markdown_post(doc: Document, output_dir: Path) -> None:
     # Create post filename with today's date
     today = datetime.now().strftime("%Y-%m-%d")
     # Create a slug from the title
+    if doc.title is None:
+        logger.warning(f"Document ID {doc.id} has no title. Skipping.")
+        return  # Skip documents without a title
     slug = doc.title.lower().replace(" ", "-")[:50]  # Limit slug length
     filename = f"{today}-{slug}.md"
     
@@ -98,10 +104,36 @@ def create_markdown_post(doc: Document, output_dir: Path) -> None:
     output_file.write_text("\n".join(frontmatter + content))
     logger.info(f"Created post: {output_file}")
 
+def aggregate_highlights(documents: List[Document]):
+    """Aggregate highlights with their parent articles and output as JSON"""
+    articles: Dict[str, Dict] = {}
+    highlights: Dict[str, List[str]] = {}
+    
+    for doc in documents:
+        if doc.category == "article":
+            articles[doc.id] = {
+                "title": doc.title,
+                "url": doc.source_url,
+                "author": doc.author,
+                "highlights": []
+            }
+    
+    for doc in documents:
+        if doc.category == "highlight" and doc.parent_id:
+            parent = articles.get(doc.parent_id)
+            if parent:
+                parent["highlights"].append(doc.content)
+            else:
+                logger.warning(f"Parent article with ID {doc.parent_id} not found for highlight {doc.id}")
+    
+    aggregated = [article for article in articles.values() if article["highlights"]]
+    
+    return aggregated
+
 @click.command()
 @click.option("--output-dir", type=click.Path(exists=True), default=".", help="Output directory for posts")
 @click.option("--updated-after", type=click.DateTime(formats=["%Y-%m-%d"]), help="Only fetch documents updated after this ISO date")
-def main(output_dir: str, updated_after: Optional[datetime]):
+def main(output_dir: Path, updated_after: Optional[datetime]):
     """Convert Readwise documents to Jekyll markdown posts"""
     # Use token from command line or fall back to environment variable
     api_token = os.getenv("READWISE_ACCESS_TOKEN")
@@ -109,17 +141,15 @@ def main(output_dir: str, updated_after: Optional[datetime]):
         raise click.ClickException("No Readwise token provided. Set READWISE_TOKEN in .env file or pass --token")
     
     api = ReadwiseAPI(api_token)
-    output_path = Path(output_dir)
     
     try:
         documents = api.fetch_documents(updated_after)
         logger.info(f"Found {len(documents)} documents")
         
-        for doc in documents:
-            try:
-                create_markdown_post(doc, output_path)
-            except Exception as e:
-                logger.error(f"Failed to create post for document {doc.title}: {e}")
+        results = aggregate_highlights(documents)
+        with open(Path(output_dir) / "quote-posts.json", "w", encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+            logger.info(f"Aggregated highlights written to {Path(output_dir) / 'quote-posts.json'}")
     
     except Exception as e:
         logger.error(f"Failed to fetch documents: {e}")
