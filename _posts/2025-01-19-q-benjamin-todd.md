@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quoting: Part 1: We reviewed over 60 studies about what makes for a dream job. Here’s what we found."
+title: "Quoting: The 80,000 hours career guide"
 tags: [quote]
 ---
 
