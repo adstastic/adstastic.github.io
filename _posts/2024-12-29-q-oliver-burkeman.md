@@ -1,7 +1,6 @@
 ---
 layout: post
-title: '"You can&#39;t hoard life"'
-slug: quoting-oliver-burkeman
+title: "Quoting: You can't hoard life"
 tags: [quote, life, principles, happiness]
 ---
 

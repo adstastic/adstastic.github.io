@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Quoting: o3, Oh My"
+tags: [quote]
+---
+
+Quoting [Zvi Mowshowitz](https://thezvi.substack.com/p/o3-oh-my?utm_source=post-email-title&publication_id=573100&post_id=153528265&utm_campaign=email-post-title&isFreemail=true&r=17m06t&triedRedirect=true&utm_medium=email):
+
+> With O3 costing (potentially) $2,000 per task on “high compute,” the app layer is needed more than ever.For example, giving the wrong context to it and you just burned $1,000.Likely, we have a mix of models based on their pricing/intelligence at the app layer, prepping the data to feed it into O3.100% worth the money but the last thing u wana do is send the wrong info lol

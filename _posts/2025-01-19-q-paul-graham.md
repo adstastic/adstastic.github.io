@@ -1,7 +1,6 @@
 ---
 layout: post
-title: '"How to do great work"'
-slug: quoting-paul-graham
+title: "Quoting: How to do great work"
 tags: [quote, life, productivity, motivation, principles]
 ---
 

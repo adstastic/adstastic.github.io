@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Andrej Karpathy - No Priors 80
-tags: [software, robotics, ai, notes, podcast]
+tags: [quote, software, robotics, ai, notes, podcast]
 ---
 
 Quoting Andrej Karpathy from [No Priors #80](https://www.youtube.com/watch?v=hM_h0UA7upI). 

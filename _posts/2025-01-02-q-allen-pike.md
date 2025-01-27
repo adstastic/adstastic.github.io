@@ -1,7 +1,6 @@
 ---
 layout: post
-title: '"An unreasonable amount of time"'
-slug: quoting-allen-pike
+title: "Quoting: An unreasonable amount of time"
 tags: [quote, life, principles]
 ---
 

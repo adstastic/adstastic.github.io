@@ -1,7 +1,6 @@
 ---
 layout: post
-title: '"The world is a museum of passion projects"'
-slug: quoting-john-collison
+title: "Quoting: The world is a museum of passion projects"
 tags: [quote, life, building]
 ---
 
