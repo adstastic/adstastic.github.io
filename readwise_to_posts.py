@@ -1,14 +1,19 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 import httpx
 from pathlib import Path
 import logging
-from typing import List, Optional, Dict
+from typing import List, Optional
 import click
-from pydantic import BaseModel
 from dotenv import load_dotenv
 import os
-import uuid
 from slugify import slugify
+import time
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from jinja2 import Environment, FileSystemLoader
+from sqlmodel import Field, Session, SQLModel, create_engine, select
+from typing import List
+from openai import OpenAI
+import asyncio
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -16,18 +21,42 @@ logger = logging.getLogger(__name__)
 # Load environment variables from .env file
 load_dotenv()
 
-class Document(BaseModel):
-    id: str
-    title: Optional[str]
-    author: Optional[str]
-    source_url: Optional[str]
-    category: Optional[str]
-    tags: Optional[dict]
-    notes: Optional[str]
-    summary: Optional[str]
-    parent_id: Optional[str]
-    content: Optional[str]
-    updated_at: Optional[str]
+# Database setup
+DATABASE_URL = "sqlite:///readwise.db"
+engine = create_engine(DATABASE_URL)
+
+class Document(SQLModel, table=True):
+    id: str = Field(primary_key=True)
+    title: Optional[str] = None
+    author: Optional[str] = None
+    source_url: Optional[str] = None
+    category: Optional[str] = None
+    notes: Optional[str] = None
+    summary: Optional[str] = None
+    parent_id: Optional[str] = None
+    content: Optional[str] = None
+    updated_at: Optional[datetime] = None
+
+class QuotePost(SQLModel, table=True):
+    id: int = Field(primary_key=True, default=None)
+    parent_id: str = Field(index=True)
+    title: Optional[str] = None
+    author: Optional[str] = None
+    url: Optional[str] = None
+    updated_at: datetime
+    markdown_path: Optional[str] = None
+    is_published: bool = Field(default=False)
+
+class Highlight(SQLModel, table=True):
+    id: int = Field(primary_key=True, default=None)
+    quote_post_id: int = Field(foreign_key="quotepost.id")
+    content: str
+    order: int
+
+def init_db():
+    """Initialize database tables"""
+    SQLModel.metadata.create_all(engine)
+
 class ReadwiseAPI:
     def __init__(self, token: str):
         self.token = token
@@ -36,8 +65,28 @@ class ReadwiseAPI:
         logger.debug(f"Readwise API token: {self.headers}")
         self.client = httpx.Client(headers=self.headers)
     
-    def fetch_documents(self, updated_after: Optional[datetime] = None) -> List[Document]:
-        """Fetch all documents from Readwise"""
+    @retry(
+        stop=stop_after_attempt(5),
+        wait=wait_exponential(multiplier=1, min=4, max=10),
+        retry=retry_if_exception_type(httpx.HTTPStatusError),
+        before_sleep=lambda retry_state: logger.info(f"Rate limited, waiting {retry_state.outcome.next_action.sleep} seconds...")
+    )
+    def _make_request(self, params: dict) -> dict:
+        """Make a request to the Readwise API with retry logic"""
+        response = self.client.get(f"{self.base_url}/list/", params=params)
+        
+        if response.status_code == 429:
+            # If we get a rate limit response, extract retry-after if available
+            retry_after = int(response.headers.get('retry-after', 5))
+            logger.info(f"Rate limited. Waiting {retry_after} seconds...")
+            time.sleep(retry_after)
+            response.raise_for_status()
+            
+        response.raise_for_status()
+        return response.json()
+    
+    def fetch_documents(self, updated_after: Optional[datetime] = None, updated_before: Optional[datetime] = None) -> List[Document]:
+        """Fetch all documents from Readwise and optionally filter by date range"""
         documents = []
         next_page_cursor = None
         
@@ -46,147 +95,210 @@ class ReadwiseAPI:
             if next_page_cursor:
                 params["pageCursor"] = next_page_cursor
             if updated_after:
-                params["updatedAfter"] = updated_after.isoformat()
+                params["updatedAfter"] = updated_after.replace(tzinfo=None).isoformat()
             
             logger.info(f"Fetching documents with params: {params}")
-            response = self.client.get(f"{self.base_url}/list/", params=params)
-            response.raise_for_status()
-            data = response.json()
-            
-            documents.extend([Document(**doc) for doc in data["results"]])
-            next_page_cursor = data.get("nextPageCursor")
-            
-            if not next_page_cursor:
-                break
-        
+            try:
+                data = self._make_request(params)
+                
+                # Convert documents and filter by updated_before if specified
+                for doc in data["results"]:
+                    document = Document(**doc)
+                    if updated_before and document.updated_at:
+                        doc_date = datetime.fromisoformat(document.updated_at).replace(tzinfo=None)
+                        if doc_date > updated_before.replace(tzinfo=None):
+                            continue
+                    documents.append(document)
+                
+                next_page_cursor = data.get("nextPageCursor")
+                if not next_page_cursor:
+                    break
+                    
+            except httpx.HTTPStatusError as e:
+                logger.error(f"HTTP error occurred: {e}")
+                raise
+            except Exception as e:
+                logger.error(f"Unexpected error: {e}")
+                raise
+
         return documents
-    
 
-def deduplicate_slug(new_slug: str, posts_dir: Path) -> str:
-    """List all markdown files in the posts directory"""
-    logger.debug(f"Listing markdown files in {posts_dir}")
-    # Use glob to find all .md files in posts directory
-    posts = list(posts_dir.glob("*.md"))
-    logger.debug(f"Found {len(posts)} markdown files")
-    # Extract just the slugs from filenames (everything after the date prefix)
-    slugs = set([p.name.split('-', 3)[3].replace('.md', '') for p in posts])
-    # If slug already exists, append incrementing number until unique
-    if new_slug in slugs:
-        i = 1
-        while f"{new_slug}-{i}" in slugs:
-            i += 1
-        new_slug = f"{new_slug}-{i}"
-        logger.debug(f"Slug collision, using {new_slug}")
-    return new_slug
+    def save_documents(self, documents: List[Document]) -> None:
+        """Save documents to database"""
+        with Session(engine) as session:
+            for doc in documents:
+                # Convert string date to datetime
+                if doc.updated_at:
+                    doc.updated_at = datetime.fromisoformat(doc.updated_at)
+                
+                # Check if document exists
+                existing = session.get(Document, doc.id)
+                if existing:
+                    for key, value in doc.dict(exclude_unset=True).items():
+                        setattr(existing, key, value)
+                else:
+                    session.add(doc)
+            
+            session.commit()
+            logger.info(f"Saved {len(documents)} documents to database")
 
-def create_markdown_post(doc: Document, output_dir: Path) -> None:
-    """Convert a Readwise document into a Jekyll markdown post"""
-    # Create post filename with today's date
-    # Create a slug from the title
-    date = datetime.fromisoformat(doc.updated_at)
-    slug = slugify(f"q-{doc.author}")
-    slug = deduplicate_slug(slug, output_dir)
-    filename = f"{date.strftime('%Y-%m-%d')}-{slug}.md"
+def generate_title_slug(title: str) -> str:
+    """Generate a URL slug from a title using GPT-4"""
+    client = OpenAI()
     
-    # Create frontmatter
-    frontmatter = [
-        f"""---
-layout: post
-title: "Quoting: {doc.title}"
-tags: [quote]
----
-"""
-    ]
-    
-    # Add source attribution
-    content = []
-    if doc.author:
-        source = f"[{doc.author}]({doc.source_url})" if doc.source_url else doc.author
-        content.append(f"Quoting {source}:")
-        content.append("")
-    
-    # Add summary if available
-    if doc.summary:
-        content.append(doc.summary)
-        content.append("")
-    
-    # Add notes if available
-    if doc.content:
-        content.append(doc.content)
-        content.append("")
-    
-    # Write to file
-    output_file = output_dir / filename
-    output_file.write_text("\n".join(frontmatter + content))
-    logger.info(f"Created post: {output_file}")
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a URL slug generator. Output only the slug, nothing else."
+                },
+                {
+                    "role": "user",
+                    "content": f"Convert this title into a max 4 word descriptive URL slug: {title}"
+                }
+            ],
+            max_tokens=50,
+            temperature=0.3
+        )
+        
+        # Get the generated slug and clean it
+        generated_slug = response.choices[0].message.content.strip()
+        return slugify(generated_slug)
+    except Exception as e:
+        logger.error(f"Failed to generate slug for title '{title}': {e}")
+        # Fallback to basic slugify if GPT fails
+        return slugify(title)
 
-def aggregate_highlights(documents: List[Document]):
-    """Aggregate highlights with their parent articles and output as JSON"""
-    articles: Dict[str, Dict] = {}
-    
-    for doc in documents:
-        if doc.category == "article":
-            articles[doc.id] = {
-                "title": doc.title,
-                "url": doc.source_url,
-                "author": doc.author,
-                "updated_at": doc.updated_at,
-                "highlights": []
-            }
-    
-    for doc in documents:
-        if doc.category == "highlight" and doc.parent_id:
-            parent = articles.get(doc.parent_id)
-            if parent:
-                if doc.content and len(doc.content) > 0:
-                    highlight = doc.content.replace("\n", "<br>")
-                    logger.info(f"Adding highlight {highlight} to {parent['title']}")
-                    parent["highlights"].append(highlight)
-            else:
-                logger.warning(f"Parent article with ID {doc.parent_id} not found for highlight {doc.id}")
-    
-    aggregated = [article for article in articles.values() if article["highlights"]]
-    
-    return aggregated
+def aggregate_highlights_from_db() -> None:
+    """Aggregate highlights from database into QuotePost records"""
+    with Session(engine) as session:
+        # Get all articles that don't have QuotePosts yet
+        articles = session.exec(
+            select(Document).where(
+                Document.category == "article",
+                ~Document.id.in_(select(QuotePost.parent_id))
+            )
+        ).all()
+
+        for article in articles:
+            # Get all highlights for this article
+            highlights = session.exec(
+                select(Document)
+                .where(
+                    Document.category == "highlight",
+                    Document.parent_id == article.id
+                )
+                .order_by(Document.updated_at)
+            ).all()
+
+            if not highlights:
+                continue
+
+            # Create QuotePost
+            quote_post = QuotePost(
+                parent_id=article.id,
+                title=article.title,
+                author=article.author,
+                url=article.source_url,
+                updated_at=article.updated_at or datetime.now(),
+            )
+            session.add(quote_post)
+            session.flush()  # Get the ID
+
+            # Add highlights
+            for i, highlight in enumerate(highlights):
+                if highlight.content:
+                    h = Highlight(
+                        quote_post_id=quote_post.id,
+                        content=highlight.content.replace("\n", "<br>"),
+                        order=i
+                    )
+                    session.add(h)
+
+            session.commit()
+            logger.info(f"Created QuotePost for article: {article.title}")
+
+def create_markdown_posts(output_dir: Path, force: bool = False) -> None:
+    """Convert QuotePosts to markdown files. If force=True, regenerate all posts."""
+    with Session(engine) as session:
+        # Get posts query - either all posts or just unpublished ones
+        query = select(QuotePost)
+        if not force:
+            query = query.where(QuotePost.is_published == False)
+        posts = session.exec(query).all()
+
+        env = Environment(loader=FileSystemLoader("."))
+        template = env.get_template("template.md")
+
+        for post in posts:
+            highlights = session.exec(
+                select(Highlight)
+                .where(Highlight.quote_post_id == post.id)
+                .order_by(Highlight.order)
+            ).all()
+
+            if not highlights:
+                continue
+
+            # Generate slug using GPT-4
+            title_slug = generate_title_slug(post.title) if post.title else slugify(post.author)
+            filename = f"{post.updated_at.strftime('%Y-%m-%d')}-{title_slug}.md"
+            
+            content = template.render(
+                quote=post,
+                highlights=[h.content for h in highlights]
+            )
+            
+            output_file = output_dir / filename
+            output_file.write_text(content)
+            
+            # Update post record
+            post.markdown_path = str(output_file)
+            post.is_published = True
+            session.add(post)
+            
+            logger.info(f"{'Regenerated' if force else 'Created'} post: {output_file}")
+        
+        session.commit()
 
 @click.command()
 @click.option("--output-dir", type=click.Path(exists=True), default=".", help="Output directory for posts")
 @click.option("--updated-after", type=click.DateTime(formats=["%Y-%m-%d"]), help="Only fetch documents updated after this ISO date")
-def main(output_dir: str, updated_after: Optional[datetime]):
+@click.option(
+    "--updated-before", 
+    type=click.DateTime(formats=["%Y-%m-%d"]), 
+    default=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d"),
+    help="Only fetch documents updated before this ISO date (defaults to tomorrow)"
+)
+@click.option(
+    "--force",
+    is_flag=True,
+    help="Force regeneration of all markdown files, even for already published posts"
+)
+def main(output_dir: str, updated_after: Optional[datetime], updated_before: datetime, force: bool):
     """Convert Readwise documents to Jekyll markdown posts"""
-    # Use token from command line or fall back to environment variable
     api_token = os.getenv("READWISE_ACCESS_TOKEN")
     if not api_token:
-        raise click.ClickException("No Readwise token provided. Set READWISE_TOKEN in .env file or pass --token")
+        raise click.ClickException("No Readwise token provided. Set READWISE_TOKEN in .env file")
     
+    init_db()
     api = ReadwiseAPI(api_token)
     
     try:
-        documents = api.fetch_documents(updated_after)
-        logger.info(f"Found {len(documents)} documents")
+        # Fetch and save documents
+        documents = api.fetch_documents(updated_after, updated_before)
+        api.save_documents(documents)
         
-        results = aggregate_highlights(documents)
-        logger.info(f"Aggregated {len(results)} articles with highlights")
+        # Aggregate highlights into posts
+        aggregate_highlights_from_db()
         
-        # Replace JSON output with markdown file generation
-        for article in results:
-            doc = Document(
-                id=str(uuid.uuid4()),
-                title=article["title"],
-                author=article["author"],
-                source_url=article["url"],
-                category="article",
-                tags={"quote": True},
-                notes=article.get("notes"),
-                summary=article.get("summary"),
-                parent_id=article.get("id"),
-                updated_at=article.get("updated_at"),
-                content="\n\n".join([f"> {highlight}" for highlight in article["highlights"]])
-            )
-            create_markdown_post(doc, Path(output_dir))
+        # Create markdown files
+        create_markdown_posts(Path(output_dir), force=force)
     
     except Exception as e:
-        logger.error(f"Failed to fetch documents: {e}")
+        logger.error(f"Failed to process documents: {e}")
         raise click.ClickException(str(e))
 
 if __name__ == "__main__":

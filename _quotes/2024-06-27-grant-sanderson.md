@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Quoting: Action precedes motivation"
+title: Action precedes motivation
+slug: grant-sanderson
+ref: https://www.youtube.com/watch?v=W3I3kAg2J7w
 tags: [quote, life, motivation]
 ---
 

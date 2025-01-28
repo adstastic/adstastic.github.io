@@ -62,6 +62,13 @@ hr {
     }
 }
 
+.post-list li {
+    .ref-link {
+        color: $link-color;
+        text-decoration: none;
+    }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

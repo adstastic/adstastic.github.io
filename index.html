@@ -9,22 +9,16 @@ layout: default
 	</section>
 	<section>
 		<ul class="post-list">
-			{% assign sorted = site.posts %}
-			{% for post in sorted %}
-				{% if post.pinned %}
+			{% assign posts = site.posts %}
+			{% assign quotes = site.quotes %}
+			{% assign all_content = posts | concat: quotes | sort: 'date' | reverse %}
+			{% for item in all_content %}
+				{% if item.pinned == null %}
 				<li>
-					<span class="badge badge-danger">Pinned</span> <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> {{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</section>
-	<section>
-		<ul class="post-list">
-			{% for post in sorted %}
-				{% if post.pinned == null %}
-				<li>
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> {{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+					{% if item.collection == 'quotes' %}
+					<a href="{{ item.ref }}" class="ref-link">(from)</a>
+					{% endif %}
+					<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}"> {{ item.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
 				</li>
 				{% endif %}
 			{% endfor %}

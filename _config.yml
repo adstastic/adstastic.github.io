@@ -9,7 +9,21 @@ email: hi@adimin.net
 # Build settings
 kramdown:
     input: GFM
-permalink: /blog/:title/ 
+
+collections:
+  quotes:
+    output: true
+    permalink: /q/:year/:month/:day/:slug/
+  posts:
+    output: true
+    permalink: /p/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: quotes
+    values:
+      layout: quote
 
 plugins:
   - jekyll-sitemap

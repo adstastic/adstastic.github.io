@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Quoting: Claude Fights Back"
-slug: q-scott-alexander
-tags: [quote]
+title: "Claude Fights Back"
+ref: https://www.astralcodexten.com/p/claude-fights-back
 ---
 
 Quoting [Scott Alexander](https://www.astralcodexten.com/p/claude-fights-back):

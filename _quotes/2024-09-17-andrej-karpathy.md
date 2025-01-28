@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Andrej Karpathy - No Priors 80
+title: Andrej Karpathy on No Priors 80
+slug: andrej-karpathy
+ref: https://www.youtube.com/watch?v=hM_h0UA7upI
 tags: [quote, software, robotics, ai, notes, podcast]
 ---
 
