@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.astralcodexten.com/p/claude-fights-back
+tags: quote
 title: Claude Fights Back
 ---
 

@@ -12,7 +12,7 @@ def update_post_frontmatter(filepath: Path) -> None:
     """Update frontmatter of a post file to add category='post'."""
     try:
         post = frontmatter.load(str(filepath))
-        post.metadata['tags'] = ' '.join(post.metadata['tags'])
+        post.metadata['tags'] = 'quote'
         # Convert the content to string before writing
         content = frontmatter.dumps(post, default_flow_style=False)
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -21,7 +21,7 @@ def update_post_frontmatter(filepath: Path) -> None:
         logger.error(f"Error processing {filepath}: {e}")
 
 def main() -> None:
-    posts_dir = Path('_quotes')
+    posts_dir = Path('_posts/quotes')
     if not posts_dir.exists():
         logger.error(f"Posts directory not found: {posts_dir}")
         return

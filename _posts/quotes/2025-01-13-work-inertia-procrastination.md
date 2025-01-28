@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge
+tags: quote
 title: Working hurts less than procrastinating, we fear the twinge of starting
 ---
 

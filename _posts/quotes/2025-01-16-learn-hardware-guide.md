@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://caseyhandmer.wordpress.com/2024/06/08/how-to-learn-hardware/
+tags: quote
 title: How to Learn Hardware
 ---
 

@@ -2,13 +2,7 @@
 layout: quote
 ref: https://www.youtube.com/watch?v=hM_h0UA7upI
 slug: andrej-karpathy
-tags:
-- quote
-- software
-- robotics
-- ai
-- notes
-- podcast
+tags: quote
 title: Andrej Karpathy on No Priors 80
 ---
 

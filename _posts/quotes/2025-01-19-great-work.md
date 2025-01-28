@@ -2,12 +2,7 @@
 layout: quote
 ref: http://paulgraham.com/greatwork.html
 slug: paul-graham
-tags:
-- quote
-- life
-- productivity
-- motivation
-- principles
+tags: quote
 title: How to do great work
 ---
 

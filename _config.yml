@@ -10,14 +10,6 @@ email: hi@adimin.net
 kramdown:
     input: GFM
 
-collections:
-  quotes:
-    output: true
-    permalink: /q/:year/:month/:day/:slug/
-  posts:
-    output: true
-    permalink: /p/:slug/
-
 plugins:
   - jekyll-sitemap
   - jemoji
@@ -25,3 +17,15 @@ plugins:
   - jekyll-tagging-related_posts
 
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
+
+defaults:
+  - scope:
+      path: "_posts/posts"
+      type: "posts"
+    values:
+      permalink: /p/:slug/
+  - scope:
+      path: "_posts/quotes"
+      type: "posts"
+    values:
+      permalink: /q/:slug/

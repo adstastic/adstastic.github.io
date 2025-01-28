@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/
+tags: quote
 title: You Should Be Working On Hardware
 ---
 

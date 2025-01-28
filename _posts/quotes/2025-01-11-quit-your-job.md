@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.palladiummag.com/2022/01/06/quit-your-job/
+tags: quote
 title: Quit Your Job
 ---
 

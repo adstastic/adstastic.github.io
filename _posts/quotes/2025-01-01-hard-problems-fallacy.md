@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.benkuhn.net/hard/
+tags: quote
 title: You don’t need to work on hard problems
 ---
 

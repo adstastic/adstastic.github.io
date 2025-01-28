@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences
+tags: quote
 title: Making Beliefs Pay Rent (in Anticipated Experiences)
 ---
 

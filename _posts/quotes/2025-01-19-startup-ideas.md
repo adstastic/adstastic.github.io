@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://paulgraham.com/startupideas.html
+tags: quote
 title: How to Get Startup Ideas
 ---
 

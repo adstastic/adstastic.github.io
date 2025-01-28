@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://allenpike.com/2024/an-unreasonable-amount-of-time
+tags: quote
 title: An Unreasonable Amount of Time
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://caseyhandmer.wordpress.com/2024/09/04/entrepreneurship-changed-the-way-i-think/
+tags: quote
 title: Entrepreneurship changed the way I think
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512
+tags: quote
 title: Why being too smart makes you stupid
 ---
 

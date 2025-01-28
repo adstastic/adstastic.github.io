@@ -2,7 +2,7 @@
 layout: quote
 ref: https://tim.blog/2024/11/10/derren-brown-transcript/
 slug: derren-brown
-tags: quote life
+tags: quote
 title: Derren Brown on Tim Ferriss 776
 ---
 

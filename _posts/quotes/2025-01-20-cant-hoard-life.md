@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk
+tags: quote
 title: You can't hoard life
 ---
 

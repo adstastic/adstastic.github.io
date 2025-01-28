@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: http://paulgraham.com/greatwork.html
+tags: quote
 title: How to Do Great Work
 ---
 

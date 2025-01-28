@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.benkuhn.net/outliers/
+tags: quote
 title: Searching for outliers
 ---
 

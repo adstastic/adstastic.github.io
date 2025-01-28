@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
+tags: quote
 title: So you wanna de-bog yourself
 ---
 

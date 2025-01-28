@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://patrickdfarley.com/wielding-willpower/
+tags: quote
 title: Wielding Willpower
 ---
 

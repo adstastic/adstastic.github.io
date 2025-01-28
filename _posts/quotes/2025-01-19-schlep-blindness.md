@@ -1,6 +1,7 @@
 ---
 layout: quote
 ref: https://paulgraham.com/schlep.html
+tags: quote
 title: Schlep Blindness
 ---
 

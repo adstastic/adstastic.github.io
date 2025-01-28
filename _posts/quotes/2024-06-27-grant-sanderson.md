@@ -2,10 +2,7 @@
 layout: quote
 ref: https://www.youtube.com/watch?v=W3I3kAg2J7w
 slug: grant-sanderson
-tags:
-- quote
-- life
-- motivation
+tags: quote
 title: Action precedes motivation
 ---
 
