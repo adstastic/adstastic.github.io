@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "How to Get Startup Ideas"
+layout: quote
 ref: https://paulgraham.com/startupideas.html
+title: How to Get Startup Ideas
 ---
 
 Quoting [Paul Graham](https://paulgraham.com/startupideas.html):

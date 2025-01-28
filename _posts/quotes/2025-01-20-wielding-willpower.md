@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Wielding Willpower"
+layout: quote
 ref: https://patrickdfarley.com/wielding-willpower/
+title: Wielding Willpower
 ---
 
 Quoting [on May 17](https://patrickdfarley.com/wielding-willpower/):

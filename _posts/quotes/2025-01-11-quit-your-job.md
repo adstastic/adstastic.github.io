@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Quit Your Job"
+layout: quote
 ref: https://www.palladiummag.com/2022/01/06/quit-your-job/
+title: Quit Your Job
 ---
 
 Quoting [Wolf Tivy](https://www.palladiummag.com/2022/01/06/quit-your-job/):

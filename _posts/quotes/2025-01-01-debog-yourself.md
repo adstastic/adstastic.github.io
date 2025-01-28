@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "So you wanna de-bog yourself"
+layout: quote
 ref: https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
+title: So you wanna de-bog yourself
 ---
 
 Quoting [Adam Mastroianni](https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself):

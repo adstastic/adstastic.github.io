@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "80000 hours career guide on job satisfaction"
+layout: quote
 ref: https://80000hours.org/career-guide/job-satisfaction/
+title: 80000 hours career guide on job satisfaction
 ---
 
 Quoting [Benjamin Todd](https://80000hours.org/career-guide/job-satisfaction/):

@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Why being too smart makes you stupid"
+layout: quote
 ref: https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512
+title: Why being too smart makes you stupid
 ---
 
 Quoting [Theo Seeds](https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512):

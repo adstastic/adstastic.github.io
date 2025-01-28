@@ -1,9 +1,15 @@
 ---
-layout: post
-title: Andrej Karpathy on No Priors 80
-slug: andrej-karpathy
+layout: quote
 ref: https://www.youtube.com/watch?v=hM_h0UA7upI
-tags: [quote, software, robotics, ai, notes, podcast]
+slug: andrej-karpathy
+tags:
+- quote
+- software
+- robotics
+- ai
+- notes
+- podcast
+title: Andrej Karpathy on No Priors 80
 ---
 
 Quoting Andrej Karpathy from [No Priors #80](https://www.youtube.com/watch?v=hM_h0UA7upI). 

@@ -18,13 +18,6 @@ collections:
     output: true
     permalink: /p/:slug/
 
-defaults:
-  - scope:
-      path: ""
-      type: quotes
-    values:
-      layout: quote
-
 plugins:
   - jekyll-sitemap
   - jemoji

@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "How to Do Great Work"
+layout: quote
 ref: http://paulgraham.com/greatwork.html
+title: How to Do Great Work
 ---
 
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html):

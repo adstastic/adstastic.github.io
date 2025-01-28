@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "You don’t need to work on hard problems"
+layout: quote
 ref: https://www.benkuhn.net/hard/
+title: You don’t need to work on hard problems
 ---
 
 Quoting [benkuhn.net](https://www.benkuhn.net/hard/):

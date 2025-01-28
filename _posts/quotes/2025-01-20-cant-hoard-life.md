@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "You can't hoard life"
+layout: quote
 ref: https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk
+title: You can't hoard life
 ---
 
 Quoting [ckarchive.com](https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk):

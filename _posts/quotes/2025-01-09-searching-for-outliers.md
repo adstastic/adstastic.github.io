@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Searching for outliers"
+layout: quote
 ref: https://www.benkuhn.net/outliers/
+title: Searching for outliers
 ---
 
 Quoting [benkuhn.net](https://www.benkuhn.net/outliers/):

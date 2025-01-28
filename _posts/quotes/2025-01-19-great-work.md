@@ -1,9 +1,14 @@
 ---
-layout: post
-title: How to do great work
-slug: paul-graham
+layout: quote
 ref: http://paulgraham.com/greatwork.html
-tags: [quote, life, productivity, motivation, principles]
+slug: paul-graham
+tags:
+- quote
+- life
+- productivity
+- motivation
+- principles
+title: How to do great work
 ---
 
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html).

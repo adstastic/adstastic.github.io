@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Derren Brown on Tim Ferriss 776
-slug: derren-brown
+layout: quote
 ref: https://tim.blog/2024/11/10/derren-brown-transcript/
-tags: [quote, life]
+slug: derren-brown
+tags: quote life
+title: Derren Brown on Tim Ferriss 776
 ---
 
 Quoting Derren Brown on [Tim Ferriss #776](https://tim.blog/2024/11/10/derren-brown-transcript/).

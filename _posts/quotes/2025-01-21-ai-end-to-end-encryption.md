@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Let’s talk about AI and end-to-end encryption"
+layout: quote
 ref: https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption
+title: Let’s talk about AI and end-to-end encryption
 ---
 
 Quoting [Matthew Green](https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption):

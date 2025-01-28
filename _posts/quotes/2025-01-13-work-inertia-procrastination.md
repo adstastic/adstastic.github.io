@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Working hurts less than procrastinating, we fear the twinge of starting"
+layout: quote
 ref: https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge
+title: Working hurts less than procrastinating, we fear the twinge of starting
 ---
 
 Quoting [Eliezer Yudkowsky](https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge):

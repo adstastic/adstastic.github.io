@@ -10,17 +10,13 @@ layout: default
 	<section>
 		<ul class="post-list">
 			{% assign posts = site.posts %}
-			{% assign quotes = site.quotes %}
-			{% assign all_content = posts | concat: quotes | sort: 'date' | reverse %}
-			{% for item in all_content %}
-				{% if item.pinned == null %}
-				<li>
-					{% if item.collection == 'quotes' %}
-					<a href="{{ item.ref }}" class="ref-link">(from)</a>
-					{% endif %}
-					<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}"> {{ item.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
-				</li>
+			{% for item in posts %}
+			<li>
+				{% if item.layout == 'quote' %}
+				<a href="{{ item.ref }}" class="ref-link">(from)</a>
 				{% endif %}
+				<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}"> {{ item.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
+			</li>
 			{% endfor %}
 		</ul>
 	</section>
