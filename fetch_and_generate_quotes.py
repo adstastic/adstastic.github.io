@@ -89,7 +89,7 @@ class BookSource(BaseModel):
 
 class ExportResponse(BaseModel):
     count: int
-    nextPageCursor: Optional[str] = None
+    nextPageCursor: Optional[Union[str, int]] = None
     results: List[BookSource] = Field(default_factory=list)
 
 
