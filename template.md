@@ -2,10 +2,13 @@
 layout: post
 title: "{{ quote.title }}"
 ref: {{ quote.url }}
-tags: quote
+tags: 
+{%- for tag in quote.tags %}
+  - {{ tag }}
+{%- endfor %}
 ---
 
 Quoting [{{ quote.author }}]({{ quote.url }}):
-{% for highlight in highlights %}
+{% for highlight in quote.highlights %}
 > {{ highlight }}
 {% endfor %}

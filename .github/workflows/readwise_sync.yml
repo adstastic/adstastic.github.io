@@ -1,0 +1,55 @@
+name: Sync Readwise and Generate Quotes
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
+    inputs:
+      start_date:
+        description: 'Start date for fetching highlights (YYYY-MM-DD). Defaults to yesterday.'
+        required: false
+        default: ''
+
+jobs:
+  sync_and_generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up uv and Python
+        uses: astral-sh/setup-uv@v1
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies with uv
+        run: uv sync
+
+      - name: Fetch Readwise Highlights and Generate Posts
+        env:
+          READWISE_ACCESS_TOKEN: ${{ secrets.READWISE_ACCESS_TOKEN }}
+        run: |
+          FETCH_DATE=${{ github.event.inputs.start_date }}
+          if [ -z "$FETCH_DATE" ]; then
+            FETCH_DATE=$(date -u -d "yesterday" '+%Y-%m-%d')
+          fi
+          echo "Fetching highlights from $FETCH_DATE for output to _posts/quotes"
+          uv run fetch_and_generate_quotes.py --start-date "$FETCH_DATE" --output-dir _posts/quotes
+
+
+      - name: Create Pull Request for New Quotes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Automated update for new Readwise quote posts
+          title: "Readwise Quotes - $(date +'%Y-%m-%d')"
+          body: |
+            New quote posts generated from Readwise API.
+            Please review and merge.
+          branch: "readwise-quotes-$(date +'%Y-%m-%d')"
+          base: main
+          reviewers: adstastic
+          author: GitHub Action <action@github.com>
