@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: quote
 title: "{{ quote.title }}"
 ref: {{ quote.url }}
 tags: 
