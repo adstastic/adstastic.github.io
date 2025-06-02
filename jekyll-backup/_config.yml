@@ -1,0 +1,31 @@
+# Site settings
+title: "~/Adi"
+description: "Notes on stuff"
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+url: ""
+author: "Adi Mukherjee"
+email: hi@adimin.net
+
+# Build settings
+kramdown:
+    input: GFM
+
+plugins:
+  - jekyll-sitemap
+  - jemoji
+  - tagging
+  - jekyll-tagging-related_posts
+
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
+
+defaults:
+  - scope:
+      path: "_posts/posts"
+      type: "posts"
+    values:
+      permalink: /p/:slug/
+  - scope:
+      path: "_posts/quotes"
+      type: "posts"
+    values:
+      permalink: /q/:slug/

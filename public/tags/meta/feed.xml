@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on ~/Adi</title>
+    <link>http://localhost:1313/tags/meta/</link>
+    <description>Recent content in Meta on ~/Adi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/meta/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, world!</title>
+      <link>http://localhost:1313/p/hello-world/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/p/hello-world/</guid>
+      <description>&lt;p&gt;The end of the year is a good time for reflection.&lt;/p&gt;&#xA;&lt;p&gt;I found myself with a lot of time and not much to do at the end of 2019 as my travel documents were stolen and I was waiting for replacements&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, so I started writing.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always thought I should create more, especially since I end up consuming so much content. It&amp;rsquo;ll probably help me remember the important things, as well as become a better writer. It may even be helpful, or at least entertaining, to someone else.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

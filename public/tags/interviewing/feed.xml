@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interviewing on ~/Adi</title>
+    <link>http://localhost:1313/tags/interviewing/</link>
+    <description>Recent content in Interviewing on ~/Adi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/interviewing/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get That Job at Google</title>
+      <link>http://localhost:1313/q/get-that-job-at-google/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/q/get-that-job-at-google/</guid>
+      <description>&lt;p&gt;Quoting &lt;a href=&#34;https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html?m=1&#34;&gt;Steve Yegge&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;First, you can&amp;rsquo;t tell interviewers what&amp;rsquo;s important. Not at any company. Not unless they&amp;rsquo;re specifically asking you for advice. You have a very narrow window of perhaps one year after an engineer graduates from college to inculcate them in the art of interviewing, after which the window closes and they believe they are a &amp;quot;good interviewer&amp;quot; and they don&amp;rsquo;t need to change their questions, their question styles, their interviewing style, or their feedback style, &lt;em&gt;ever again&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
