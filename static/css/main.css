@@ -178,9 +178,13 @@ hr {
 
 /* Site header */
 .site-header {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
     margin-top: -2rem;
+    margin-bottom: 1rem;
     max-width: 48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .site-header p {
@@ -190,6 +194,7 @@ hr {
 .site-intro {
     font-size: 1.3rem;
     color: var(--base02);
+    margin-bottom: 1rem;
 }
 
 .smallcap {
@@ -208,10 +213,20 @@ hr {
 
 /* Navigation */
 nav {
-    margin-bottom: 1rem;
+    margin: 0;
+}
+
+nav a {
+    color: var(--base01);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* Home page */
+
 .home section + section {
     margin-top: 2rem;
     max-width: 48rem;

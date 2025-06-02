@@ -1,13 +1,9 @@
 {{ define "main" }}
 <section class="site-header">
     <h1 class="smallcap"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    {{ partial "nav.html" . }}
 </section>
 
-{{ partial "nav.html" . }}
-
-<section class="site-intro">
-    <p>A log of what I've been learning, doing, and thinking about.</p>
-</section>
 
 <section class="home">
     <ul class="post-list">

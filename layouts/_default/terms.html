@@ -1,28 +1,27 @@
 {{ define "main" }}
 <section class="site-header">
     <h1 class="smallcap"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    {{ partial "nav.html" . }}
 </section>
 
-<main class="page-content" aria-label="Content">
-    <div class="wrapper">
-        <article class="post">
-            <header class="post-header">
-                <h1 class="post-title">All Tags</h1>
-            </header>
+<section class="site-intro">
+    <p>All Tags</p>
+</section>
 
-            <div class="post-content">
-                <ul class="tag-list">
-                    {{ range .Data.Terms.Alphabetical }}
-                    <li>
-                        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>
-                        <span class="tag-count">({{ .Count }})</span>
-                    </li>
-                    {{ end }}
-                </ul>
-                
-                <p><a href="{{ .Site.BaseURL }}">&larr; Back to all posts</a></p>
-            </div>
-        </article>
-    </div>
-</main>
+<section class="home">
+    <ul class="tag-list">
+        {{ range .Data.Terms.Alphabetical }}
+        <li>
+            <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>
+            <span class="tag-count">({{ .Count }})</span>
+        </li>
+        {{ end }}
+    </ul>
+    
+    <p><a href="{{ .Site.BaseURL }}">&larr; Back to all posts</a></p>
+</section>
+
+<div class="copyright">
+    <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. <a href="/credits">Credits</a>.</p>
+</div>
 {{ end }}
