@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog | ~/adi</title>
+    <meta name="description" content="">
+    <link rel="canonical" href="https://adstastic.github.io/tags/blog/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div class="page-content">
+        
+<section class="site-header">
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
+    <nav>
+    <a href="https://adstastic.github.io/about">About</a>
+    <span>/</span>
+    <a href="https://adstastic.github.io/feed.xml">RSS</a>
+    <span>/</span>
+    <label class="toggle-switch" for="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+        <span class="toggle-slider"></span>
+    </label>
+</nav>
+</section>
+
+<section class="site-intro">
+    <p>Posts tagged "Blog"</p>
+</section>
+
+<section class="home">
+    <ul class="post-list">
+        
+        <li>
+            <div class="post-title-container">
+                <a href="https://adstastic.github.io/p/html-markdown/" class="post-title-link">
+                    HTML to Markdown
+                </a>
+            </div>
+            <time datetime="2020-03-31" class="post-date">Mar 31, 2020</time>
+        </li>
+        
+        <li>
+            <div class="post-title-container">
+                <a href="https://adstastic.github.io/p/hello-world/" class="post-title-link">
+                    Hello, world!
+                </a>
+            </div>
+            <time datetime="2020-01-01" class="post-date">Jan 01, 2020</time>
+        </li>
+        
+    </ul>
+    
+    <p><a href="https://adstastic.github.io/">&larr; Back to all posts</a></p>
+</section>
+
+<div class="copyright">
+    <p>&copy; 2025 Adi Mukherjee. <a href="/credits">Credits</a>.</p>
+</div>
+
+    </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

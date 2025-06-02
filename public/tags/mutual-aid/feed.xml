@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mutual-Aid on ~/Adi</title>
-    <link>http://localhost:1313/tags/mutual-aid/</link>
-    <description>Recent content in Mutual-Aid on ~/Adi</description>
+    <title>Mutual-Aid on ~/adi</title>
+    <link>https://adstastic.github.io/tags/mutual-aid/</link>
+    <description>Recent content in Mutual-Aid on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mutual-aid/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://adstastic.github.io/tags/mutual-aid/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Being a relay</title>
-      <link>http://localhost:1313/p/relay/</link>
+      <link>https://adstastic.github.io/p/relay/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/p/relay/</guid>
+      <guid>https://adstastic.github.io/p/relay/</guid>
       <description>&lt;p&gt;These times are tough for all. Even if you&amp;rsquo;re fit and healthy, there are many small problems to which solutions would normally be readily available which become large problems because of the lockdown.&lt;/p&gt;&#xA;&lt;p&gt;I came across such a case today. Someone in my mutual aid group posted about acute toothache and wasn&amp;rsquo;t able to get help anywhere - the authorities, local clinics, hospitals all turning them away because their condition was not life threatening (e.g. uncontrolled bleeding).&lt;/p&gt;</description>
     </item>
   </channel>

@@ -26,11 +26,12 @@
     --text-primary: var(--base01);
     --text-secondary: var(--base00);
     --text-muted: var(--base1);
-    --border-color: #ddd;
+    --border-color: var(--base1);
 }
 
 /* Dark mode variables */
-[data-theme="dark"] {
+[data-theme="dark"],
+.dark-theme {
     --bg-primary: var(--base03);
     --bg-secondary: var(--base02);
     --text-primary: var(--base1);
@@ -203,11 +204,13 @@ hr {
 .site-header {
     border-bottom: 1px solid var(--border-color);
     margin-top: -2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
     max-width: 48rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: border-color 0.3s ease;
 }
 
 .site-header p {
@@ -223,6 +226,7 @@ hr {
 .smallcap {
     font-size: 2rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .smallcap a {
@@ -245,6 +249,11 @@ hr {
 /* Navigation */
 nav {
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    line-height: 1;
 }
 
 nav a {
@@ -587,13 +596,57 @@ nav a:hover {
     font-size: 0.875rem;
 }
 
-/* Dark mode toggle */
-.dark-mode-toggle {
-    cursor: pointer;
-    transition: color 0.3s ease;
+/* Dark mode toggle switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 18px;
+    vertical-align: middle;
 }
 
-.dark-mode-toggle:hover {
-    color: var(--blue);
-    text-decoration: underline;
+.toggle-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--text-muted);
+    transition: 0.3s ease;
+    border-radius: 18px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--bg-primary);
+    transition: 0.3s ease;
+    border-radius: 50%;
+}
+
+.toggle-input:checked + .toggle-slider {
+    background-color: var(--text-primary);
+}
+
+.toggle-input:checked + .toggle-slider:before {
+    transform: translateX(18px);
+}
+
+.toggle-slider:hover {
+    background-color: var(--text-primary);
+}
+
+.toggle-input:checked + .toggle-slider:hover {
+    background-color: var(--text-secondary);
 }

@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Best Reads #1 | ~/Adi</title>
+    <title>Best Reads #1 | ~/adi</title>
     <meta name="description" content="I&rsquo;ve long desired to have a practice of periodically reviewing the information I&rsquo;ve consumed so I&rsquo;m going to dip my toes in the water with (hopefully) regular short posts of the best things I&rsquo;ve read. Please check out the original content, the excerpts are just what jumped out at me most and may not make sense without a proper read.
 # This Is What Uncertainty Feels Like https://commoncog.com/blog/what-uncertainty-feels-like
 “The problem here is that every move is a good move.” he sighed, “Or more accurately, every move is equally bad; every move might go wrong. There is no way to tell which is the right move to make.”
 ">
-    <link rel="canonical" href="http://localhost:1313/p/best-reads-1/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/p/best-reads-1/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -31,13 +41,13 @@
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#best-reads">#best-reads</a>
+                <a href="/tags/best-reads/">#best-reads</a>
                 
-                <a href="http://localhost:1313/tagged#uncertainty">#uncertainty</a>
+                <a href="/tags/uncertainty/">#uncertainty</a>
                 
-                <a href="http://localhost:1313/tagged#economics">#economics</a>
+                <a href="/tags/economics/">#economics</a>
                 
-                <a href="http://localhost:1313/tagged#ignorance">#ignorance</a>
+                <a href="/tags/ignorance/">#ignorance</a>
                 
             </span>
             
@@ -1929,7 +1939,7 @@
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/q/you-are-witnessing-the-death-of-american-capitalism/">You Are Witnessing the Death of American Capitalism</a></li>
+            <li><a href="https://adstastic.github.io/q/you-are-witnessing-the-death-of-american-capitalism/">You Are Witnessing the Death of American Capitalism</a></li>
         
         </ul>
     </div>
@@ -1940,5 +1950,41 @@
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Remarks on AI From NZ | ~/Adi</title>
+    <title>Remarks on AI From NZ | ~/adi</title>
     <meta name="description" content="Quoting Neal Stephenson:
 # How humans can coexist with other intelligences Maybe a useful way to think about what it would be like to coexist in a world that includes intelligences that aren’t human is to consider the fact that we’ve been doing exactly that for long as we’ve existed, because we live among animals. Animals have intelligences of many different kinds. We’re used to thinking of them as being less intelligent than we are, and that’s usually not wrong, but it might be better to think of them as having different sorts of intelligence, because they’ve evolved to do different things.
 ">
-    <link rel="canonical" href="http://localhost:1313/q/remarks-on-ai-from-nz/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/remarks-on-ai-from-nz/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -30,15 +40,15 @@
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#re-read">#re-read</a>
+                <a href="/tags/re-read/">#re-read</a>
                 
-                <a href="http://localhost:1313/tagged#wisdom">#wisdom</a>
+                <a href="/tags/wisdom/">#wisdom</a>
                 
-                <a href="http://localhost:1313/tagged#progress">#progress</a>
+                <a href="/tags/progress/">#progress</a>
                 
-                <a href="http://localhost:1313/tagged#society">#society</a>
+                <a href="/tags/society/">#society</a>
                 
-                <a href="http://localhost:1313/tagged#ai">#ai</a>
+                <a href="/tags/ai/">#ai</a>
                 
             </span>
             
@@ -2217,15 +2227,15 @@
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/q/how-to-be-more-agentic/">How to Be More Agentic</a></li>
+            <li><a href="https://adstastic.github.io/q/how-to-be-more-agentic/">How to Be More Agentic</a></li>
         
-            <li><a href="http://localhost:1313/q/pursuing-agency-and-reinvention-in-my-30-s/">Pursuing Agency and Reinvention in My 30&#39;s</a></li>
+            <li><a href="https://adstastic.github.io/q/pursuing-agency-and-reinvention-in-my-30-s/">Pursuing Agency and Reinvention in My 30&#39;s</a></li>
         
-            <li><a href="http://localhost:1313/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
+            <li><a href="https://adstastic.github.io/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
         
-            <li><a href="http://localhost:1313/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
+            <li><a href="https://adstastic.github.io/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
         
-            <li><a href="http://localhost:1313/p/agi-test/">The Japanese Immigration test for AGI</a></li>
+            <li><a href="https://adstastic.github.io/p/agi-test/">The Japanese Immigration test for AGI</a></li>
         
         </ul>
     </div>
@@ -2236,5 +2246,41 @@
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

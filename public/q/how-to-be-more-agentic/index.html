@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>How to Be More Agentic | ~/Adi</title>
+    <title>How to Be More Agentic | ~/adi</title>
     <meta name="description" content="Quoting Cate Hall:
 radical agency is about finding real edges: things you are willing to do that others aren’t, often because they’re annoying or unpleasant. These don’t always surface in awareness to the point one is actually choosing &ndash; often they live in a cloud of aversion that strategically obscures the tradeoff.
 If you’re only asking for things you get, you’re not aiming high enough.
 If you aren’t trying to get real feedback from people who know you, you’re cooking without tasting. This is, like, the lowest hanging fruit for self-improvement, but few people really try to pick it.
 ">
-    <link rel="canonical" href="http://localhost:1313/q/how-to-be-more-agentic/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/how-to-be-more-agentic/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -32,13 +42,13 @@ If you aren’t trying to get real feedback from people who know you, you’re c
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#best">#best</a>
+                <a href="/tags/best/">#best</a>
                 
-                <a href="http://localhost:1313/tagged#re-read">#re-read</a>
+                <a href="/tags/re-read/">#re-read</a>
                 
-                <a href="http://localhost:1313/tagged#agency">#agency</a>
+                <a href="/tags/agency/">#agency</a>
                 
-                <a href="http://localhost:1313/tagged#wisdom">#wisdom</a>
+                <a href="/tags/wisdom/">#wisdom</a>
                 
             </span>
             
@@ -1935,9 +1945,9 @@ If you aren’t trying to get real feedback from people who know you, you’re c
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/q/pursuing-agency-and-reinvention-in-my-30-s/">Pursuing Agency and Reinvention in My 30&#39;s</a></li>
+            <li><a href="https://adstastic.github.io/q/pursuing-agency-and-reinvention-in-my-30-s/">Pursuing Agency and Reinvention in My 30&#39;s</a></li>
         
-            <li><a href="http://localhost:1313/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
+            <li><a href="https://adstastic.github.io/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
         
         </ul>
     </div>
@@ -1948,5 +1958,41 @@ If you aren’t trying to get real feedback from people who know you, you’re c
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

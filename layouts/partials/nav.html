@@ -1,5 +1,10 @@
 <nav>
-    <a href="{{ .Site.BaseURL }}about">About</a> / 
-    <a href="{{ .Site.BaseURL }}feed.xml">RSS</a> /
-    <a href="#" id="dark-mode-toggle" class="dark-mode-toggle">Dark Mode</a>
+    <a href="/about">About</a>
+    <span>/</span>
+    <a href="/feed.xml">RSS</a>
+    <span>/</span>
+    <label class="toggle-switch" for="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+        <span class="toggle-slider"></span>
+    </label>
 </nav>

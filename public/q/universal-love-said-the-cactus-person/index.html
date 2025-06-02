@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Universal Love, Said The Cactus Person | ~/Adi</title>
+    <title>Universal Love, Said The Cactus Person | ~/adi</title>
     <meta name="description" content="Quoting Scott Alexander:
 Imagine you are in the driver’s seat of a car. You have been sitting there so long that you have forgotten that it is the seat of a car, forgotten how to get out of the seat, forgotten the existence of your own legs, indeed forgotten that you are a being at all separate from the car. You control the car with skill and precision, driving it wherever you wish to go, manipulating the headlights and the windshield wipers and the stereo and the air conditioning, and you pronounce yourself a great master. But there are paths you cannot travel, because there are no roads to them, and you long to run through the forest, or swim in the river, or climb the high mountains. A line of prophets who have come before you tell you that the secret to these forbidden mysteries is an ancient and terrible skill called GETTING OUT OF THE CAR, and you resolve to learn this skill. You try every button on the dashboard, but none of them is the button for GETTING OUT OF THE CAR. You drive all of the highways and byways of the earth, but you cannot reach GETTING OUT OF THE CAR, for it is not a place on a highway. The prophets tell you GETTING OUT OF THE CAR is something fundamentally different than anything you have done thus far, but to you this means ever sillier extremities: driving backwards, driving with the headlights on in the glare of noon, driving into ditches on purpose, but none of these reveal the secret of GETTING OUT OF THE CAR. The prophets tell you it is easy; indeed, it is the easiest thing you have ever done. You have traveled the Pan-American Highway from the boreal pole to the Darien Gap, you have crossed Route 66 in the dead heat of summer, you have outrun cop cars at 160 mph and survived, and GETTING OUT OF THE CAR is easier than any of them, the easiest thing you can imagine, closer to you than the veins in your head, but still the secret is obscure to you.”
 ">
-    <link rel="canonical" href="http://localhost:1313/q/universal-love-said-the-cactus-person/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/universal-love-said-the-cactus-person/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -45,5 +55,41 @@ Imagine you are in the driver’s seat of a car. You have been sitting there so 
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

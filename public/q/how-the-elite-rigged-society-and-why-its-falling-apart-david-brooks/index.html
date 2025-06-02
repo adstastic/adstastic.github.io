@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>How the Elite Rigged Society (And Why It’s Falling Apart) | David Brooks | ~/Adi</title>
+    <title>How the Elite Rigged Society (And Why It’s Falling Apart) | David Brooks | ~/adi</title>
     <meta name="description" content="Quoting Alliance for Responsible Citizenship:
 if what is right and wrong depends on what each individual feels then we are outside the bounds of civilization
 I&rsquo;ve describ three different things we educated Elites brought you we destroy the social fabric through inequality we destroyed the moral fabric through privatizing morality and we
@@ -12,18 +12,28 @@ destroyed the institutional fabric what&rsquo;s happening right now
 those moments of suffering interrupt
 your life and they remind you you&rsquo;re not the person you thought they were they carve through the floor of your basement of your soul and they reveal a cavity below and they carve through that floor and they reveal a cavity Below in moments of suffering you see yourself in a more Deep Way than you ever did before and in those moments of suffering you can either be broken or you can be broken open and people who are transformed decide I&rsquo;m going to be broken open and Nations that are going to be transformed by moments of suffering say we&rsquo;re going to be broken
 ">
-    <link rel="canonical" href="http://localhost:1313/q/how-the-elite-rigged-society-and-why-its-falling-apart-david-brooks/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/how-the-elite-rigged-society-and-why-its-falling-apart-david-brooks/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -64,5 +74,41 @@ your life and they remind you you&rsquo;re not the person you thought they were 
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

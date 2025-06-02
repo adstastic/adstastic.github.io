@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>You Are Witnessing the Death of American Capitalism | ~/Adi</title>
+    <title>You Are Witnessing the Death of American Capitalism | ~/adi</title>
     <meta name="description" content="Quoting Benn Jordan:
 The point of all this maneuvering is decreasingly about turning a profit and increasingly about transitioning to a rent-based economy that hedges inflation
 profit and even money itself are only really valuable when they buy power. And if a societal system can be engineered to gain power without profit or money, capitalism begins to exist as something to exploit within that system, under its umbrella
 Most of us do not realize that we are in a constant battle with billionaires who don&rsquo;t want us to own things but rent them. And when we don&rsquo;t own things, we lose control over our own budgets, lives, decisions, and
 ">
-    <link rel="canonical" href="http://localhost:1313/q/you-are-witnessing-the-death-of-american-capitalism/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/you-are-witnessing-the-death-of-american-capitalism/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -32,13 +42,13 @@ Most of us do not realize that we are in a constant battle with billionaires who
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#economics">#economics</a>
+                <a href="/tags/economics/">#economics</a>
                 
-                <a href="http://localhost:1313/tagged#politics">#politics</a>
+                <a href="/tags/politics/">#politics</a>
                 
-                <a href="http://localhost:1313/tagged#insightful">#insightful</a>
+                <a href="/tags/insightful/">#insightful</a>
                 
-                <a href="http://localhost:1313/tagged#important">#important</a>
+                <a href="/tags/important/">#important</a>
                 
             </span>
             
@@ -1913,7 +1923,7 @@ Most of us do not realize that we are in a constant battle with billionaires who
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/p/best-reads-1/">Best Reads #1</a></li>
+            <li><a href="https://adstastic.github.io/p/best-reads-1/">Best Reads #1</a></li>
         
         </ul>
     </div>
@@ -1924,5 +1934,41 @@ Most of us do not realize that we are in a constant battle with billionaires who
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

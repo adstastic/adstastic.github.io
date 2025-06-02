@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML to Markdown | ~/Adi</title>
+    <title>HTML to Markdown | ~/adi</title>
     <meta name="description" content="Whilst I was stranded in Madrid after having my passport stolen in Barcelona, I wrote a Magnum Opus of my experiences so that anyone going through the same harrowing situation would have a clear and empathetic guide to follow.
 On returning to London, I decided to reinstall MacOS on my laptop and set it up securely, following this excellent guide. I made sure I had nothing I cared about on the drive (it was a new laptop), and proceeded to reformat&hellip;
 ">
-    <link rel="canonical" href="http://localhost:1313/p/html-markdown/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/p/html-markdown/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -30,9 +40,9 @@ On returning to London, I decided to reinstall MacOS on my laptop and set it up 
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#software">#software</a>
+                <a href="/tags/software/">#software</a>
                 
-                <a href="http://localhost:1313/tagged#blog">#blog</a>
+                <a href="/tags/blog/">#blog</a>
                 
             </span>
             
@@ -1445,15 +1455,15 @@ On returning to London, I decided to reinstall MacOS on my laptop and set it up 
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/p/ollama-modal/">The best way to try new models</a></li>
+            <li><a href="https://adstastic.github.io/p/ollama-modal/">The best way to try new models</a></li>
         
-            <li><a href="http://localhost:1313/p/o1-preview/">Early impressions of o1-preview</a></li>
+            <li><a href="https://adstastic.github.io/p/o1-preview/">Early impressions of o1-preview</a></li>
         
-            <li><a href="http://localhost:1313/p/debian/">TIL: Debian Package Versioning</a></li>
+            <li><a href="https://adstastic.github.io/p/debian/">TIL: Debian Package Versioning</a></li>
         
-            <li><a href="http://localhost:1313/p/adblocking/">Adblocking</a></li>
+            <li><a href="https://adstastic.github.io/p/adblocking/">Adblocking</a></li>
         
-            <li><a href="http://localhost:1313/p/screen-recording-gif/">Screen Recording GIFs</a></li>
+            <li><a href="https://adstastic.github.io/p/screen-recording-gif/">Screen Recording GIFs</a></li>
         
         </ul>
     </div>
@@ -1464,5 +1474,41 @@ On returning to London, I decided to reinstall MacOS on my laptop and set it up 
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

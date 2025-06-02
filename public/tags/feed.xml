@@ -1,347 +1,347 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ~/Adi</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on ~/Adi</description>
+    <title>Tags on ~/adi</title>
+    <link>https://adstastic.github.io/tags/</link>
+    <description>Recent content in Tags on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://adstastic.github.io/tags/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://adstastic.github.io/tags/ai/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://adstastic.github.io/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Claude</title>
-      <link>http://localhost:1313/tags/claude/</link>
+      <link>https://adstastic.github.io/tags/claude/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/claude/</guid>
+      <guid>https://adstastic.github.io/tags/claude/</guid>
       <description></description>
     </item>
     <item>
       <title>Dev</title>
-      <link>http://localhost:1313/tags/dev/</link>
+      <link>https://adstastic.github.io/tags/dev/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dev/</guid>
+      <guid>https://adstastic.github.io/tags/dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Agi</title>
-      <link>http://localhost:1313/tags/agi/</link>
+      <link>https://adstastic.github.io/tags/agi/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agi/</guid>
+      <guid>https://adstastic.github.io/tags/agi/</guid>
       <description></description>
     </item>
     <item>
       <title>Progress</title>
-      <link>http://localhost:1313/tags/progress/</link>
+      <link>https://adstastic.github.io/tags/progress/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/progress/</guid>
+      <guid>https://adstastic.github.io/tags/progress/</guid>
       <description></description>
     </item>
     <item>
       <title>Re-Read</title>
-      <link>http://localhost:1313/tags/re-read/</link>
+      <link>https://adstastic.github.io/tags/re-read/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/re-read/</guid>
+      <guid>https://adstastic.github.io/tags/re-read/</guid>
       <description></description>
     </item>
     <item>
       <title>Society</title>
-      <link>http://localhost:1313/tags/society/</link>
+      <link>https://adstastic.github.io/tags/society/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/society/</guid>
+      <guid>https://adstastic.github.io/tags/society/</guid>
       <description></description>
     </item>
     <item>
       <title>Wisdom</title>
-      <link>http://localhost:1313/tags/wisdom/</link>
+      <link>https://adstastic.github.io/tags/wisdom/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wisdom/</guid>
+      <guid>https://adstastic.github.io/tags/wisdom/</guid>
       <description></description>
     </item>
     <item>
       <title>Interviewing</title>
-      <link>http://localhost:1313/tags/interviewing/</link>
+      <link>https://adstastic.github.io/tags/interviewing/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/interviewing/</guid>
+      <guid>https://adstastic.github.io/tags/interviewing/</guid>
       <description></description>
     </item>
     <item>
       <title>Job</title>
-      <link>http://localhost:1313/tags/job/</link>
+      <link>https://adstastic.github.io/tags/job/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/job/</guid>
+      <guid>https://adstastic.github.io/tags/job/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>http://localhost:1313/tags/shell/</link>
+      <link>https://adstastic.github.io/tags/shell/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/shell/</guid>
+      <guid>https://adstastic.github.io/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Til</title>
-      <link>http://localhost:1313/tags/til/</link>
+      <link>https://adstastic.github.io/tags/til/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/til/</guid>
+      <guid>https://adstastic.github.io/tags/til/</guid>
       <description></description>
     </item>
     <item>
       <title>Economics</title>
-      <link>http://localhost:1313/tags/economics/</link>
+      <link>https://adstastic.github.io/tags/economics/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/economics/</guid>
+      <guid>https://adstastic.github.io/tags/economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Important</title>
-      <link>http://localhost:1313/tags/important/</link>
+      <link>https://adstastic.github.io/tags/important/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/important/</guid>
+      <guid>https://adstastic.github.io/tags/important/</guid>
       <description></description>
     </item>
     <item>
       <title>Insightful</title>
-      <link>http://localhost:1313/tags/insightful/</link>
+      <link>https://adstastic.github.io/tags/insightful/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/insightful/</guid>
+      <guid>https://adstastic.github.io/tags/insightful/</guid>
       <description></description>
     </item>
     <item>
       <title>Politics</title>
-      <link>http://localhost:1313/tags/politics/</link>
+      <link>https://adstastic.github.io/tags/politics/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/politics/</guid>
+      <guid>https://adstastic.github.io/tags/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Agency</title>
-      <link>http://localhost:1313/tags/agency/</link>
+      <link>https://adstastic.github.io/tags/agency/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agency/</guid>
+      <guid>https://adstastic.github.io/tags/agency/</guid>
       <description></description>
     </item>
     <item>
       <title>Best</title>
-      <link>http://localhost:1313/tags/best/</link>
+      <link>https://adstastic.github.io/tags/best/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/best/</guid>
+      <guid>https://adstastic.github.io/tags/best/</guid>
       <description></description>
     </item>
     <item>
       <title>I-Feel-Seen</title>
-      <link>http://localhost:1313/tags/i-feel-seen/</link>
+      <link>https://adstastic.github.io/tags/i-feel-seen/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/i-feel-seen/</guid>
+      <guid>https://adstastic.github.io/tags/i-feel-seen/</guid>
       <description></description>
     </item>
     <item>
       <title>Quote</title>
-      <link>http://localhost:1313/tags/quote/</link>
+      <link>https://adstastic.github.io/tags/quote/</link>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quote/</guid>
+      <guid>https://adstastic.github.io/tags/quote/</guid>
       <description></description>
     </item>
     <item>
       <title>Databases</title>
-      <link>http://localhost:1313/tags/databases/</link>
+      <link>https://adstastic.github.io/tags/databases/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/databases/</guid>
+      <guid>https://adstastic.github.io/tags/databases/</guid>
       <description></description>
     </item>
     <item>
       <title>Ideas</title>
-      <link>http://localhost:1313/tags/ideas/</link>
+      <link>https://adstastic.github.io/tags/ideas/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ideas/</guid>
+      <guid>https://adstastic.github.io/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>Journal</title>
-      <link>http://localhost:1313/tags/journal/</link>
+      <link>https://adstastic.github.io/tags/journal/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/journal/</guid>
+      <guid>https://adstastic.github.io/tags/journal/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>http://localhost:1313/tags/life/</link>
+      <link>https://adstastic.github.io/tags/life/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/life/</guid>
+      <guid>https://adstastic.github.io/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Principles</title>
-      <link>http://localhost:1313/tags/principles/</link>
+      <link>https://adstastic.github.io/tags/principles/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/principles/</guid>
+      <guid>https://adstastic.github.io/tags/principles/</guid>
       <description></description>
     </item>
     <item>
       <title>Infra</title>
-      <link>http://localhost:1313/tags/infra/</link>
+      <link>https://adstastic.github.io/tags/infra/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/infra/</guid>
+      <guid>https://adstastic.github.io/tags/infra/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <link>https://adstastic.github.io/tags/software/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>https://adstastic.github.io/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>http://localhost:1313/tags/project/</link>
+      <link>https://adstastic.github.io/tags/project/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/project/</guid>
+      <guid>https://adstastic.github.io/tags/project/</guid>
       <description></description>
     </item>
     <item>
       <title>MacOS</title>
-      <link>http://localhost:1313/tags/macos/</link>
+      <link>https://adstastic.github.io/tags/macos/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/macos/</guid>
+      <guid>https://adstastic.github.io/tags/macos/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/tags/programming/</link>
+      <link>https://adstastic.github.io/tags/programming/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/programming/</guid>
+      <guid>https://adstastic.github.io/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Best-Reads</title>
-      <link>http://localhost:1313/tags/best-reads/</link>
+      <link>https://adstastic.github.io/tags/best-reads/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/best-reads/</guid>
+      <guid>https://adstastic.github.io/tags/best-reads/</guid>
       <description></description>
     </item>
     <item>
       <title>Ignorance</title>
-      <link>http://localhost:1313/tags/ignorance/</link>
+      <link>https://adstastic.github.io/tags/ignorance/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ignorance/</guid>
+      <guid>https://adstastic.github.io/tags/ignorance/</guid>
       <description></description>
     </item>
     <item>
       <title>Uncertainty</title>
-      <link>http://localhost:1313/tags/uncertainty/</link>
+      <link>https://adstastic.github.io/tags/uncertainty/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/uncertainty/</guid>
+      <guid>https://adstastic.github.io/tags/uncertainty/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://adstastic.github.io/tags/linux/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://adstastic.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Zettel</title>
-      <link>http://localhost:1313/tags/zettel/</link>
+      <link>https://adstastic.github.io/tags/zettel/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/zettel/</guid>
+      <guid>https://adstastic.github.io/tags/zettel/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:1313/tags/privacy/</link>
+      <link>https://adstastic.github.io/tags/privacy/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/privacy/</guid>
+      <guid>https://adstastic.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
+      <link>https://adstastic.github.io/tags/tutorial/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <guid>https://adstastic.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Coffee</title>
-      <link>http://localhost:1313/tags/coffee/</link>
+      <link>https://adstastic.github.io/tags/coffee/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/coffee/</guid>
+      <guid>https://adstastic.github.io/tags/coffee/</guid>
       <description></description>
     </item>
     <item>
       <title>Coronavirus</title>
-      <link>http://localhost:1313/tags/coronavirus/</link>
+      <link>https://adstastic.github.io/tags/coronavirus/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/coronavirus/</guid>
+      <guid>https://adstastic.github.io/tags/coronavirus/</guid>
       <description></description>
     </item>
     <item>
       <title>Covid19</title>
-      <link>http://localhost:1313/tags/covid19/</link>
+      <link>https://adstastic.github.io/tags/covid19/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/covid19/</guid>
+      <guid>https://adstastic.github.io/tags/covid19/</guid>
       <description></description>
     </item>
     <item>
       <title>List</title>
-      <link>http://localhost:1313/tags/list/</link>
+      <link>https://adstastic.github.io/tags/list/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/list/</guid>
+      <guid>https://adstastic.github.io/tags/list/</guid>
       <description></description>
     </item>
     <item>
       <title>Altruism</title>
-      <link>http://localhost:1313/tags/altruism/</link>
+      <link>https://adstastic.github.io/tags/altruism/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/altruism/</guid>
+      <guid>https://adstastic.github.io/tags/altruism/</guid>
       <description></description>
     </item>
     <item>
       <title>Mutual-Aid</title>
-      <link>http://localhost:1313/tags/mutual-aid/</link>
+      <link>https://adstastic.github.io/tags/mutual-aid/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mutual-aid/</guid>
+      <guid>https://adstastic.github.io/tags/mutual-aid/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>https://adstastic.github.io/tags/blog/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://adstastic.github.io/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
-      <link>http://localhost:1313/tags/news/</link>
+      <link>https://adstastic.github.io/tags/news/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/news/</guid>
+      <guid>https://adstastic.github.io/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Twitter</title>
-      <link>http://localhost:1313/tags/twitter/</link>
+      <link>https://adstastic.github.io/tags/twitter/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/twitter/</guid>
+      <guid>https://adstastic.github.io/tags/twitter/</guid>
       <description></description>
     </item>
     <item>
       <title>Backup</title>
-      <link>http://localhost:1313/tags/backup/</link>
+      <link>https://adstastic.github.io/tags/backup/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/backup/</guid>
+      <guid>https://adstastic.github.io/tags/backup/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta</title>
-      <link>http://localhost:1313/tags/meta/</link>
+      <link>https://adstastic.github.io/tags/meta/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/meta/</guid>
+      <guid>https://adstastic.github.io/tags/meta/</guid>
       <description></description>
     </item>
   </channel>

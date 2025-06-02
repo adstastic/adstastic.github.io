@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Adblocking | ~/Adi</title>
+    <title>Adblocking | ~/adi</title>
     <meta name="description" content=" # Prerequisites A Raspberry Pi An micro/SD card reader Admin access to router # Steps Download and install the Raspberry Pi Imager Insert the SD card into your computer Run the imager Select the OS and SD card in the Imager, and Run. I chose Raspbian Lite because I didn&rsquo;t need Desktop as I would only be running webapps. After the image has been written to the SD card, create a new file ssh on the boot volume: touch ssh. This allows it to start with SSH enabled, for headless setup. Additional instructions here for WiFi setup, if you can&rsquo;t connect the Pi via Ethernet. Connect the Pi to power and your local network. Find the Pi&rsquo;s IP address using a tool like Fing, your router&rsquo;s DHCP page, or arp -a - look for raspberrypi. SSH to the Pi: ssh pi@&lt;IP address&gt;. It&rsquo;s a new host, so respond yes to Are you sure you want to continue connecting?. The default password is raspberry. Change the password as instructed using passwd Install Pi-Hole wget -O basic-install.sh https://install.pi-hole.net Note down the admin console password at the end. Log in to the Pi-Hole interface at &lt;IP address&gt;/admin and change the password. Configure your DNS following [these instructions](wget -O basic-install.sh https://install.pi-hole.net). I tried to configure my router but it didn&rsquo;t work so had to use the Pi-Hole as my DHCP server. Refresh all the DHCP leases on your network - I did this by restarting my router. Log in to the Pi-Hole Admin interface Check the Settings &gt; DHCP to verify your devices are using it as the DHCP server. Check the Network to verify your devices are using it as the DNS server. Enjoy network-wide ad blocking! # Troubleshooting # I can&rsquo;t access the admin interface at pi.hole Restarting the router worked for me.
 ">
-    <link rel="canonical" href="http://localhost:1313/p/adblocking/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/p/adblocking/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -29,11 +39,11 @@
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#software">#software</a>
+                <a href="/tags/software/">#software</a>
                 
-                <a href="http://localhost:1313/tagged#privacy">#privacy</a>
+                <a href="/tags/privacy/">#privacy</a>
                 
-                <a href="http://localhost:1313/tagged#tutorial">#tutorial</a>
+                <a href="/tags/tutorial/">#tutorial</a>
                 
             </span>
             
@@ -1732,15 +1742,15 @@
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/p/screen-recording-gif/">Screen Recording GIFs</a></li>
+            <li><a href="https://adstastic.github.io/p/screen-recording-gif/">Screen Recording GIFs</a></li>
         
-            <li><a href="http://localhost:1313/p/ollama-modal/">The best way to try new models</a></li>
+            <li><a href="https://adstastic.github.io/p/ollama-modal/">The best way to try new models</a></li>
         
-            <li><a href="http://localhost:1313/p/o1-preview/">Early impressions of o1-preview</a></li>
+            <li><a href="https://adstastic.github.io/p/o1-preview/">Early impressions of o1-preview</a></li>
         
-            <li><a href="http://localhost:1313/p/debian/">TIL: Debian Package Versioning</a></li>
+            <li><a href="https://adstastic.github.io/p/debian/">TIL: Debian Package Versioning</a></li>
         
-            <li><a href="http://localhost:1313/p/html-markdown/">HTML to Markdown</a></li>
+            <li><a href="https://adstastic.github.io/p/html-markdown/">HTML to Markdown</a></li>
         
         </ul>
     </div>
@@ -1751,5 +1761,41 @@
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

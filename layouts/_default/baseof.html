@@ -12,6 +12,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    <script>
+        // Apply theme immediately to prevent flash
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                // Set a class on html element that we can target with CSS
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
@@ -23,31 +33,32 @@
         document.addEventListener('DOMContentLoaded', function() {
             const toggle = document.getElementById('dark-mode-toggle');
             const body = document.body;
+            const html = document.documentElement;
             
             // Check for saved theme preference or default to light
             const currentTheme = localStorage.getItem('theme') || 'light';
             
-            // Apply the current theme
+            // Apply the current theme to body (sync with head script)
             if (currentTheme === 'dark') {
                 body.setAttribute('data-theme', 'dark');
-                toggle.textContent = 'Light Mode';
+                html.classList.add('dark-theme');
+                toggle.checked = true;
             } else {
                 body.removeAttribute('data-theme');
-                toggle.textContent = 'Dark Mode';
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
             }
             
-            // Toggle theme on click
-            toggle.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                if (body.getAttribute('data-theme') === 'dark') {
-                    body.removeAttribute('data-theme');
-                    toggle.textContent = 'Dark Mode';
-                    localStorage.setItem('theme', 'light');
-                } else {
+            // Toggle theme on change
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
                     body.setAttribute('data-theme', 'dark');
-                    toggle.textContent = 'Light Mode';
+                    html.classList.add('dark-theme');
                     localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
                 }
             });
         });

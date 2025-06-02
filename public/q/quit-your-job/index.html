@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quit Your Job | ~/Adi</title>
+    <title>Quit Your Job | ~/adi</title>
     <meta name="description" content="Quoting Wolf Tivy:
 The key implication is that while you have not yet found the unique opportunity that will be the engine and purpose of your empire, you have to adjust your sense of value. Value is very legible within a clear plan to reach a clear objective. But you cannot pursue interesting novelty—things that no one else is doing or which you have never seen before, or the little threads of nagging curiosity or doubt—by chasing along known direct value gradients. But that’s where the treasure is. That’s how you will find the place where you need to build. To get the biggest and most interesting payoffs, you have to start by chasing merely interesting novelty in an open-ended way
 ">
-    <link rel="canonical" href="http://localhost:1313/q/quit-your-job/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/q/quit-your-job/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -30,7 +40,7 @@ The key implication is that while you have not yet found the unique opportunity 
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#quote">#quote</a>
+                <a href="/tags/quote/">#quote</a>
                 
             </span>
             
@@ -1290,15 +1300,15 @@ The key implication is that while you have not yet found the unique opportunity 
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/q/new-ideas/">Cultivating a state of mind where new ideas are born Cultivating a state of mind where new ideas are born</a></li>
+            <li><a href="https://adstastic.github.io/q/new-ideas/">Cultivating a state of mind where new ideas are born Cultivating a state of mind where new ideas are born</a></li>
         
-            <li><a href="http://localhost:1313/q/the-fusion-race/">The Fusion Race</a></li>
+            <li><a href="https://adstastic.github.io/q/the-fusion-race/">The Fusion Race</a></li>
         
-            <li><a href="http://localhost:1313/q/he-who-submits-a/">He who submits a resume has already lost</a></li>
+            <li><a href="https://adstastic.github.io/q/he-who-submits-a/">He who submits a resume has already lost</a></li>
         
-            <li><a href="http://localhost:1313/q/the-future-of-humanity/">The future of humanity is in management</a></li>
+            <li><a href="https://adstastic.github.io/q/the-future-of-humanity/">The future of humanity is in management</a></li>
         
-            <li><a href="http://localhost:1313/q/the-era-of-hype/">The era of hype: why the model is cracking</a></li>
+            <li><a href="https://adstastic.github.io/q/the-era-of-hype/">The era of hype: why the model is cracking</a></li>
         
         </ul>
     </div>
@@ -1309,5 +1319,41 @@ The key implication is that while you have not yet found the unique opportunity 
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

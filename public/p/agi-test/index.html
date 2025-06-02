@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Japanese Immigration test for AGI | ~/Adi</title>
+    <title>The Japanese Immigration test for AGI | ~/adi</title>
     <meta name="description" content="There&rsquo;s no widely agreed-upon definition of AGI, and everything with LLMs is vibes dominated anyway, so the best we have is &ldquo;I&rsquo;ll know when I see it&rdquo;.
 That&rsquo;s not very rigorous, so I&rsquo;ve been thinking about concrete tasks that, when completable end-to-end, represent a serious enough step forward in outcomes, and replace a significant chunk of multi-faceted human effort that I&rsquo;ll &ldquo;feel the AGI&rdquo;.
 Here&rsquo;s a task that&rsquo;ll make me feel the AGI:
 ">
-    <link rel="canonical" href="http://localhost:1313/p/agi-test/">
-    <link rel="alternate" type="application/rss+xml" title="~/Adi" href="http://localhost:1313/feed.xml">
+    <link rel="canonical" href="https://adstastic.github.io/p/agi-test/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+        
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                
+                document.documentElement.classList.add('dark-theme');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="http://localhost:1313/">~/Adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -31,9 +41,9 @@ Here&rsquo;s a task that&rsquo;ll make me feel the AGI:
             
             &middot; <span class="tags" itemprop="tags">
                 
-                <a href="http://localhost:1313/tagged#ai">#ai</a>
+                <a href="/tags/ai/">#ai</a>
                 
-                <a href="http://localhost:1313/tagged#agi">#agi</a>
+                <a href="/tags/agi/">#agi</a>
                 
             </span>
             
@@ -1445,15 +1455,15 @@ Here&rsquo;s a task that&rsquo;ll make me feel the AGI:
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:1313/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
+            <li><a href="https://adstastic.github.io/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
         
-            <li><a href="http://localhost:1313/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
+            <li><a href="https://adstastic.github.io/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
         
-            <li><a href="http://localhost:1313/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
+            <li><a href="https://adstastic.github.io/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
         
-            <li><a href="http://localhost:1313/p/ollama-modal/">The best way to try new models</a></li>
+            <li><a href="https://adstastic.github.io/p/ollama-modal/">The best way to try new models</a></li>
         
-            <li><a href="http://localhost:1313/p/o1-preview/">Early impressions of o1-preview</a></li>
+            <li><a href="https://adstastic.github.io/p/o1-preview/">Early impressions of o1-preview</a></li>
         
         </ul>
     </div>
@@ -1464,5 +1474,41 @@ Here&rsquo;s a task that&rsquo;ll make me feel the AGI:
 </article>
 
     </div>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            const html = document.documentElement;
+            
+            
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+                toggle.checked = true;
+            } else {
+                body.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+                toggle.checked = false;
+            }
+            
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.setAttribute('data-theme', 'dark');
+                    html.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.removeAttribute('data-theme');
+                    html.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
