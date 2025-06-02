@@ -17,5 +17,40 @@
     <div class="page-content">
         {{ block "main" . }}{{ end }}
     </div>
+    
+    <script>
+        // Dark mode toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('dark-mode-toggle');
+            const body = document.body;
+            
+            // Check for saved theme preference or default to light
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            
+            // Apply the current theme
+            if (currentTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                toggle.textContent = 'Light Mode';
+            } else {
+                body.removeAttribute('data-theme');
+                toggle.textContent = 'Dark Mode';
+            }
+            
+            // Toggle theme on click
+            toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                if (body.getAttribute('data-theme') === 'dark') {
+                    body.removeAttribute('data-theme');
+                    toggle.textContent = 'Dark Mode';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    body.setAttribute('data-theme', 'dark');
+                    toggle.textContent = 'Light Mode';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
