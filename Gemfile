@@ -6,6 +6,7 @@ group :jekyll_plugins do
     gem 'tagging'
     gem 'jekyll-tagging-related_posts'
     gem 'github-pages'
+    gem 'jekyll-compose'
 end
 gem 'html-proofer', '~> 3.19.4'
 gem 'tzinfo'

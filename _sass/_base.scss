@@ -124,19 +124,19 @@ blockquote {
  */
 code,
 pre {
-    background-color: #002b36;
+    background-color: #eee8d5;
 }
 
 code {
     padding: 1px 2px;
     font-family: $code-font-family;
-    color: lighten(#839496, 20%);;
+    color: #586e75;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: auto;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $base2;
 
     > code {
         border: 0;
