@@ -66,6 +66,7 @@ a {
 }
 
 a:hover {
+    color: var(--blue);
     text-decoration: underline;
 }
 
@@ -202,11 +203,18 @@ hr {
     font-weight: 700;
 }
 
-.smallcap a,
-.smallcap a:hover {
+.smallcap a {
     text-decoration: none;
     letter-spacing: 2px;
     background-color: var(--base01);
+    color: var(--base3);
+    padding: 0.2rem 0.5rem;
+}
+
+.smallcap a:hover {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: var(--blue);
     color: var(--base3);
     padding: 0.2rem 0.5rem;
 }
@@ -222,6 +230,7 @@ nav a {
 }
 
 nav a:hover {
+    color: var(--blue);
     text-decoration: underline;
 }
 
@@ -256,24 +265,40 @@ nav a:hover {
 }
 
 .quote-indicator {
-    margin-right: 0.1rem;
+    margin-right: 0.3rem;
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--base01);
     line-height: 1;
     vertical-align: text-top;
     font-family: Georgia, "Times New Roman", serif;
+    display: inline-block;
+    text-decoration: none;
 }
 
-.post-list > li a {
+.post-title-link {
     color: var(--base01);
     text-decoration: none;
     font-weight: normal;
 }
 
-.post-list > li a:hover {
+.post-title-link:hover {
     color: var(--blue);
     text-decoration: underline;
+}
+
+.post-title-link:hover .quote-indicator {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.post-title-link:hover .post-title-text {
+    text-decoration: underline;
+}
+
+/* For quote posts, remove underline from the link itself and only show on text */
+.post-title-link:has(.quote-indicator):hover {
+    text-decoration: none;
 }
 
 
