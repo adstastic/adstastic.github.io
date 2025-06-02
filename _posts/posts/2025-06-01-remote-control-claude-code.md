@@ -4,6 +4,8 @@ title: Remote controlling Claude Code
 tags: dev ai claude
 ---
 
+![Remote operating Claude Code from my phone](/assets/cc-remote.jpeg)
+
 [Claude Code](https://www.anthropic.com/claude-code) amazed me at launch.
 
 With Claude 4 release, it cosplays AGI for code & sysadmin tasks, and convinced me to give Anthropic $100/mo.
