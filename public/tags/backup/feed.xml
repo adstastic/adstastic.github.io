@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backup on ~/adi</title>
-    <link>http://localhost:54604/tags/backup/</link>
+    <link>http://localhost:1313/tags/backup/</link>
     <description>Recent content in Backup on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54604/tags/backup/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/backup/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running out of Google space</title>
-      <link>http://localhost:54604/p/google-drive-full/</link>
+      <link>http://localhost:1313/p/google-drive-full/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54604/p/google-drive-full/</guid>
+      <guid>http://localhost:1313/p/google-drive-full/</guid>
       <description>&lt;p&gt;I received a notification from Google that I was nearly out of storage, so I started to clean up my Google Drive to free space so my &lt;a href=&#34;https://support.google.com/mail/answer/6374270?hl=en&#34;&gt;Gmail wouldn’t stop working&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A &lt;a href=&#34;https://www.labnol.org/internet/google-drive-sort-files-by-size/28745/&#34;&gt;hidden way&lt;/a&gt; to show all the files in your drive, sorted by size, is to click the text in the &lt;strong&gt;Storage&lt;/strong&gt; section of the menu on the left (on a desktop browser).&lt;/p&gt;&#xA;&lt;p&gt;I freed a lot of space by downloading the largest files in this list (mostly videos). As the list shrunk from 100s of MB per file to below 10s, all the items became photos living inside a &lt;code&gt;Google Photos&lt;/code&gt; folder.&lt;/p&gt;</description>
     </item>
   </channel>

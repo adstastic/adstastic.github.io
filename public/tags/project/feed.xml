@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on ~/adi</title>
-    <link>http://localhost:54604/tags/project/</link>
+    <link>http://localhost:1313/tags/project/</link>
     <description>Recent content in Project on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54604/tags/project/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/project/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Early impressions of o1-preview</title>
-      <link>http://localhost:54604/p/o1-preview/</link>
+      <link>http://localhost:1313/p/o1-preview/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54604/p/o1-preview/</guid>
+      <guid>http://localhost:1313/p/o1-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt; I used OpenAI&amp;rsquo;s &lt;code&gt;o1-preview&lt;/code&gt; model to code a web app that uses &lt;code&gt;gpt-4o-mini&lt;/code&gt; to generate simple mental maths rules for converting between currencies. If you have an OpenAI API key, go &lt;a href=&#34;https://adim.in/mental-forex/&#34;&gt;check it out&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Recently I was chatting to a friend in Columbia. An excerpt from the call:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I&amp;rsquo;m gonna buy something, is 8650 pesos a lot?&amp;rdquo;&lt;br&gt;&#xA;&amp;ldquo;1 GBP is 5486 COP&amp;rdquo;&lt;br&gt;&#xA;&amp;ldquo;Ok&amp;hellip;that&amp;rsquo;s gonna be annoying to calculate while out and about&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>

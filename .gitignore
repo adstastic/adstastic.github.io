@@ -6,3 +6,7 @@ vendor/
 .cursorrules
 .env
 __pycache__/
+public/
+hugo.log
+.hugo_build.lock
+resources/

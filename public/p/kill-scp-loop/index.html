@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54604&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@ for f in $(cat file-list.txt); do scp user@hostname:path/to/data/$(basename $f) 
 When I closed the shell, I expected everything to stop—but the downloads kept chugging away.
 I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such process.”
 ">
-    <link rel="canonical" href="http://localhost:54604/p/kill-scp-loop/">
+    <link rel="canonical" href="http://localhost:1313/p/kill-scp-loop/">
     <link rel="alternate" type="application/rss+xml" title="~/adi" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@ I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such proc
     </script>
 </head>
 <body>
-    <div class="page-content">
+    <div class="page-content relative py-8 px-6 mx-auto box-border max-w-[48rem] w-full">
         
 <section class="site-header">
     <h1 class="smallcap"><a class="site-title" href="/">~/adi</a></h1>
@@ -47,10 +47,11 @@ I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such proc
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">TIL: Killing an scp loop</h1>
         <p class="post-meta">
-            <time datetime="2025-05-15T00:00:00Z" itemprop="datePublished">May 15, 2025</time>
-            
-            
-            &middot; <span class="tags" itemprop="tags">
+            <span class="post-meta-date">
+                <time datetime="2025-05-15T00:00:00Z" itemprop="datePublished">May 15, 2025</time>
+                
+            </span>
+            <span class="tags" itemprop="tags">
                 
                 <a href="/tags/til/">#til</a>
                 
@@ -59,7 +60,6 @@ I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such proc
                 <a href="/tags/shell/">#shell</a>
                 
             </span>
-            
         </p>
     </header>
     <div class="post-content" itemprop="articleBody">
@@ -1741,6 +1741,19 @@ Quickly inspect PID, PPID, command for processes that vanish too fast to track:<
             
         
     
+        
+        
+            
+            
+                
+            
+                
+            
+                
+            
+            
+        
+    
     
     
     
@@ -1749,11 +1762,11 @@ Quickly inspect PID, PPID, command for processes that vanish too fast to track:<
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:54604/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
+            <li><a href="http://localhost:1313/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
         
-            <li><a href="http://localhost:54604/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
+            <li><a href="http://localhost:1313/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
         
-            <li><a href="http://localhost:54604/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
+            <li><a href="http://localhost:1313/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
         
         </ul>
     </div>

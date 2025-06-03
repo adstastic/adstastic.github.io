@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infra on ~/adi</title>
-    <link>http://localhost:54604/tags/infra/</link>
+    <link>http://localhost:1313/tags/infra/</link>
     <description>Recent content in Infra on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54604/tags/infra/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/infra/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The best way to try new models</title>
-      <link>http://localhost:54604/p/ollama-modal/</link>
+      <link>http://localhost:1313/p/ollama-modal/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54604/p/ollama-modal/</guid>
+      <guid>http://localhost:1313/p/ollama-modal/</guid>
       <description>&lt;p&gt;&lt;em&gt;This isn&amp;rsquo;t a sponsored post.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It seems like a new LLM drops every other day. The latest that piqued my interest was &lt;a href=&#34;https://qwenlm.github.io/blog/qwq-32b-preview/&#34;&gt;qwq&lt;/a&gt;, with &amp;ldquo;o1-like&amp;rdquo; reasoning capabilities.&lt;/p&gt;&#xA;&lt;p&gt;I usually try out new LLMs with Ollama, so satiating my curiosity should have been an &lt;code&gt;ollama run&lt;/code&gt; away, but I was too impatient to wait for the 25 GB QwQ to download on 1 MB/s down my hotel WiFi so I figured I&amp;rsquo;d try something new.&lt;/p&gt;</description>
     </item>
   </channel>

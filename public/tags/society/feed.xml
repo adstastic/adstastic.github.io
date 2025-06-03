@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Society on ~/adi</title>
-    <link>http://localhost:54604/tags/society/</link>
+    <link>http://localhost:1313/tags/society/</link>
     <description>Recent content in Society on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54604/tags/society/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/society/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remarks on AI From NZ</title>
-      <link>http://localhost:54604/q/remarks-on-ai-from-nz/</link>
+      <link>http://localhost:1313/q/remarks-on-ai-from-nz/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54604/q/remarks-on-ai-from-nz/</guid>
+      <guid>http://localhost:1313/q/remarks-on-ai-from-nz/</guid>
       <description>&lt;p&gt;Quoting &lt;a href=&#34;https://nealstephenson.substack.com/p/remarks-on-ai-from-nz&#34;&gt;Neal Stephenson&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-humans-can-coexist-with-other-intelligences&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-humans-can-coexist-with-other-intelligences&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  How humans can coexist with other intelligences&#xA;&lt;/h2&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;Maybe a useful way to think about what it would be like to coexist in a world that includes intelligences that aren’t human is to consider the fact that we’ve been doing exactly that for long as we’ve existed, because we live among animals. Animals have intelligences of many different kinds. We’re used to thinking of them as being less intelligent than we are, and that’s usually not wrong, but &lt;strong&gt;it might be better to think of them as having different sorts of intelligence, because they’ve evolved to do different things&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

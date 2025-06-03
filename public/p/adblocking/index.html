@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54604&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adblocking | ~/adi</title>
     <meta name="description" content=" # Prerequisites A Raspberry Pi An micro/SD card reader Admin access to router # Steps Download and install the Raspberry Pi Imager Insert the SD card into your computer Run the imager Select the OS and SD card in the Imager, and Run. I chose Raspbian Lite because I didn&rsquo;t need Desktop as I would only be running webapps. After the image has been written to the SD card, create a new file ssh on the boot volume: touch ssh. This allows it to start with SSH enabled, for headless setup. Additional instructions here for WiFi setup, if you can&rsquo;t connect the Pi via Ethernet. Connect the Pi to power and your local network. Find the Pi&rsquo;s IP address using a tool like Fing, your router&rsquo;s DHCP page, or arp -a - look for raspberrypi. SSH to the Pi: ssh pi@&lt;IP address&gt;. It&rsquo;s a new host, so respond yes to Are you sure you want to continue connecting?. The default password is raspberry. Change the password as instructed using passwd Install Pi-Hole wget -O basic-install.sh https://install.pi-hole.net Note down the admin console password at the end. Log in to the Pi-Hole interface at &lt;IP address&gt;/admin and change the password. Configure your DNS following [these instructions](wget -O basic-install.sh https://install.pi-hole.net). I tried to configure my router but it didn&rsquo;t work so had to use the Pi-Hole as my DHCP server. Refresh all the DHCP leases on your network - I did this by restarting my router. Log in to the Pi-Hole Admin interface Check the Settings &gt; DHCP to verify your devices are using it as the DHCP server. Check the Network to verify your devices are using it as the DNS server. Enjoy network-wide ad blocking! # Troubleshooting # I can&rsquo;t access the admin interface at pi.hole Restarting the router worked for me.
 ">
-    <link rel="canonical" href="http://localhost:54604/p/adblocking/">
+    <link rel="canonical" href="http://localhost:1313/p/adblocking/">
     <link rel="alternate" type="application/rss+xml" title="~/adi" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
     </script>
 </head>
 <body>
-    <div class="page-content">
+    <div class="page-content relative py-8 px-6 mx-auto box-border max-w-[48rem] w-full">
         
 <section class="site-header">
     <h1 class="smallcap"><a class="site-title" href="/">~/adi</a></h1>
@@ -44,10 +44,11 @@
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">Adblocking</h1>
         <p class="post-meta">
-            <time datetime="2020-04-13T00:00:00Z" itemprop="datePublished">Apr 13, 2020</time>
-            
-            
-            &middot; <span class="tags" itemprop="tags">
+            <span class="post-meta-date">
+                <time datetime="2020-04-13T00:00:00Z" itemprop="datePublished">Apr 13, 2020</time>
+                
+            </span>
+            <span class="tags" itemprop="tags">
                 
                 <a href="/tags/software/">#software</a>
                 
@@ -56,7 +57,6 @@
                 <a href="/tags/tutorial/">#tutorial</a>
                 
             </span>
-            
         </p>
     </header>
     <div class="post-content" itemprop="articleBody">
@@ -1757,6 +1757,19 @@
             
         
     
+        
+        
+            
+            
+                
+            
+                
+            
+                
+            
+            
+        
+    
     
     
     
@@ -1765,15 +1778,15 @@
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="http://localhost:54604/p/screen-recording-gif/">Screen Recording GIFs</a></li>
+            <li><a href="http://localhost:1313/p/screen-recording-gif/">Screen Recording GIFs</a></li>
         
-            <li><a href="http://localhost:54604/p/ollama-modal/">The best way to try new models</a></li>
+            <li><a href="http://localhost:1313/p/ollama-modal/">The best way to try new models</a></li>
         
-            <li><a href="http://localhost:54604/p/o1-preview/">Early impressions of o1-preview</a></li>
+            <li><a href="http://localhost:1313/p/o1-preview/">Early impressions of o1-preview</a></li>
         
-            <li><a href="http://localhost:54604/p/debian/">TIL: Debian Package Versioning</a></li>
+            <li><a href="http://localhost:1313/p/debian/">TIL: Debian Package Versioning</a></li>
         
-            <li><a href="http://localhost:54604/p/html-markdown/">HTML to Markdown</a></li>
+            <li><a href="http://localhost:1313/p/html-markdown/">HTML to Markdown</a></li>
         
         </ul>
     </div>
