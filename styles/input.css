@@ -84,6 +84,14 @@
     margin-left: 2rem;
   }
   
+  ul {
+    list-style-type: disc;
+  }
+  
+  ol {
+    list-style-type: decimal;
+  }
+  
   li > ul, li > ol {
     margin-bottom: 0;
   }
@@ -165,12 +173,12 @@
 @layer components {
   /* Layout components */
   .page-content {
-    @apply relative py-8 px-6 mx-auto box-border max-w-[48rem] w-full flex-1 flex flex-col;
+    @apply relative py-8 px-6 mx-auto box-border max-w-[48rem] w-full;
   }
   
   /* Site header */
   .site-header {
-    @apply border-b border-[var(--border-color)] -mt-8 mb-3 pb-3 max-w-[48rem] flex justify-between items-center transition-colors duration-300 min-w-0 overflow-hidden;
+    @apply border-b border-[var(--border-color)] -mt-8 mb-6 pb-3 max-w-[48rem] flex justify-between items-center transition-colors duration-300 min-w-0 overflow-hidden;
   }
   
   .site-header p {
@@ -192,7 +200,7 @@
   
   /* Home page */
   .home {
-    @apply flex-1;
+    @apply block;
   }
   
   .home section + section {
@@ -217,7 +225,7 @@
   }
   
   .post-title-link {
-    @apply text-[var(--text-primary)] no-underline font-normal block whitespace-nowrap overflow-hidden text-ellipsis;
+    @apply text-[var(--text-primary)] no-underline font-normal block whitespace-nowrap overflow-hidden text-ellipsis break-keep;
   }
   
   .post-title-link:hover {
@@ -244,7 +252,7 @@
   
   /* Copyright */
   .copyright {
-    @apply mt-8 text-sm font-mono;
+    @apply mt-4 text-sm font-mono;
   }
   
   .copyright p {
@@ -303,7 +311,7 @@
   
   /* Article pages */
   article.post {
-    @apply flex-1;
+    @apply block;
   }
   
   /* Post header */
@@ -312,7 +320,7 @@
   }
   
   .post-title {
-    @apply text-[2rem] tracking-[-1px] leading-[1.2] mb-3 mt-3 font-bold;
+    @apply text-[2rem] tracking-[-1px] leading-[1.2] mb-3 mt-3 font-bold break-keep;
   }
   
   .post-meta {
@@ -523,7 +531,7 @@
     }
     
     .site-header {
-      @apply gap-2;
+      @apply gap-2 -mt-6;
     }
     
     .post-title {
@@ -537,7 +545,7 @@
   
   @media (max-width: 600px) {
     .page-content {
-      @apply p-4;
+      @apply py-6 px-4;
     }
     
     .post-list > li {
@@ -582,7 +590,7 @@
     }
     
     .post-content .anchor {
-      @apply -left-[1.2rem];
+      @apply -left-[2rem];
     }
     
     /* Full-width code blocks on mobile */
@@ -597,8 +605,8 @@
     
     /* Prevent long words from breaking layout */
     .post-content {
-      @apply break-words hyphens-auto;
-      overflow-wrap: break-word;
+      @apply break-keep;
+      overflow-wrap: normal;
     }
     
     /* Full-width blockquotes on mobile */
@@ -610,7 +618,7 @@
   /* Very narrow screens */
   @media (max-width: 400px) {
     .page-content {
-      @apply p-3;
+      @apply py-6 px-3;
     }
     
     .smallcap {
