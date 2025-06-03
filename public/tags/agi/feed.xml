@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agi on ~/adi</title>
-    <link>https://adstastic.github.io/tags/agi/</link>
+    <link>http://localhost:54604/tags/agi/</link>
     <description>Recent content in Agi on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adstastic.github.io/tags/agi/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54604/tags/agi/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Japanese Immigration test for AGI</title>
-      <link>https://adstastic.github.io/p/agi-test/</link>
+      <link>http://localhost:54604/p/agi-test/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/agi-test/</guid>
+      <guid>http://localhost:54604/p/agi-test/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s no widely agreed-upon definition of AGI, and everything with LLMs is vibes dominated anyway, so the best we have is &amp;ldquo;I&amp;rsquo;ll know when I see it&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s not very rigorous, so I&amp;rsquo;ve been thinking about concrete tasks that, when completable end-to-end, represent a serious enough step forward in outcomes, and replace a significant chunk of multi-faceted human effort that I&amp;rsquo;ll &amp;ldquo;feel the AGI&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a task that&amp;rsquo;ll make me feel the AGI:&lt;/p&gt;</description>
     </item>
   </channel>

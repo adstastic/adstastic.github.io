@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on ~/adi</title>
-    <link>https://adstastic.github.io/tags/blog/</link>
+    <link>http://localhost:54604/tags/blog/</link>
     <description>Recent content in Blog on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adstastic.github.io/tags/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54604/tags/blog/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML to Markdown</title>
-      <link>https://adstastic.github.io/p/html-markdown/</link>
+      <link>http://localhost:54604/p/html-markdown/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/html-markdown/</guid>
+      <guid>http://localhost:54604/p/html-markdown/</guid>
       <description>&lt;p&gt;Whilst I was stranded in Madrid after having my passport stolen in Barcelona, I wrote a Magnum Opus of my experiences so that anyone going through the same harrowing situation would have a clear and empathetic guide to follow.&lt;/p&gt;&#xA;&lt;p&gt;On returning to London, I decided to reinstall MacOS on my laptop and set it up securely, following &lt;a href=&#34;https://github.com/drduh/macOS-Security-and-Privacy-Guide&#34;&gt;this excellent guide&lt;/a&gt;. I made sure I had nothing I cared about on the drive (it was a new laptop), and proceeded to reformat&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello, world!</title>
-      <link>https://adstastic.github.io/p/hello-world/</link>
+      <link>http://localhost:54604/p/hello-world/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/hello-world/</guid>
+      <guid>http://localhost:54604/p/hello-world/</guid>
       <description>&lt;p&gt;The end of the year is a good time for reflection.&lt;/p&gt;&#xA;&lt;p&gt;I found myself with a lot of time and not much to do at the end of 2019 as my travel documents were stolen and I was waiting for replacements&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, so I started writing.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always thought I should create more, especially since I end up consuming so much content. It&amp;rsquo;ll probably help me remember the important things, as well as become a better writer. It may even be helpful, or at least entertaining, to someone else.&lt;/p&gt;</description>
     </item>
   </channel>

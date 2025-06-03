@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54604&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,8 @@ for f in $(cat file-list.txt); do scp user@hostname:path/to/data/$(basename $f) 
 When I closed the shell, I expected everything to stop—but the downloads kept chugging away.
 I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such process.”
 ">
-    <link rel="canonical" href="https://adstastic.github.io/p/kill-scp-loop/">
-    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
+    <link rel="canonical" href="http://localhost:54604/p/kill-scp-loop/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -31,7 +31,17 @@ I ran ps aux | grep &#39;[s]cp&#39; and tried kill $PID, but got “no such proc
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="/">~/adi</a></h1>
+    <nav>
+    <a href="/about">About</a>
+    <span>/</span>
+    <a href="/feed.xml">RSS</a>
+    <span>/</span>
+    <label class="toggle-switch" for="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+        <span class="toggle-slider"></span>
+    </label>
+</nav>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -1718,6 +1728,19 @@ Quickly inspect PID, PPID, command for processes that vanish too fast to track:<
             
         
     
+        
+        
+            
+            
+                
+            
+                
+            
+                
+            
+            
+        
+    
     
     
     
@@ -1726,11 +1749,11 @@ Quickly inspect PID, PPID, command for processes that vanish too fast to track:<
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="https://adstastic.github.io/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
+            <li><a href="http://localhost:54604/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
         
-            <li><a href="https://adstastic.github.io/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
+            <li><a href="http://localhost:54604/p/claude-code-tips/">Claude Code Tips for SWE</a></li>
         
-            <li><a href="https://adstastic.github.io/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
+            <li><a href="http://localhost:54604/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
         
         </ul>
     </div>
@@ -1739,6 +1762,10 @@ Quickly inspect PID, PPID, command for processes that vanish too fast to track:<
     
     <hr>
 </article>
+
+<div class="copyright">
+    <p>&copy; 2025 Adi Mukherjee. <a href="/credits">Credits</a>.</p>
+</div>
 
     </div>
     

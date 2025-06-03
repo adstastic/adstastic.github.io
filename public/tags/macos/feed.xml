@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacOS on ~/adi</title>
-    <link>https://adstastic.github.io/tags/macos/</link>
+    <link>http://localhost:54604/tags/macos/</link>
     <description>Recent content in MacOS on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adstastic.github.io/tags/macos/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54604/tags/macos/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breaking sudo</title>
-      <link>https://adstastic.github.io/p/breaking-sudo/</link>
+      <link>http://localhost:54604/p/breaking-sudo/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/breaking-sudo/</guid>
-      <description>&lt;p&gt;A while back I wrote about using &lt;a href=&#34;https://adstastic.github.io/sudo-touchid&#34;&gt;TouchID to authenticate sudo&lt;/a&gt;. I made this change when I was still using Terminal.app and everything worked fine.&lt;/p&gt;&#xA;&lt;p&gt;As we all know, 2020 has been a year full of unexpected changes, the most notable of which is clearly me switching to iTerm2 as my terminal emulator. This broke the TouchID setup I had done earlier and I was back to typing out my password.&lt;/p&gt;</description>
+      <guid>http://localhost:54604/p/breaking-sudo/</guid>
+      <description>&lt;p&gt;A while back I wrote about using &lt;a href=&#34;http://localhost:54604/sudo-touchid&#34;&gt;TouchID to authenticate sudo&lt;/a&gt;. I made this change when I was still using Terminal.app and everything worked fine.&lt;/p&gt;&#xA;&lt;p&gt;As we all know, 2020 has been a year full of unexpected changes, the most notable of which is clearly me switching to iTerm2 as my terminal emulator. This broke the TouchID setup I had done earlier and I was back to typing out my password.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

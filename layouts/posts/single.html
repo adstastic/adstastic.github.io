@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="/">{{ .Site.Title }}</a></h1>
+    {{ partial "nav.html" . }}
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -57,4 +58,8 @@
     
     <hr>
 </article>
+
+<div class="copyright">
+    <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. <a href="/credits">Credits</a>.</p>
+</div>
 {{ end }}

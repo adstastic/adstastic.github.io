@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coronavirus on ~/adi</title>
-    <link>https://adstastic.github.io/tags/coronavirus/</link>
+    <link>http://localhost:54604/tags/coronavirus/</link>
     <description>Recent content in Coronavirus on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adstastic.github.io/tags/coronavirus/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54604/tags/coronavirus/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Covid-19 Resources</title>
-      <link>https://adstastic.github.io/p/covid19/</link>
+      <link>http://localhost:54604/p/covid19/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/covid19/</guid>
+      <guid>http://localhost:54604/p/covid19/</guid>
       <description>&lt;p&gt;A curated list of links related to the Covid19 outbreak. Advice, free stuff, explainers, maybe some news.&#xA;An attempt to collate useful resources minus the hype and panic. Likely to be UK centric.&#xA;Hope this helps!&lt;/p&gt;&#xA;&lt;h3 id=&#34;lists-like-this-one&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lists-like-this-one&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  Lists (like this one)&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://coronavirustechhandbook.com/&#34;&gt;https://coronavirustechhandbook.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;volunteering&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#volunteering&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  Volunteering&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;Mutual Aid - &lt;a href=&#34;https://covidmutualaid.org&#34;&gt;https://covidmutualaid.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Project ideas - &lt;a href=&#34;https://helpwithcovid.com&#34;&gt;https://helpwithcovid.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Folding@Home - &lt;a href=&#34;https://foldingathome.org/2020/03/15/coronavirus-what-were-doing-and-how-you-can-help-in-simple-terms&#34;&gt;https://foldingathome.org/2020/03/15/coronavirus-what-were-doing-and-how-you-can-help-in-simple-terms&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Neighbourly - &lt;a href=&#34;https://www.neighbourly.com/&#34;&gt;https://www.neighbourly.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;services&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#services&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  Services&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;London grocery delivery aggregator - &lt;a href=&#34;https://ldn.delivery/&#34;&gt;https://ldn.delivery/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;screening&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#screening&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  Screening&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;Apple - &lt;a href=&#34;https://www.apple.com/covid19&#34;&gt;https://www.apple.com/covid19&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;JoinZoe - &lt;a href=&#34;https://covid.joinzoe.com&#34;&gt;https://covid.joinzoe.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;NHS - &lt;a href=&#34;https://111.nhs.uk/covid-19&#34;&gt;https://111.nhs.uk/covid-19&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;explainers&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#explainers&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  Explainers&#xA;&lt;/h3&gt;&lt;p&gt;Useful blog posts, articles, threads to understanding the epidemic and develop better mental models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Being a relay</title>
-      <link>https://adstastic.github.io/p/relay/</link>
+      <link>http://localhost:54604/p/relay/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/relay/</guid>
+      <guid>http://localhost:54604/p/relay/</guid>
       <description>&lt;p&gt;These times are tough for all. Even if you&amp;rsquo;re fit and healthy, there are many small problems to which solutions would normally be readily available which become large problems because of the lockdown.&lt;/p&gt;&#xA;&lt;p&gt;I came across such a case today. Someone in my mutual aid group posted about acute toothache and wasn&amp;rsquo;t able to get help anywhere - the authorities, local clinics, hospitals all turning them away because their condition was not life threatening (e.g. uncontrolled bleeding).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Staying informed about COVID-19</title>
-      <link>https://adstastic.github.io/p/staying-informed-covid19/</link>
+      <link>http://localhost:54604/p/staying-informed-covid19/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/staying-informed-covid19/</guid>
+      <guid>http://localhost:54604/p/staying-informed-covid19/</guid>
       <description>&lt;p&gt;The COVID-19 pandemic has, among other things, made me aware of how effective not being on social media is at keeping one insulated from what is going on around the world. This is normally a good thing for original thinking and deep work, but in this pandemic I think there are strong reasons to stay up to date as the situation rapidly evolves.&lt;/p&gt;&#xA;&lt;p&gt;How to do this? News outlets are prone to hype and sensationalism&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; without going into much detail and social media is full of uninformed opinions, so subscribing to BBC and going back on Facebook will not provide the whole picture.&lt;/p&gt;</description>
     </item>
   </channel>

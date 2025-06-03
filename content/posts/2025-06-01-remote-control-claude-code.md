@@ -8,7 +8,8 @@ tags:
   - claude
 ---
 
-![Remote operating Claude Code from my phone](/assets/cc-remote.jpeg)
+<img src="/assets/cc-remote.jpeg" alt="Remote operating Claude Code from my phone" width="465">
+<p></p>
 
 [Claude Code](https://www.anthropic.com/claude-code) amazed me at launch.
 

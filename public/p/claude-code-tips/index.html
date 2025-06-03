@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54604&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Claude Code Tips for SWE | ~/adi</title>
     <meta name="description" content="I&rsquo;ve been been using Claude Code a lot the past 2 weeks, enough that I hit the Max plan rate limits 3-4x daily. These tips have been the biggest quality of life improvement for me. You can find more in Anthropic&rsquo;s best practices.
 Whenever it goes down a wrong path, interrupt immediately and add a memory for the correct action, then tell it to proceed. Compact early, often, and with instructions for what to do next. If you accidentally close it, or want to resume a session, use claude -c. Run /terminal-setup for shift&#43;enter to insert newlines. Run /config and set the theme to match your terminal. Makes reading diffs much easier. Tune the allowed tools to minimise the permission prompts, but don&rsquo;t allow destructive commands or unrestricted web interaction Use it as a shell assistant - it can run any shell command, so it can perform complex workflows like &ldquo;SSH to the server, connect to the database, run a query to find something that points to a file, and download that file&rdquo; Sonnet requires more steering than Opus. Opus tends to self correct, but Sonnet &#43; more steering can move much faster for simpler tasks. Be mindful of when you&rsquo;ve passed the 50% limit and switches, and switch your style. Leverage Claude&rsquo;s understanding of git and gh to interact with it as co-worker: commit code often, push PRs, address review comments. The Github app makes this the easiest but needs API credits, so using Claude Code to read and interact with Github is a decent workaround. Put effort into your global and project Claude.md. For monorepos, write one for each directory. Iterate them often. Run them through Anthropic&rsquo;s prompt improver regularly. Setup a remote shell from your phone to where you run Claude Code. For certain tasks, it just needs a bit of steering or permission every few minutes, and you need to live your AFK life! ">
-    <link rel="canonical" href="https://adstastic.github.io/p/claude-code-tips/">
-    <link rel="alternate" type="application/rss+xml" title="~/adi" href="https://adstastic.github.io/feed.xml">
+    <link rel="canonical" href="http://localhost:54604/p/claude-code-tips/">
+    <link rel="alternate" type="application/rss+xml" title="~/adi" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -28,7 +28,17 @@ Whenever it goes down a wrong path, interrupt immediately and add a memory for t
     <div class="page-content">
         
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="https://adstastic.github.io/">~/adi</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="/">~/adi</a></h1>
+    <nav>
+    <a href="/about">About</a>
+    <span>/</span>
+    <a href="/feed.xml">RSS</a>
+    <span>/</span>
+    <label class="toggle-switch" for="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+        <span class="toggle-slider"></span>
+    </label>
+</nav>
 </section>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -1695,6 +1705,19 @@ These tips have been the biggest quality of life improvement for me. You can fin
             
         
     
+        
+        
+            
+            
+                
+            
+                
+            
+                
+            
+            
+        
+    
     
     
     
@@ -1703,15 +1726,15 @@ These tips have been the biggest quality of life improvement for me. You can fin
         <h3>Related Posts</h3>
         <ul>
         
-            <li><a href="https://adstastic.github.io/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
+            <li><a href="http://localhost:54604/p/remote-control-claude-code/">Remote controlling Claude Code</a></li>
         
-            <li><a href="https://adstastic.github.io/p/agi-test/">The Japanese Immigration test for AGI</a></li>
+            <li><a href="http://localhost:54604/p/agi-test/">The Japanese Immigration test for AGI</a></li>
         
-            <li><a href="https://adstastic.github.io/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
+            <li><a href="http://localhost:54604/q/remarks-on-ai-from-nz/">Remarks on AI From NZ</a></li>
         
-            <li><a href="https://adstastic.github.io/p/kill-scp-loop/">TIL: Killing an scp loop</a></li>
+            <li><a href="http://localhost:54604/p/kill-scp-loop/">TIL: Killing an scp loop</a></li>
         
-            <li><a href="https://adstastic.github.io/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
+            <li><a href="http://localhost:54604/p/brew-postgres/">TIL: Downloading a postgres DB</a></li>
         
         </ul>
     </div>
@@ -1720,6 +1743,10 @@ These tips have been the biggest quality of life improvement for me. You can fin
     
     <hr>
 </article>
+
+<div class="copyright">
+    <p>&copy; 2025 Adi Mukherjee. <a href="/credits">Credits</a>.</p>
+</div>
 
     </div>
     

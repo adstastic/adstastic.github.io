@@ -1,0 +1,1029 @@
+/* Solarized color schemes */
+:root {
+    /* Solarized base colors */
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+
+    /* Accent colors */
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+
+    /* Light mode variables */
+    --bg-primary: var(--base3);
+    --bg-secondary: var(--base2);
+    --text-primary: var(--base01);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base1);
+    --border-color: var(--base1);
+}
+
+/* Dark mode variables */
+[data-theme="dark"],
+.dark-theme {
+    --bg-primary: var(--base03);
+    --bg-secondary: var(--base02);
+    --text-primary: var(--base1);
+    --text-secondary: var(--base0);
+    --text-muted: var(--base01);
+    --border-color: var(--base01);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Vertical rhythm */
+blockquote,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+table,
+ul {
+    margin-bottom: 1rem;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* Lists */
+ol,
+ul {
+    margin-left: 2rem;
+}
+
+li > ol,
+li > ul {
+    margin-bottom: 0;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+/* Links */
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+    color: var(--text-primary);
+    padding-left: 2rem;
+    border-left: 4px solid var(--blue);
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+}
+
+blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+/* Code */
+code,
+pre {
+    font-family: "Ubuntu Mono", monospace;
+}
+
+code {
+    padding: 1px 2px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+    border: 1px solid var(--bg-secondary);
+    background-color: var(--bg-secondary);
+}
+
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+    tab-size: 4;
+    color: inherit;
+    background-color: transparent;
+}
+
+/* Syntax highlighting */
+.highlight {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+.highlight pre {
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.highlight code {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+td,
+th {
+    padding: 0.5rem;
+    line-height: inherit;
+}
+
+th {
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid #eee;
+}
+
+td {
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid var(--base01);
+    margin: 2rem auto;
+}
+
+/* Layout */
+.page-content {
+    position: relative;
+    padding: 2rem 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 48rem;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Site header */
+.site-header {
+    border-bottom: 1px solid var(--border-color);
+    margin-top: -2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    max-width: 48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-color 0.3s ease;
+    min-width: 0; /* Allow header to shrink */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.site-header p {
+    font-size: 0.875rem;
+}
+
+.site-intro {
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.smallcap {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.smallcap a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
+    padding: 0.2rem 0.5rem;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.smallcap a:hover {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: var(--blue);
+    color: var(--bg-primary);
+    padding: 0.2rem 0.5rem;
+}
+
+/* Navigation */
+nav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    height: 2rem;
+    flex-shrink: 0; /* Prevent nav from shrinking */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+nav a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* Home page */
+
+.home {
+    flex: 1;
+}
+
+.home section + section {
+    margin-top: 2rem;
+    max-width: 48rem;
+}
+
+/* Article pages */
+article.post {
+    flex: 1;
+}
+
+.post-list > li {
+    margin-bottom: 0.5rem;
+    list-style-type: none;
+    margin-left: -2rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.post-title-container {
+    flex: 1;
+    min-width: 0; /* Allow flex item to shrink below content size */
+}
+
+.post-date {
+    flex-shrink: 0;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.quote-indicator {
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+    vertical-align: text-top;
+    font-family: Georgia, "Times New Roman", serif;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.post-title-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-title-link:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.post-title-link:hover .quote-indicator {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.post-title-link:hover .post-title-text {
+    text-decoration: underline;
+}
+
+/* For quote posts, remove underline from the link itself and only show on text */
+.post-title-link:has(.quote-indicator):hover {
+    text-decoration: none;
+}
+
+.ref-link {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.from-link {
+    color: var(--blue) !important;
+    text-decoration: none;
+}
+
+.from-link:hover {
+    text-decoration: underline;
+}
+
+/* Posts */
+.post-header {
+    margin-bottom: 1rem;
+}
+
+.post-title {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    font-weight: bold;
+}
+
+.post-meta {
+    font-size: 0.875rem;
+    font-family: "Ubuntu Mono", monospace;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+}
+
+.post-meta a,
+.post-meta a:visited {
+    color: var(--text-secondary);
+}
+
+.post-meta .tags a,
+.post-meta .tags a:visited {
+    background: var(--bg-secondary);
+    padding: 0.1rem 0.5rem;
+}
+
+.post-content {
+    margin-bottom: 2rem;
+    font-weight: normal;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin-top: 2rem;
+    font-weight: normal;
+}
+
+.post-content h1 {
+    font-size: 1.75rem;
+}
+
+.post-content h2 {
+    font-size: 1.5rem;
+}
+
+.post-content h3 {
+    font-size: 1.25rem;
+}
+
+.post-content h4 {
+    font-size: 1.125rem;
+}
+
+.post-content h5,
+.post-content h6 {
+    font-size: 1rem;
+}
+
+/* Related posts */
+.related-posts {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: var(--bg-secondary);
+    border-radius: 3px;
+}
+
+.related-posts h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.related-posts ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.related-posts li {
+    margin-bottom: 0.5rem;
+}
+
+.related-posts a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.related-posts a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* Heading anchors */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    position: relative;
+}
+
+.post-content .anchor {
+    position: absolute;
+    left: -1.5rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-weight: normal;
+}
+
+.post-content h1:hover .anchor,
+.post-content h2:hover .anchor,
+.post-content h3:hover .anchor,
+.post-content h4:hover .anchor,
+.post-content h5:hover .anchor,
+.post-content h6:hover .anchor {
+    opacity: 1;
+}
+
+.post-content .anchor:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/* Make headings with anchors behave like links on hover */
+.post-content h1:hover,
+.post-content h2:hover,
+.post-content h3:hover,
+.post-content h4:hover,
+.post-content h5:hover,
+.post-content h6:hover {
+    color: var(--blue);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Copyright */
+.copyright {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.copyright p {
+    color: var(--text-muted);
+}
+
+.copyright a,
+.copyright a:visited {
+    color: var(--text-secondary);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .page-content {
+        padding: 1.5rem 1rem;
+    }
+    
+    .site-header {
+        gap: 0.5rem;
+    }
+    
+    .post-title {
+        font-size: 1.75rem;
+    }
+    
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+}
+
+@media screen and (max-width: 600px) {
+    .page-content {
+        padding: 1rem;
+    }
+    
+    .post-list > li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        padding-right: 0;
+    }
+    
+    .post-title-container {
+        width: 100%;
+    }
+    
+    /* Keep ellipsis on mobile */
+    .post-title-link {
+        display: block;
+    }
+
+    .post-date {
+        font-size: 0.75rem;
+    }
+    
+    .smallcap {
+        font-size: 1.75rem;
+    }
+    
+    nav {
+        font-size: 0.875rem;
+        gap: 0.5rem; /* Smaller gap on mobile */
+    }
+    
+    /* Smaller toggle on mobile to save space */
+    .toggle-switch {
+        width: 32px;
+        height: 16px;
+    }
+    
+    .toggle-slider:before {
+        height: 12px;
+        width: 12px;
+    }
+    
+    .post-title {
+        font-size: 1.5rem;
+    }
+    
+    .post-content .anchor {
+        left: -1.2rem;
+    }
+    
+    /* Adjust code blocks for mobile */
+    pre {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1rem;
+        border-radius: 0;
+        overflow-x: auto;
+        max-width: calc(100vw);
+    }
+    
+    /* Ensure images don't overflow on mobile */
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+    
+    /* Prevent long words from breaking layout */
+    .post-content {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    /* Full-width blockquotes on mobile */
+    blockquote {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1rem;
+        border-left-width: 4px;
+        background-color: var(--bg-secondary);
+    }
+}
+
+/* Very narrow screens (phones like iPhone 12 - 390px) */
+@media screen and (max-width: 400px) {
+    .page-content {
+        padding: 1rem 0.75rem;
+    }
+    
+    .smallcap {
+        font-size: 1.5rem;
+    }
+    
+    .smallcap a {
+        letter-spacing: 1px;
+        padding: 0.15rem 0.3rem;
+    }
+    
+    nav {
+        font-size: 0.75rem;
+        gap: 0.25rem;
+    }
+    
+    /* Even smaller toggle on very narrow screens */
+    .toggle-switch {
+        width: 28px;
+        height: 14px;
+    }
+    
+    .toggle-slider:before {
+        height: 10px;
+        width: 10px;
+    }
+    
+    /* Ensure header doesn't overflow */
+    .site-header {
+        margin-top: -1.5rem;
+    }
+    
+    /* Adjust blockquotes for narrower padding */
+    blockquote {
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    
+    /* Also adjust code blocks */
+    pre {
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+}
+
+/* Chroma syntax highlighting for Solarized */
+.chroma {
+    background-color: var(--bg-secondary);
+}
+.chroma .err {
+    color: var(--red);
+}
+.chroma .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.chroma .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+    overflow: auto;
+    display: block;
+}
+.chroma .ln {
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: var(--text-muted);
+}
+.chroma .k {
+    color: var(--green);
+}
+.chroma .kc {
+    color: var(--orange);
+}
+.chroma .kd {
+    color: var(--blue);
+}
+.chroma .kn {
+    color: var(--green);
+}
+.chroma .kp {
+    color: var(--green);
+}
+.chroma .kr {
+    color: var(--blue);
+}
+.chroma .kt {
+    color: var(--red);
+}
+.chroma .n {
+    color: var(--text-secondary);
+}
+.chroma .na {
+    color: var(--text-secondary);
+}
+.chroma .nb {
+    color: var(--yellow);
+}
+.chroma .nc {
+    color: var(--blue);
+}
+.chroma .no {
+    color: var(--orange);
+}
+.chroma .nd {
+    color: var(--blue);
+}
+.chroma .ni {
+    color: var(--orange);
+}
+.chroma .ne {
+    color: var(--orange);
+}
+.chroma .nf {
+    color: var(--blue);
+}
+.chroma .nl {
+    color: var(--text-secondary);
+}
+.chroma .nn {
+    color: var(--text-secondary);
+}
+.chroma .nx {
+    color: var(--text-secondary);
+}
+.chroma .nt {
+    color: var(--blue);
+}
+.chroma .nv {
+    color: var(--blue);
+}
+.chroma .s {
+    color: var(--cyan);
+}
+.chroma .sa {
+    color: var(--cyan);
+}
+.chroma .sb {
+    color: var(--text-muted);
+}
+.chroma .sc {
+    color: var(--cyan);
+}
+.chroma .dl {
+    color: var(--cyan);
+}
+.chroma .sd {
+    color: var(--text-secondary);
+}
+.chroma .s2 {
+    color: var(--cyan);
+}
+.chroma .se {
+    color: var(--orange);
+}
+.chroma .sh {
+    color: var(--text-secondary);
+}
+.chroma .si {
+    color: var(--cyan);
+}
+.chroma .sx {
+    color: var(--cyan);
+}
+.chroma .sr {
+    color: var(--red);
+}
+.chroma .s1 {
+    color: var(--cyan);
+}
+.chroma .ss {
+    color: var(--cyan);
+}
+.chroma .m {
+    color: var(--cyan);
+}
+.chroma .mb {
+    color: var(--cyan);
+}
+.chroma .mf {
+    color: var(--cyan);
+}
+.chroma .mh {
+    color: var(--cyan);
+}
+.chroma .mi {
+    color: var(--cyan);
+}
+.chroma .il {
+    color: var(--cyan);
+}
+.chroma .mo {
+    color: var(--cyan);
+}
+.chroma .o {
+    color: var(--green);
+}
+.chroma .ow {
+    color: var(--green);
+}
+.chroma .p {
+    color: var(--text-secondary);
+}
+.chroma .c {
+    color: var(--text-muted);
+}
+.chroma .ch {
+    color: var(--text-muted);
+}
+.chroma .cm {
+    color: var(--text-muted);
+}
+.chroma .c1 {
+    color: var(--text-muted);
+}
+.chroma .cs {
+    color: var(--green);
+}
+.chroma .cp {
+    color: var(--green);
+}
+.chroma .cpf {
+    color: var(--green);
+}
+.chroma .gd {
+    color: var(--red);
+}
+.chroma .ge {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.chroma .gr {
+    color: var(--red);
+}
+.chroma .gh {
+    color: var(--orange);
+}
+.chroma .gi {
+    color: var(--green);
+}
+.chroma .go {
+    color: var(--text-secondary);
+}
+.chroma .gp {
+    color: var(--text-secondary);
+}
+.chroma .gs {
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+.chroma .gu {
+    color: var(--orange);
+}
+.chroma .gt {
+    color: var(--text-secondary);
+}
+
+/* Tag pages styling */
+.tag-list {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.tag-list li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.tag-count {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+/* Dark mode toggle switch */
+.toggle-switch {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 36px;
+    height: 18px;
+}
+
+.toggle-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--text-muted);
+    transition: 0.3s ease;
+    border-radius: 18px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--bg-primary);
+    transition: 0.3s ease;
+    border-radius: 50%;
+}
+
+.toggle-input:checked + .toggle-slider {
+    background-color: var(--text-primary);
+}
+
+.toggle-input:checked + .toggle-slider:before {
+    transform: translateX(18px);
+}
+
+.toggle-slider:hover {
+    background-color: var(--text-primary);
+}
+
+.toggle-input:checked + .toggle-slider:hover {
+    background-color: var(--text-secondary);
+}

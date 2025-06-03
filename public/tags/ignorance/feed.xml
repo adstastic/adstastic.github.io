@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ignorance on ~/adi</title>
-    <link>https://adstastic.github.io/tags/ignorance/</link>
+    <link>http://localhost:54604/tags/ignorance/</link>
     <description>Recent content in Ignorance on ~/adi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adstastic.github.io/tags/ignorance/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54604/tags/ignorance/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Reads #1</title>
-      <link>https://adstastic.github.io/p/best-reads-1/</link>
+      <link>http://localhost:54604/p/best-reads-1/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://adstastic.github.io/p/best-reads-1/</guid>
+      <guid>http://localhost:54604/p/best-reads-1/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve long desired to have a practice of periodically reviewing the information I&amp;rsquo;ve consumed so I&amp;rsquo;m going to dip my toes in the water with (hopefully) regular short posts of the best things I&amp;rsquo;ve read. Please check out the original content, the excerpts are just what jumped out at me most and may not make sense without a proper read.&lt;/p&gt;&#xA;&lt;h2 id=&#34;this-is-what-uncertainty-feels-like&#34;&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#this-is-what-uncertainty-feels-like&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;  This Is What Uncertainty Feels Like&#xA;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://commoncog.com/blog/what-uncertainty-feels-like&#34;&gt;https://commoncog.com/blog/what-uncertainty-feels-like&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“The problem here is that every move is a good move.” he sighed, “Or more accurately, every move is equally bad; every move might go wrong. There is no way to tell which is the right move to make.”&lt;/p&gt;</description>
     </item>
   </channel>

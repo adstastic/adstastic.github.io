@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="site-header">
-    <h1 class="smallcap"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <h1 class="smallcap"><a class="site-title" href="/">{{ .Site.Title }}</a></h1>
     {{ partial "nav.html" . }}
 </section>
 
@@ -21,6 +21,7 @@
     </ul>
 </section>
 
+<hr>
 <div class="copyright">
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. <a href="/credits">Credits</a>.</p>
 </div>
