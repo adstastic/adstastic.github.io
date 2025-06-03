@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 READWISE_API_TOKEN = os.getenv("READWISE_ACCESS_TOKEN")
-DEFAULT_OUTPUT_DIR = "_posts/quotes"
+DEFAULT_OUTPUT_DIR = "content/quotes"
 TEMPLATE_NAME = "template.md"
 
 
@@ -293,6 +293,15 @@ def generate_markdown_from_source(
     logger.info(
         f"Book tags for '{source.title}' (ID: {source.user_book_id}): {source.book_tags}"
     )
+    
+    # Generate slug before creating template_data
+    slug = slugify(source.title)
+    if not slug:
+        slug = f"untitled-{source.user_book_id}"
+        logger.warning(
+            f"Title for source ID '{source.user_book_id}' resulted in empty slug. Using fallback: '{slug}'"
+        )
+    
     template_data = {
         "quote": {
             "title": source.title,
@@ -303,6 +312,7 @@ def generate_markdown_from_source(
             else None,  # For {{ quote.url }}
             "user_book_id": source.user_book_id,  # For potential use in ref
             "date": post_date.strftime("%Y-%m-%d"),
+            "slug": slug,  # Add slug to template data
             "category": source.category,
             "highlights": [
                 h.text for h in source.highlights if h.text
@@ -316,13 +326,6 @@ def generate_markdown_from_source(
     logger.debug(f"Template data for '{source.title}': {template_data}")
 
     date_prefix = post_date.strftime("%Y-%m-%d")
-    slug = slugify(source.title)
-    if not slug:
-        slug = f"untitled-{source.user_book_id}"
-        logger.warning(
-            f"Title for source ID '{source.user_book_id}' resulted in empty slug. Using fallback: '{slug}'"
-        )
-
     filename = f"{date_prefix}-{slug}.md"
     output_file_path = output_dir_path / filename
 
@@ -353,7 +356,7 @@ def generate_markdown_from_source(
     "--output-dir",
     default=DEFAULT_OUTPUT_DIR,
     type=click.Path(),
-    help="Directory to save markdown files.",
+    help="Directory to save markdown files (default: content/quotes).",
 )
 @click.option(
     "--template-file",
