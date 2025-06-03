@@ -39,11 +39,124 @@
 }
 
 /* Dark mode */
-.dark {
+.dark, .dark-theme {
   --bg-primary: var(--color-base03);
   --bg-secondary: var(--color-base02);
   --text-primary: var(--color-base1);
   --text-secondary: var(--color-base0);
   --text-muted: var(--color-base01);
   --border-color: var(--color-base01);
+}
+
+/* Base styles layer */
+@layer base {
+  /* Apply default font and colors to body */
+  body {
+    font-family: var(--font-family-sans);
+    line-height: 1.5;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  p, ul, ol, dl, blockquote, pre, table, figure {
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  a {
+    color: var(--color-blue);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ul, ol {
+    margin-left: 2rem;
+  }
+  
+  li > ul, li > ol {
+    margin-bottom: 0;
+  }
+  
+  /* Code blocks */
+  code, pre {
+    font-family: var(--font-family-mono);
+  }
+  
+  code {
+    padding: 0.125rem 0.25rem;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+  
+  pre {
+    padding: 0.5rem 0.75rem;
+    overflow-x: auto;
+    border: 1px solid var(--bg-secondary);
+    background-color: var(--bg-secondary);
+  }
+  
+  pre > code {
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+    color: var(--text-primary);
+    padding-left: 2rem;
+    border-left: 4px solid var(--color-blue);
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+  }
+  
+  blockquote > :last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    line-height: inherit;
+  }
+  
+  th {
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--border-color);
+  }
+  
+  td {
+    vertical-align: top;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  /* Horizontal rule */
+  hr {
+    border: none;
+    border-top: 1px solid var(--text-primary);
+    margin: 2rem auto;
+  }
 }
