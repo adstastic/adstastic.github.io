@@ -499,6 +499,19 @@
   .chroma .gs { @apply text-[var(--text-secondary)] font-bold; }
   .chroma .gu { @apply text-[var(--color-orange)]; }
   .chroma .gt { @apply text-[var(--text-secondary)]; }
+  
+  /* Tag pages styling */
+  .tag-list {
+    @apply list-none ml-0;
+  }
+  
+  .tag-list li {
+    @apply mb-2 flex items-baseline gap-2;
+  }
+  
+  .tag-count {
+    @apply text-[var(--text-muted)] text-sm;
+  }
 }
 
 /* Responsive utilities */
