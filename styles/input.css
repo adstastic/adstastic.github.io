@@ -300,4 +300,203 @@
   .toggle-input:checked + .toggle-slider:hover {
     @apply bg-[var(--text-secondary)];
   }
+  
+  /* Article pages */
+  article.post {
+    @apply flex-1;
+  }
+  
+  /* Post header */
+  .post-header {
+    @apply mb-4;
+  }
+  
+  .post-title {
+    @apply text-[2rem] tracking-[-1px] leading-[1.2] mb-3 mt-3 font-bold;
+  }
+  
+  .post-meta {
+    @apply text-sm font-mono text-[var(--text-muted)] mb-3;
+  }
+  
+  .post-meta a, .post-meta a:visited {
+    @apply text-[var(--text-secondary)];
+  }
+  
+  .post-meta .tags a, .post-meta .tags a:visited {
+    @apply bg-[var(--bg-secondary)] px-2 py-[0.1rem];
+  }
+  
+  /* Post content */
+  .post-content {
+    @apply mb-8 font-normal;
+  }
+  
+  .post-content h1, .post-content h2, .post-content h3, 
+  .post-content h4, .post-content h5, .post-content h6 {
+    @apply mt-8 font-normal;
+  }
+  
+  .post-content h1 {
+    @apply text-[1.75rem];
+  }
+  
+  .post-content h2 {
+    @apply text-[1.5rem];
+  }
+  
+  .post-content h3 {
+    @apply text-[1.25rem];
+  }
+  
+  .post-content h4 {
+    @apply text-[1.125rem];
+  }
+  
+  .post-content h5, .post-content h6 {
+    @apply text-base;
+  }
+  
+  /* Related posts */
+  .related-posts {
+    @apply my-8 p-6 bg-[var(--bg-secondary)] rounded-[3px];
+  }
+  
+  .related-posts h3 {
+    @apply mt-0 mb-4 text-[1.25rem] font-semibold;
+  }
+  
+  .related-posts ul {
+    @apply m-0 list-none;
+  }
+  
+  .related-posts li {
+    @apply mb-2;
+  }
+  
+  .related-posts a {
+    @apply text-[var(--text-primary)] no-underline;
+  }
+  
+  .related-posts a:hover {
+    @apply text-[var(--color-blue)] underline;
+  }
+  
+  /* Heading anchors */
+  .post-content h1, .post-content h2, .post-content h3,
+  .post-content h4, .post-content h5, .post-content h6 {
+    @apply relative;
+  }
+  
+  .post-content .anchor {
+    @apply absolute -left-6 text-[var(--text-muted)] no-underline opacity-0 transition-opacity duration-200 font-normal;
+  }
+  
+  .post-content h1:hover .anchor,
+  .post-content h2:hover .anchor,
+  .post-content h3:hover .anchor,
+  .post-content h4:hover .anchor,
+  .post-content h5:hover .anchor,
+  .post-content h6:hover .anchor {
+    @apply opacity-100;
+  }
+  
+  .post-content .anchor:hover {
+    @apply text-[var(--color-blue)] no-underline;
+  }
+  
+  /* Make headings with anchors behave like links on hover */
+  .post-content h1:hover,
+  .post-content h2:hover,
+  .post-content h3:hover,
+  .post-content h4:hover,
+  .post-content h5:hover,
+  .post-content h6:hover {
+    @apply text-[var(--color-blue)] underline cursor-pointer;
+  }
+  
+  /* Syntax highlighting */
+  .highlight {
+    @apply bg-[var(--bg-secondary)] text-[var(--text-secondary)] p-4 my-4 rounded-[3px] overflow-x-auto;
+  }
+  
+  .highlight pre {
+    @apply m-0 bg-transparent border-0 p-0;
+  }
+  
+  .highlight code {
+    @apply bg-transparent text-inherit;
+  }
+  
+  /* Chroma syntax highlighting for Solarized */
+  .chroma {
+    @apply bg-[var(--bg-secondary)];
+  }
+  
+  .chroma .err { @apply text-[var(--color-red)]; }
+  .chroma .lntd { @apply align-top p-0 m-0 border-0; }
+  .chroma .lntable { @apply border-spacing-0 p-0 m-0 border-0 w-auto overflow-auto block; }
+  .chroma .ln { @apply mr-[0.4em] px-[0.4em] text-[var(--text-muted)]; }
+  .chroma .k { @apply text-[var(--color-green)]; }
+  .chroma .kc { @apply text-[var(--color-orange)]; }
+  .chroma .kd { @apply text-[var(--color-blue)]; }
+  .chroma .kn { @apply text-[var(--color-green)]; }
+  .chroma .kp { @apply text-[var(--color-green)]; }
+  .chroma .kr { @apply text-[var(--color-blue)]; }
+  .chroma .kt { @apply text-[var(--color-red)]; }
+  .chroma .n { @apply text-[var(--text-secondary)]; }
+  .chroma .na { @apply text-[var(--text-secondary)]; }
+  .chroma .nb { @apply text-[var(--color-yellow)]; }
+  .chroma .nc { @apply text-[var(--color-blue)]; }
+  .chroma .no { @apply text-[var(--color-orange)]; }
+  .chroma .nd { @apply text-[var(--color-blue)]; }
+  .chroma .ni { @apply text-[var(--color-orange)]; }
+  .chroma .ne { @apply text-[var(--color-orange)]; }
+  .chroma .nf { @apply text-[var(--color-blue)]; }
+  .chroma .nl { @apply text-[var(--text-secondary)]; }
+  .chroma .nn { @apply text-[var(--text-secondary)]; }
+  .chroma .nx { @apply text-[var(--text-secondary)]; }
+  .chroma .nt { @apply text-[var(--color-blue)]; }
+  .chroma .nv { @apply text-[var(--color-blue)]; }
+  .chroma .s { @apply text-[var(--color-cyan)]; }
+  .chroma .sa { @apply text-[var(--color-cyan)]; }
+  .chroma .sb { @apply text-[var(--text-muted)]; }
+  .chroma .sc { @apply text-[var(--color-cyan)]; }
+  .chroma .dl { @apply text-[var(--color-cyan)]; }
+  .chroma .sd { @apply text-[var(--text-secondary)]; }
+  .chroma .s2 { @apply text-[var(--color-cyan)]; }
+  .chroma .se { @apply text-[var(--color-orange)]; }
+  .chroma .sh { @apply text-[var(--text-secondary)]; }
+  .chroma .si { @apply text-[var(--color-cyan)]; }
+  .chroma .sx { @apply text-[var(--color-cyan)]; }
+  .chroma .sr { @apply text-[var(--color-red)]; }
+  .chroma .s1 { @apply text-[var(--color-cyan)]; }
+  .chroma .ss { @apply text-[var(--color-cyan)]; }
+  .chroma .m { @apply text-[var(--color-cyan)]; }
+  .chroma .mb { @apply text-[var(--color-cyan)]; }
+  .chroma .mf { @apply text-[var(--color-cyan)]; }
+  .chroma .mh { @apply text-[var(--color-cyan)]; }
+  .chroma .mi { @apply text-[var(--color-cyan)]; }
+  .chroma .il { @apply text-[var(--color-cyan)]; }
+  .chroma .mo { @apply text-[var(--color-cyan)]; }
+  .chroma .o { @apply text-[var(--color-green)]; }
+  .chroma .ow { @apply text-[var(--color-green)]; }
+  .chroma .p { @apply text-[var(--text-secondary)]; }
+  .chroma .c { @apply text-[var(--text-muted)]; }
+  .chroma .ch { @apply text-[var(--text-muted)]; }
+  .chroma .cm { @apply text-[var(--text-muted)]; }
+  .chroma .c1 { @apply text-[var(--text-muted)]; }
+  .chroma .cs { @apply text-[var(--color-green)]; }
+  .chroma .cp { @apply text-[var(--color-green)]; }
+  .chroma .cpf { @apply text-[var(--color-green)]; }
+  .chroma .gd { @apply text-[var(--color-red)]; }
+  .chroma .ge { @apply text-[var(--text-secondary)] italic; }
+  .chroma .gr { @apply text-[var(--color-red)]; }
+  .chroma .gh { @apply text-[var(--color-orange)]; }
+  .chroma .gi { @apply text-[var(--color-green)]; }
+  .chroma .go { @apply text-[var(--text-secondary)]; }
+  .chroma .gp { @apply text-[var(--text-secondary)]; }
+  .chroma .gs { @apply text-[var(--text-secondary)] font-bold; }
+  .chroma .gu { @apply text-[var(--color-orange)]; }
+  .chroma .gt { @apply text-[var(--text-secondary)]; }
 }
