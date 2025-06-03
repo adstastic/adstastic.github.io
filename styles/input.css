@@ -500,3 +500,138 @@
   .chroma .gu { @apply text-[var(--color-orange)]; }
   .chroma .gt { @apply text-[var(--text-secondary)]; }
 }
+
+/* Responsive utilities */
+@layer utilities {
+  /* Responsive breakpoints matching original design */
+  @media (max-width: 768px) {
+    .page-content {
+      @apply py-6 px-4;
+    }
+    
+    .site-header {
+      @apply gap-2;
+    }
+    
+    .post-title {
+      @apply text-[1.75rem];
+    }
+    
+    h1 { @apply text-[1.75rem]; }
+    h2 { @apply text-[1.5rem]; }
+    h3 { @apply text-[1.25rem]; }
+  }
+  
+  @media (max-width: 600px) {
+    .page-content {
+      @apply p-4;
+    }
+    
+    .post-list > li {
+      @apply flex-col items-start gap-1 pr-0;
+    }
+    
+    .post-title-container {
+      @apply w-full;
+    }
+    
+    .post-title-link {
+      @apply block;
+    }
+    
+    .post-date {
+      @apply text-xs;
+    }
+    
+    .smallcap {
+      @apply text-[1.75rem];
+    }
+    
+    nav {
+      @apply text-sm gap-2;
+    }
+    
+    /* Smaller toggle on mobile */
+    .toggle-switch {
+      @apply w-8 h-4;
+    }
+    
+    .toggle-slider:before {
+      @apply h-3 w-3;
+    }
+    
+    .toggle-input:checked + .toggle-slider:before {
+      @apply translate-x-4;
+    }
+    
+    .post-title {
+      @apply text-[1.5rem];
+    }
+    
+    .post-content .anchor {
+      @apply -left-[1.2rem];
+    }
+    
+    /* Full-width code blocks on mobile */
+    pre {
+      @apply -mx-4 px-4 rounded-none max-w-[100vw];
+    }
+    
+    /* Ensure images don't overflow */
+    img {
+      @apply h-auto max-w-full;
+    }
+    
+    /* Prevent long words from breaking layout */
+    .post-content {
+      @apply break-words hyphens-auto;
+      overflow-wrap: break-word;
+    }
+    
+    /* Full-width blockquotes on mobile */
+    blockquote {
+      @apply -mx-4 px-4 border-l-4 bg-[var(--bg-secondary)];
+    }
+  }
+  
+  /* Very narrow screens */
+  @media (max-width: 400px) {
+    .page-content {
+      @apply p-3;
+    }
+    
+    .smallcap {
+      @apply text-[1.5rem];
+    }
+    
+    .smallcap a {
+      @apply tracking-[1px] px-[0.3rem] py-[0.15rem];
+    }
+    
+    nav {
+      @apply text-xs gap-1;
+    }
+    
+    /* Even smaller toggle */
+    .toggle-switch {
+      @apply w-7 h-[14px];
+    }
+    
+    .toggle-slider:before {
+      @apply h-[10px] w-[10px];
+    }
+    
+    .site-header {
+      @apply -mt-6;
+    }
+    
+    /* Adjust spacing for narrow screens */
+    blockquote {
+      @apply -mx-3;
+    }
+    
+    pre {
+      @apply -mx-3;
+    }
+  }
+}
