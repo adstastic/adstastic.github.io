@@ -1,0 +1,67 @@
+baseURL = 'https://adstastic.github.io/'
+languageCode = 'en-us'
+title = '~/adi'
+
+# Enable emoji support
+enableEmoji = true
+
+# Configure syntax highlighting
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+      [markup.goldmark.extensions]
+        linkify = true
+
+# Permalinks to match Jekyll structure
+[permalinks]
+  posts = '/p/:slug/'
+  quotes = '/q/:slug/'
+
+# Site params
+[params]
+  description = "Notes on stuff"
+  author = "Adi Mukherjee"
+  email = "hi@adimin.net"
+
+# Menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "RSS"
+  url = "/feed.xml"
+  weight = 2
+
+# Taxonomies (tags)
+[taxonomies]
+  tag = "tags"
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "feed"
+
+# Enable tag taxonomy pages
+# disableKinds = ["taxonomy", "term"]

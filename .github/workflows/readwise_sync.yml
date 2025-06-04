@@ -34,8 +34,8 @@ jobs:
           if [ -z "$FETCH_DATE" ]; then
             FETCH_DATE=$(date -u -d "yesterday" '+%Y-%m-%d')
           fi
-          echo "Fetching highlights from $FETCH_DATE for output to _posts/quotes"
-          uv run fetch_and_generate_quotes.py --start-date "$FETCH_DATE" --output-dir _posts/quotes
+          echo "Fetching highlights from $FETCH_DATE for output to content/quotes"
+          uv run fetch_and_generate_quotes.py --start-date "$FETCH_DATE" --output-dir content/quotes
 
 
       - name: Set Current Date for PR
