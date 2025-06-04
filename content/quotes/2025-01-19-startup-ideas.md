@@ -1,9 +1,10 @@
 ---
+title: "How to Get Startup Ideas"
 date: 2025-01-19
 slug: "startup-ideas"
+tags:
+  - quote
 ref: https://paulgraham.com/startupideas.html
-tags: quote
-title: How to Get Startup Ideas
 ---
 
 Quoting [Paul Graham](https://paulgraham.com/startupideas.html):

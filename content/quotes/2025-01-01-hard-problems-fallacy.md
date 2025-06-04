@@ -1,9 +1,10 @@
 ---
+title: "You don’t need to work on hard problems"
 date: 2025-01-01
 slug: "hard-problems-fallacy"
+tags:
+  - quote
 ref: https://www.benkuhn.net/hard/
-tags: quote
-title: You don’t need to work on hard problems
 ---
 
 Quoting [benkuhn.net](https://www.benkuhn.net/hard/):

@@ -1,9 +1,10 @@
 ---
+title: "Making Beliefs Pay Rent (in Anticipated Experiences)"
 date: 2025-01-27
 slug: "belief-is-anticipation"
+tags:
+  - quote
 ref: https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences
-tags: quote
-title: Making Beliefs Pay Rent (in Anticipated Experiences)
 ---
 
 Quoting [Eliezer Yudkowsky](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences):

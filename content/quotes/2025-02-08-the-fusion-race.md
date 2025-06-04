@@ -1,8 +1,10 @@
 ---
-layout: quote 
 title: "The Fusion Race"
+date: 2025-02-08
+slug: "the-fusion-race"
+tags:
+  - quote
 ref: https://www.notboring.co/p/the-fusion-race
-tags: quote
 ---
 
 Quoting [Packy McCormick](https://www.notboring.co/p/the-fusion-race):

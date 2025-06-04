@@ -1,10 +1,10 @@
 ---
+title: "Action precedes motivation"
 date: 2025-01-01
 slug: "passion-projects"
+tags:
+  - quote
 ref: https://www.youtube.com/watch?v=W3I3kAg2J7w
-slug: grant-sanderson
-tags: quote
-title: Action precedes motivation
 ---
 
 Quoting [John Collison](https://twitter.com/collision/status/1529452415346302976):

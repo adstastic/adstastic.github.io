@@ -1,9 +1,15 @@
 ---
+<<<<<<< HEAD
 date: 2025-01-30
 slug: "deepseek-export-controls"
+=======
+>>>>>>> origin/main
 title: "On DeepSeek and Export Controls"
+date: 2025-01-30
+slug: "deepseek-export-controls"
+tags:
+  - quote
 ref: https://darioamodei.com/on-deepseek-and-export-controls
-tags: quote
 ---
 
 Quoting [Dario Amodei](https://darioamodei.com/on-deepseek-and-export-controls):

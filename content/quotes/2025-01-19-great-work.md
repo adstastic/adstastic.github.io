@@ -1,10 +1,10 @@
 ---
+title: "How to do great work"
 date: 2025-01-19
 slug: "great-work"
+tags:
+  - quote
 ref: http://paulgraham.com/greatwork.html
-slug: paul-graham
-tags: quote
-title: How to do great work
 ---
 
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html).

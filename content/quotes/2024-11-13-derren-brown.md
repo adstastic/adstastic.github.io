@@ -1,10 +1,10 @@
 ---
+title: "Derren Brown on Tim Ferriss 776"
 date: 2024-11-13
 slug: "derren-brown"
+tags:
+  - quote
 ref: https://tim.blog/2024/11/10/derren-brown-transcript/
-slug: derren-brown
-tags: quote
-title: Derren Brown on Tim Ferriss 776
 ---
 
 Quoting Derren Brown on [Tim Ferriss #776](https://tim.blog/2024/11/10/derren-brown-transcript/).

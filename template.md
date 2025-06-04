@@ -1,11 +1,13 @@
 ---
-layout: quote
 title: "{{ quote.title }}"
-ref: {{ quote.source_url | default(quote.url) }}
-tags: 
+date: {{ quote.date }}
+slug: "{{ quote.slug }}"
+tags:
+  - quote
 {%- for tag in quote.tags %}
-  - {{ tag }}
+  - {{ tag | lower | replace(' ', '-') }}
 {%- endfor %}
+ref: {{ quote.source_url | default(quote.url) }}
 ---
 
 Quoting [{{ quote.author }}]({{ quote.source_url | default(quote.url) }}):

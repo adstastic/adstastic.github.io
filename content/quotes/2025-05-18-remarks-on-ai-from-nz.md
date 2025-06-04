@@ -1,8 +1,12 @@
 ---
+<<<<<<< HEAD
 date: 2025-05-18
 slug: "remarks-on-ai-from-nz"
+=======
+>>>>>>> origin/main
 title: "Remarks on AI From NZ"
-ref: https://nealstephenson.substack.com/p/remarks-on-ai-from-nz
+date: 2025-05-18
+slug: "remarks-on-ai-from-nz"
 tags:
   - quote
   - re-read
@@ -10,6 +14,7 @@ tags:
   - progress
   - society
   - ai
+ref: https://nealstephenson.substack.com/p/remarks-on-ai-from-nz
 ---
 
 Quoting [Neal Stephenson](https://nealstephenson.substack.com/p/remarks-on-ai-from-nz):

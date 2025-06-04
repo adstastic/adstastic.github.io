@@ -1,9 +1,10 @@
 ---
+title: "Searching for outliers"
 date: 2025-01-09
 slug: "searching-for-outliers"
+tags:
+  - quote
 ref: https://www.benkuhn.net/outliers/
-tags: quote
-title: Searching for outliers
 ---
 
 Quoting [benkuhn.net](https://www.benkuhn.net/outliers/):

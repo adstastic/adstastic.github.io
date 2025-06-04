@@ -1,9 +1,10 @@
 ---
+title: "An Unreasonable Amount of Time"
 date: 2025-01-20
 slug: "unreasonable-amount-of-time"
+tags:
+  - quote
 ref: https://allenpike.com/2024/an-unreasonable-amount-of-time
-tags: quote
-title: An Unreasonable Amount of Time
 ---
 
 Quoting [Allen Pike](https://allenpike.com/2024/an-unreasonable-amount-of-time):

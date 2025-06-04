@@ -1,9 +1,10 @@
 ---
+title: "Wielding Willpower"
 date: 2025-01-20
 slug: "wielding-willpower"
+tags:
+  - quote
 ref: https://patrickdfarley.com/wielding-willpower/
-tags: quote
-title: Wielding Willpower
 ---
 
 Quoting [on May 17](https://patrickdfarley.com/wielding-willpower/):

@@ -1,9 +1,10 @@
 ---
+title: "So you wanna de-bog yourself"
 date: 2025-01-01
 slug: "debog-yourself"
+tags:
+  - quote
 ref: https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
-tags: quote
-title: So you wanna de-bog yourself
 ---
 
 Quoting [Adam Mastroianni](https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself):

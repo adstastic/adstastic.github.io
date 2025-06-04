@@ -1,9 +1,10 @@
 ---
+title: "You Should Be Working On Hardware"
 date: 2025-01-15
 slug: "working-on-hardware"
+tags:
+  - quote
 ref: https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/
-tags: quote
-title: You Should Be Working On Hardware
 ---
 
 Quoting [Casey Handmer's blog](https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/):
