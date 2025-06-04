@@ -1,4 +1,4 @@
-# adim.in
+# Blog
 
 Personal blog built with Hugo and Tailwind CSS v4.
 
