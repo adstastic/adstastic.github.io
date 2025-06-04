@@ -1,9 +1,9 @@
 ---
 title: "Don't Fork the Ecosystem"
 date: 2025-02-17
-slug: "don-t-fork-the-ecosystem"
 ref: https://newsletter.squishy.computer/p/dont-fork-the-ecosystem
 ---
+
 
 Quoting [Gordon Brander](https://newsletter.squishy.computer/p/dont-fork-the-ecosystem):
 

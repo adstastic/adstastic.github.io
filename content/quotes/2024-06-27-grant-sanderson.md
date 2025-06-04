@@ -1,11 +1,11 @@
 ---
 title: "Action precedes motivation"
 date: 2024-06-27
-slug: "grant-sanderson"
 tags:
   - quote
 ref: https://www.youtube.com/watch?v=W3I3kAg2J7w
 ---
+
 
 Quoting [Grant Sanderson](https://www.youtube.com/watch?v=W3I3kAg2J7w):
 

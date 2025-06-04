@@ -1,11 +1,11 @@
 ---
 title: "Schlep Blindness"
 date: 2025-01-19
-slug: "schlep-blindness"
 tags:
   - quote
 ref: https://paulgraham.com/schlep.html
 ---
+
 
 Quoting [Paul Graham](https://paulgraham.com/schlep.html):
 

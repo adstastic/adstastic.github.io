@@ -1,9 +1,9 @@
 ---
 title: "How Not to Die"
 date: 2025-02-24
-slug: "how-not-to-die"
 ref: https://paulgraham.com/die.html
 ---
+
 
 Quoting [Paul Graham](https://paulgraham.com/die.html):
 

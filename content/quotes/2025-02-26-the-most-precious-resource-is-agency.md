@@ -1,9 +1,9 @@
 ---
 title: "The Most Precious Resource Is Agency"
 date: 2025-02-26
-slug: "the-most-precious-resource-is-agency"
 ref: https://map.simonsarris.com/p/the-most-precious-resource-is-agency
 ---
+
 
 Quoting [Simon Sarris](https://map.simonsarris.com/p/the-most-precious-resource-is-agency):
 

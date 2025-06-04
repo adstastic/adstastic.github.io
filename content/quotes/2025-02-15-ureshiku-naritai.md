@@ -1,9 +1,9 @@
 ---
 title: "Ureshiku Naritai"
 date: 2025-02-15
-slug: "ureshiku-naritai"
 ref: https://www.lesswrong.com/posts/xnPFYBuaGhpq869mY/ureshiku-naritai
 ---
+
 
 Quoting [lesswrong.com](https://www.lesswrong.com/posts/xnPFYBuaGhpq869mY/ureshiku-naritai):
 

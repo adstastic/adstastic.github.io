@@ -1,9 +1,9 @@
 ---
 title: "The One-Person Framework in Practice"
 date: 2025-05-03
-slug: "the-one-person-framework-in-practice"
 ref: https://bramjetten.dev/articles/the-one-person-framework-in-practice?utm_source=tldrnewsletter
 ---
+
 
 Quoting [bramjetten.dev](https://bramjetten.dev/articles/the-one-person-framework-in-practice?utm_source=tldrnewsletter):
 

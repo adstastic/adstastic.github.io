@@ -1,9 +1,9 @@
 ---
 title: "The Tails Coming Apart As Metaphor For Life"
 date: 2025-02-15
-slug: "the-tails-coming-apart-as-metaphor-for-life"
 ref: https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life
 ---
+
 
 Quoting [Scott Alexander](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life):
 

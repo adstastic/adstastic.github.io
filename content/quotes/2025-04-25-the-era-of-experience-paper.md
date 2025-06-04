@@ -1,9 +1,9 @@
 ---
 title: "The Era of Experience Paper"
 date: 2025-04-25
-slug: "the-era-of-experience-paper"
 ref: https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf
 ---
+
 
 Quoting [storage.googleapis.com](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf):
 

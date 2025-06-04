@@ -1,11 +1,11 @@
 ---
 title: "Let’s talk about AI and end-to-end encryption"
 date: 2025-01-21
-slug: "ai-e2e-encryption"
 tags:
   - quote
 ref: https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption
 ---
+
 
 Quoting [Matthew Green](https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption):
 

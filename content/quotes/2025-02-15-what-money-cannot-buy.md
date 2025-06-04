@@ -1,9 +1,9 @@
 ---
 title: "What Money Cannot Buy"
 date: 2025-02-15
-slug: "what-money-cannot-buy"
 ref: https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg/what-money-cannot-buy
 ---
+
 
 Quoting [johnswentworth](https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg/what-money-cannot-buy):
 

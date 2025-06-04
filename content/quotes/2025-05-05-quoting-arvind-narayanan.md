@@ -1,9 +1,9 @@
 ---
 title: "Quoting Arvind Narayanan"
 date: 2025-05-05
-slug: "quoting-arvind-narayanan"
 ref: https://simonwillison.net/2025/May/5/arvind-narayanan/#atom-everything
 ---
+
 
 Quoting [Simon Willison's Weblog](https://simonwillison.net/2025/May/5/arvind-narayanan/#atom-everything):
 

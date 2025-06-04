@@ -1,16 +1,11 @@
 ---
-<<<<<<< HEAD
-date: 2025-02-04
-slug: "the-future-of-humanity"
-=======
->>>>>>> origin/main
 title: "The future of humanity is in management"
 date: 2025-02-04
-slug: "the-future-of-humanity"
 tags:
   - quote
 ref: https://newsletter.rootsofprogress.org/p/the-future-of-humanity-is-in-management
 ---
+
 
 Quoting [Jason Crawford](https://newsletter.rootsofprogress.org/p/the-future-of-humanity-is-in-management):
 

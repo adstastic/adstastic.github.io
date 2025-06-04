@@ -1,9 +1,9 @@
 ---
 title: "How to Twitter Successfully"
 date: 2025-03-22
-slug: "how-to-twitter-successfully"
 ref: https://near.blog/how-to-twitter-successfully/
 ---
+
 
 Quoting [near](https://near.blog/how-to-twitter-successfully/):
 

@@ -1,9 +1,9 @@
 ---
 title: "Agency > Intelligence"
 date: 2025-02-28
-slug: "agency-intelligence"
 ref: https://x.com/karpathy/status/1894099637218545984/?s=12&rw_tt_thread=True
 ---
+
 
 Quoting [Andrej Karpathy](https://x.com/karpathy/status/1894099637218545984/?s=12&rw_tt_thread=True):
 

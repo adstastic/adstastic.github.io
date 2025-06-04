@@ -1,9 +1,9 @@
 ---
 title: "Lindy Effect"
 date: 2025-04-23
-slug: "lindy-effect"
 ref: https://en.wikipedia.org/wiki/Lindy_effect
 ---
+
 
 Quoting [wikipedia.org](https://en.wikipedia.org/wiki/Lindy_effect):
 

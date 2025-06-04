@@ -1,9 +1,9 @@
 ---
 title: "#648: James Clear, Atomic Habits — Simple Strategies for Building (And Breaking) Habits, Questions for Personal Mastery and Growth, Tactics for Writing and Launching a Mega-Bestseller, Finding Leverage, and More"
 date: 2025-03-25
-slug: "648-james-clear-atomic-habits-simple-strategies-for-building-and-breaking-habits-questions-for-personal-mastery-and-growth-tactics-for-writing-and-launching-a-mega-bestseller-finding-leverage-and-more"
 ref: https://share.snipd.com/episode/5bdcdf32-7f6c-461a-a75b-e0849af100cb
 ---
+
 
 Quoting [The Tim Ferriss Show](https://share.snipd.com/episode/5bdcdf32-7f6c-461a-a75b-e0849af100cb):
 

@@ -1,9 +1,9 @@
 ---
 title: "Introducing Aria Gen 2"
 date: 2025-02-28
-slug: "introducing-aria-gen-2"
 ref: https://www.youtube.com/watch?v=GjZo2On_oOI
 ---
+
 
 Quoting [Meta Open Source](https://www.youtube.com/watch?v=GjZo2On_oOI):
 

@@ -1,9 +1,9 @@
 ---
 title: "Liberation Day, Tariffs, US v China Open Source, OpenAI Fundraise, $CRWV, TikTok | BG2 W/ Bill Gurley & Brad Gerstner"
 date: 2025-04-04
-slug: "liberation-day-tariffs-us-v-china-open-source-openai-fundraise-crwv-tiktok-bg2-w-bill-gurley-brad-gerstner"
 ref: https://share.snipd.com/episode/7a0e5e21-8800-4ee0-ac2d-6fad23477192
 ---
+
 
 Quoting [BG2Pod with Brad Gerstner and Bill Gurley](https://share.snipd.com/episode/7a0e5e21-8800-4ee0-ac2d-6fad23477192):
 

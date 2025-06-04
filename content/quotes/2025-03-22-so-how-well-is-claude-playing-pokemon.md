@@ -1,9 +1,9 @@
 ---
 title: "So how well is Claude playing Pokémon?"
 date: 2025-03-22
-slug: "so-how-well-is-claude-playing-pokemon"
 ref: https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon
 ---
+
 
 Quoting [Julian Bradshaw](https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon):
 

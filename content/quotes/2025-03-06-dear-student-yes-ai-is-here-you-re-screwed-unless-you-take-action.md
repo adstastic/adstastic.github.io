@@ -1,9 +1,9 @@
 ---
 title: "Dear Student: Yes, AI Is Here, You're Screwed Unless You Take Action..."
 date: 2025-03-06
-slug: "dear-student-yes-ai-is-here-you-re-screwed-unless-you-take-action"
 ref: https://ghuntley.com/screwed/?utm_source=tldrnewsletter
 ---
+
 
 Quoting [Geoffrey Huntley](https://ghuntley.com/screwed/?utm_source=tldrnewsletter):
 

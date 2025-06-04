@@ -1,11 +1,11 @@
 ---
-date: 2025-05-19
-slug: "please-stop-forcing-clippy-on-those-who-want-anton"
 title: "Please Stop Forcing Clippy on Those Who Want Anton"
-ref: https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true
+date: 2025-05-19
 tags:
   - quote
+ref: https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true
 ---
+
 
 Quoting [swyx &amp; Alessio](https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true):
 

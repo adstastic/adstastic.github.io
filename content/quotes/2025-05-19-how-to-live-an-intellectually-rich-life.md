@@ -1,13 +1,13 @@
 ---
-date: 2025-05-19
-slug: "how-to-live-an-intellectually-rich-life"
 title: "How to Live an Intellectually Rich Life"
-ref: https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
+date: 2025-05-19
 tags:
   - quote
   - wisdom
   - re-read
+ref: https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
 ---
+
 
 Quoting [Utsav Mamoria](https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true):
 

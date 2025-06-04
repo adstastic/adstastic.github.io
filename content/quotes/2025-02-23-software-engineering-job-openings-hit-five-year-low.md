@@ -1,9 +1,9 @@
 ---
 title: "Software Engineering Job Openings Hit Five-Year Low?"
 date: 2025-02-23
-slug: "software-engineering-job-openings-hit-five-year-low"
 ref: https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/?utm_source=tldrnewsletter
 ---
+
 
 Quoting [Gergely Orosz](https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/?utm_source=tldrnewsletter):
 

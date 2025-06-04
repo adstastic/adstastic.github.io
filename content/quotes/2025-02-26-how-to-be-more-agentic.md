@@ -1,7 +1,6 @@
 ---
 title: "How to Be More Agentic"
 date: 2025-02-26
-slug: "how-to-be-more-agentic"
 tags:
   - best
   - re-read
@@ -9,6 +8,7 @@ tags:
   - wisdom
 ref: https://usefulfictions.substack.com/p/how-to-be-more-agentic
 ---
+
 
 Quoting [Cate Hall](https://usefulfictions.substack.com/p/how-to-be-more-agentic):
 

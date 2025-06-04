@@ -1,9 +1,9 @@
 ---
 title: "Leaked Windsurf Prompt"
 date: 2025-02-27
-slug: "leaked-windsurf-prompt"
 ref: https://simonwillison.net/2025/Feb/25/leaked-windsurf-prompt/#atom-everything
 ---
+
 
 Quoting [Simon Willison](https://simonwillison.net/2025/Feb/25/leaked-windsurf-prompt/#atom-everything):
 

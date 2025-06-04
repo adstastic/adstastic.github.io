@@ -1,7 +1,6 @@
 ---
 title: "You Are Witnessing the Death of American Capitalism"
 date: 2025-03-11
-slug: "you-are-witnessing-the-death-of-american-capitalism"
 tags:
   - economics
   - politics
@@ -9,6 +8,7 @@ tags:
   - important
 ref: https://www.youtube.com/watch?v=gqtrNXdlraM
 ---
+
 
 Quoting [Benn Jordan](https://www.youtube.com/watch?v=gqtrNXdlraM):
 

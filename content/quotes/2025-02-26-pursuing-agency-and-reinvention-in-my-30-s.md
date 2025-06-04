@@ -1,7 +1,6 @@
 ---
 title: "Pursuing Agency and Reinvention in My 30's"
 date: 2025-02-26
-slug: "pursuing-agency-and-reinvention-in-my-30-s"
 tags:
   - i-feel-seen
   - re-read
@@ -10,6 +9,7 @@ tags:
   - best
 ref: https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention
 ---
+
 
 Quoting [Mike](https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention):
 

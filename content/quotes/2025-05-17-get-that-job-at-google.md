@@ -1,12 +1,12 @@
 ---
 title: "Get That Job at Google"
 date: 2025-05-17
-slug: "get-that-job-at-google"
 tags:
   - job
   - interviewing
 ref: https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html?m=1
 ---
+
 
 Quoting [Steve Yegge](https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html?m=1):
 

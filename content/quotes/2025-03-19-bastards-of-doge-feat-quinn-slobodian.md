@@ -1,9 +1,9 @@
 ---
 title: "Bastards of DOGE Feat. Quinn Slobodian"
 date: 2025-03-19
-slug: "bastards-of-doge-feat-quinn-slobodian"
 ref: https://share.snipd.com/episode/9aa63908-b768-4e8b-99e9-69f76cdca525
 ---
+
 
 Quoting [TRASHFUTURE](https://share.snipd.com/episode/9aa63908-b768-4e8b-99e9-69f76cdca525):
 

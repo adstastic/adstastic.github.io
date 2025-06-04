@@ -1,9 +1,9 @@
 ---
 title: "28 Slightly Rude Notes on Writing"
 date: 2025-05-04
-slug: "28-slightly-rude-notes-on-writing"
 ref: https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing?r=5lwff8&utm_medium=ios&triedRedirect=true
 ---
+
 
 Quoting [Adam Mastroianni](https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing?r=5lwff8&utm_medium=ios&triedRedirect=true):
 

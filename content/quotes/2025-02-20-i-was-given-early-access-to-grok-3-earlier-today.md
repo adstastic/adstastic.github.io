@@ -1,9 +1,9 @@
 ---
 title: "I Was Given Early Access to Grok 3 Earlier Today..."
 date: 2025-02-20
-slug: "i-was-given-early-access-to-grok-3-earlier-today"
 ref: https://x.com/karpathy/status/1891720635363254772/?mx=2&rw_tt_thread=True
 ---
+
 
 Quoting [Andrej Karpathy](https://x.com/karpathy/status/1891720635363254772/?mx=2&rw_tt_thread=True):
 

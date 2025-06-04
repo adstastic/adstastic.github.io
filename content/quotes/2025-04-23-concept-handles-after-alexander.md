@@ -1,9 +1,9 @@
 ---
 title: "Concept Handles, After Alexander"
 date: 2025-04-23
-slug: "concept-handles-after-alexander"
 ref: https://notes.andymatuschak.org/z3b7sidNrEkNaY9qfGwZjwz
 ---
+
 
 Quoting [Scott Alexander](https://notes.andymatuschak.org/z3b7sidNrEkNaY9qfGwZjwz):
 

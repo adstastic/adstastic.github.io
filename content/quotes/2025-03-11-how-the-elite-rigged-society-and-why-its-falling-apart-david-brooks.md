@@ -1,9 +1,9 @@
 ---
 title: "How the Elite Rigged Society (And Why It’s Falling Apart) | David Brooks"
 date: 2025-03-11
-slug: "how-the-elite-rigged-society-and-why-its-falling-apart-david-brooks"
 ref: https://www.youtube.com/watch?si=n__DbcXykSIZtVS8&v=QSa52TR9tCA&feature=youtu.be
 ---
+
 
 Quoting [Alliance for Responsible Citizenship](https://www.youtube.com/watch?si=n__DbcXykSIZtVS8&v=QSa52TR9tCA&feature=youtu.be):
 

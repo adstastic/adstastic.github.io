@@ -1,9 +1,9 @@
 ---
 title: "AI #104: American State Capacity on the Brink"
 date: 2025-02-23
-slug: "ai-104-american-state-capacity-on-the-brink"
 ref: https://thezvi.substack.com/p/ai-104-american-state-capacity-on
 ---
+
 
 Quoting [Zvi Mowshowitz](https://thezvi.substack.com/p/ai-104-american-state-capacity-on):
 

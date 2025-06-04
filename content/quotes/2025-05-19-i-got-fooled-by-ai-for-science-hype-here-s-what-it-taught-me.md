@@ -1,11 +1,11 @@
 ---
-date: 2025-05-19
-slug: "i-got-fooled-by-ai-for-science-hype-here-s-what-it-taught-me"
 title: "I Got Fooled by AI-for-science Hype—here&#39;s What It Taught Me"
-ref: https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
+date: 2025-05-19
 tags:
   - quote
+ref: https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
 ---
+
 
 Quoting [Nick McGreivy](https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true):
 

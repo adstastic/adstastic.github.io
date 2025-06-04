@@ -1,11 +1,11 @@
 ---
 title: "You can't hoard life"
 date: 2025-01-20
-slug: "cant-hoard-life"
 tags:
   - quote
 ref: https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk
 ---
+
 
 Quoting [ckarchive.com](https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk):
 

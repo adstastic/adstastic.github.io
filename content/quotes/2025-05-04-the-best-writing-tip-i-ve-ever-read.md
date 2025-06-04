@@ -1,9 +1,9 @@
 ---
 title: "The Best Writing Tip I've Ever Read"
 date: 2025-05-04
-slug: "the-best-writing-tip-i-ve-ever-read"
 ref: https://lindac.substack.com/p/the-best-writing-tip-ive-ever-read?r=5lwff8&utm_medium=ios&triedRedirect=true
 ---
+
 
 Quoting [Linda Caroll](https://lindac.substack.com/p/the-best-writing-tip-ive-ever-read?r=5lwff8&utm_medium=ios&triedRedirect=true):
 

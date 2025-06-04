@@ -1,9 +1,9 @@
 ---
 title: "I Use Cursor Daily - Here's How I Avoid the Garbage Parts"
 date: 2025-03-14
-slug: "i-use-cursor-daily-here-s-how-i-avoid-the-garbage-parts"
 ref: https://www.nickcraux.com/blog/cursor-tips
 ---
+
 
 Quoting [nickcraux.com](https://www.nickcraux.com/blog/cursor-tips):
 

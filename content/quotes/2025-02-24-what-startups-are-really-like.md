@@ -1,9 +1,9 @@
 ---
 title: "What Startups Are Really Like"
 date: 2025-02-24
-slug: "what-startups-are-really-like"
 ref: https://paulgraham.com/really.html
 ---
+
 
 Quoting [Paul Graham](https://paulgraham.com/really.html):
 

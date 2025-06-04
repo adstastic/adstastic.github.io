@@ -1,9 +1,9 @@
 ---
 title: "The AI Wearables Are Always Listening"
 date: 2025-05-07
-slug: "the-ai-wearables-are-always-listening"
 ref: https://share.snipd.com/episode/a9d3f559-7d2c-4240-ade2-a552859bf503
 ---
+
 
 Quoting [The Vergecast](https://share.snipd.com/episode/a9d3f559-7d2c-4240-ade2-a552859bf503):
 

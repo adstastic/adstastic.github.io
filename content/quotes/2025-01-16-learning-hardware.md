@@ -1,11 +1,11 @@
 ---
 title: "How to Learn Hardware"
 date: 2025-01-16
-slug: "learning-hardware"
 tags:
   - quote
 ref: https://caseyhandmer.wordpress.com/2024/06/08/how-to-learn-hardware/
 ---
+
 
 Quoting [Casey Handmer's blog](https://caseyhandmer.wordpress.com/2024/06/08/how-to-learn-hardware/):
 

@@ -1,9 +1,9 @@
 ---
 title: "Daikokuten - 大黒天"
 date: 2025-03-28
-slug: "daikokuten-da-hei-tian"
 ref: https://janklug.substack.com/p/daikokuten
 ---
+
 
 Quoting [Jan](https://janklug.substack.com/p/daikokuten):
 

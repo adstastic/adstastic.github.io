@@ -1,9 +1,9 @@
 ---
 title: "Uh So About That Asteroid"
 date: 2025-02-17
-slug: "uh-so-about-that-asteroid"
 ref: https://interconnected.org/home/2025/02/14/asteroid
 ---
+
 
 Quoting [Interconnected](https://interconnected.org/home/2025/02/14/asteroid):
 

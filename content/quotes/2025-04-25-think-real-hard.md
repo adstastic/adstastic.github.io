@@ -1,9 +1,9 @@
 ---
 title: "Think real hard"
 date: 2025-04-25
-slug: "think-real-hard"
 ref: https://www.benkuhn.net/thinkrealhard/
 ---
+
 
 Quoting [benkuhn.net](https://www.benkuhn.net/thinkrealhard/):
 

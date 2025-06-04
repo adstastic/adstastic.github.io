@@ -1,11 +1,11 @@
 ---
 title: "Why being too smart makes you stupid"
 date: 2025-01-19
-slug: "too-smart-stupid"
 tags:
   - quote
 ref: https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512
 ---
+
 
 Quoting [Theo Seeds](https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512):
 

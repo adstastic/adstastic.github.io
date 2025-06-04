@@ -1,9 +1,9 @@
 ---
 title: "You Are Using Cursor AI Incorrectly..."
 date: 2025-04-08
-slug: "you-are-using-cursor-ai-incorrectly"
 ref: https://ghuntley.com/stdlib/
 ---
+
 
 Quoting [Geoffrey Huntley](https://ghuntley.com/stdlib/):
 

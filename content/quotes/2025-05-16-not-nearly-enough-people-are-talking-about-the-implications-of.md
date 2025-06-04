@@ -1,19 +1,11 @@
 ---
-<<<<<<< HEAD
-date: 2025-05-16
-slug: "not-nearly-enough-people-are-talking-about-the-implications-of"
-=======
->>>>>>> origin/main
 title: "Not Nearly Enough People Are Talking About the Implications Of Klarna rolling back some of their AI bets."
 date: 2025-05-16
-slug: "not-nearly-enough-people-are-talking-about-the-implications-of"
-ref: https://x.com/chamath/status/1922096736308490416/
-<<<<<<< HEAD
 tags:
   - quote
-=======
->>>>>>> origin/main
+ref: https://x.com/chamath/status/1922096736308490416/
 ---
+
 
 Quoting [Chamath Palihapitiya](https://x.com/chamath/status/1922096736308490416/):
 

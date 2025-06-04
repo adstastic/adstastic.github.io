@@ -1,9 +1,9 @@
 ---
 title: "Relentlessly Resourceful"
 date: 2025-04-23
-slug: "relentlessly-resourceful"
 ref: https://www.paulgraham.com/relres.html
 ---
+
 
 Quoting [Paul Graham](https://www.paulgraham.com/relres.html):
 

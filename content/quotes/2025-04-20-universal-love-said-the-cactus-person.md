@@ -1,9 +1,9 @@
 ---
 title: "Universal Love, Said The Cactus Person"
 date: 2025-04-20
-slug: "universal-love-said-the-cactus-person"
 ref: https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/
 ---
+
 
 Quoting [Scott Alexander](https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/):
 

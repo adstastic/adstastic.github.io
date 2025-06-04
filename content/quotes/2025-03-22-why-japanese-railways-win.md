@@ -1,9 +1,9 @@
 ---
 title: "Why Japanese Railways Win"
 date: 2025-03-22
-slug: "why-japanese-railways-win"
 ref: https://youtube.com/watch?v=7u0_nrsfxXs&si=d7sbydUit12IMv4Q
 ---
+
 
 Quoting [Wendover Productions](https://youtube.com/watch?v=7u0_nrsfxXs&si=d7sbydUit12IMv4Q):
 

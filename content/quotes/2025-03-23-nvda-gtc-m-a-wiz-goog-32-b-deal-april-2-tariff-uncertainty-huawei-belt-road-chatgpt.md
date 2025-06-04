@@ -1,9 +1,9 @@
 ---
 title: "NVDA GTC, M&A Wiz / Goog $32 B Deal, April 2 Tariff Uncertainty; Huawei Belt & Road; ChatGPT"
 date: 2025-03-23
-slug: "nvda-gtc-m-a-wiz-goog-32-b-deal-april-2-tariff-uncertainty-huawei-belt-road-chatgpt"
 ref: https://share.snipd.com/episode/96e14dcf-38f9-4308-8aaf-bcd4ed818b5b
 ---
+
 
 Quoting [BG2Pod with Brad Gerstner and Bill Gurley](https://share.snipd.com/episode/96e14dcf-38f9-4308-8aaf-bcd4ed818b5b):
 

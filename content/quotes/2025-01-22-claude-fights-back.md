@@ -1,11 +1,11 @@
 ---
 title: "Claude Fights Back"
 date: 2025-01-22
-slug: "claude-fights-back"
 tags:
   - quote
 ref: https://www.astralcodexten.com/p/claude-fights-back
 ---
+
 
 Quoting [Scott Alexander](https://www.astralcodexten.com/p/claude-fights-back):
 

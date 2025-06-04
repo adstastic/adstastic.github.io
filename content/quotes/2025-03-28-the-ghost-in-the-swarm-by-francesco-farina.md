@@ -1,9 +1,9 @@
 ---
 title: "The Ghost in the Swarm - By Francesco Farina"
 date: 2025-03-28
-slug: "the-ghost-in-the-swarm-by-francesco-farina"
 ref: https://francescofarina.substack.com/p/the-ghost-in-the-swarm?source=queue
 ---
+
 
 Quoting [Francesco Farina](https://francescofarina.substack.com/p/the-ghost-in-the-swarm?source=queue):
 

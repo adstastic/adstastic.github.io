@@ -1,9 +1,9 @@
 ---
 title: "What I'd Do as a College Freshman in 2025"
 date: 2025-04-23
-slug: "what-i-d-do-as-a-college-freshman-in-2025"
 ref: https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html?utm_source=tldrnewsletter
 ---
+
 
 Quoting [Blogger](https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html?utm_source=tldrnewsletter):
 
