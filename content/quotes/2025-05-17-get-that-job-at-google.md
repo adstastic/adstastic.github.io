@@ -1,10 +1,12 @@
 ---
-layout: quote
 title: "Get That Job at Google"
-ref: https://readwise.io/bookreview/51478391
+date: 2025-05-17
+slug: "get-that-job-at-google"
 tags:
+  - quote
   - job
   - interviewing
+ref: https://readwise.io/bookreview/51478391
 ---
 
 Quoting [Steve Yegge](https://readwise.io/bookreview/51478391):
