@@ -524,14 +524,17 @@
     margin-right: calc(var(--spacing) * 1);
     display: inline-block;
     vertical-align: text-top;
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5rem;
     --tw-leading: 1;
     line-height: 1;
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     text-decoration-line: none;
+    /* Ensure consistent rendering across browsers */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   .post-title-link:hover .quote-indicator {
     color: var(--color-blue);
