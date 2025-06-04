@@ -1,14 +1,16 @@
 ---
-layout: post
 title: "{{ quote.title }}"
-ref: {{ quote.url }}
-tags: 
+date: {{ quote.date }}
+slug: "{{ quote.slug }}"
+tags:
+  - quote
 {%- for tag in quote.tags %}
-  - {{ tag }}
+  - {{ tag | lower | replace(' ', '-') }}
 {%- endfor %}
+ref: {{ quote.source_url | default(quote.url) }}
 ---
 
-Quoting [{{ quote.author }}]({{ quote.url }}):
+Quoting [{{ quote.author }}]({{ quote.source_url | default(quote.url) }}):
 {% for highlight in quote.highlights %}
 > {{ highlight }}
 {% endfor %}

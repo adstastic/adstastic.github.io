@@ -1,0 +1,13 @@
+{
+  "name": "adstastic.github.io",
+  "version": "1.0.0",
+  "description": "Personal blog built with Hugo and Tailwind CSS",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./styles/input.css -o ./static/css/main.css --watch",
+    "build": "npx @tailwindcss/cli -i ./styles/input.css -o ./static/css/main.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  }
+}

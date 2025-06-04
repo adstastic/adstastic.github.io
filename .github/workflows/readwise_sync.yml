@@ -34,20 +34,24 @@ jobs:
           if [ -z "$FETCH_DATE" ]; then
             FETCH_DATE=$(date -u -d "yesterday" '+%Y-%m-%d')
           fi
-          echo "Fetching highlights from $FETCH_DATE for output to _posts/quotes"
-          uv run fetch_and_generate_quotes.py --start-date "$FETCH_DATE" --output-dir _posts/quotes
+          echo "Fetching highlights from $FETCH_DATE for output to content/quotes"
+          uv run fetch_and_generate_quotes.py --start-date "$FETCH_DATE" --output-dir content/quotes
 
+
+      - name: Set Current Date for PR
+        id: set_run_date
+        run: echo "run_date_output=$(date -u +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request for New Quotes
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Automated update for new Readwise quote posts
-          title: "Readwise Quotes - $(date +'%Y-%m-%d')"
+          title: "Readwise Quotes - ${{ steps.set_run_date.outputs.run_date_output }}"
           body: |
             New quote posts generated from Readwise API.
             Please review and merge.
-          branch: "readwise-quotes-$(date +'%Y-%m-%d')"
+          branch: "readwise-quotes-${{ steps.set_run_date.outputs.run_date_output }}"
           base: main
           reviewers: adstastic
           author: GitHub Action <action@github.com>
