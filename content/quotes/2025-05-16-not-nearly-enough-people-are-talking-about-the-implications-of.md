@@ -1,8 +1,10 @@
 ---
-layout: quote
 title: "Not Nearly Enough People Are Talking About the Implications Of..."
-ref: https://readwise.io/bookreview/51452486
+date: 2025-05-16
+slug: "not-nearly-enough-people-are-talking-about-the-implications-of"
 tags:
+  - quote
+ref: https://readwise.io/bookreview/51452486
 ---
 
 Quoting [Chamath Palihapitiya](https://readwise.io/bookreview/51452486):
