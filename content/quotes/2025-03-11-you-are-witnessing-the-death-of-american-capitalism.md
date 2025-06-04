@@ -8,8 +8,6 @@ tags:
   - important
 ref: https://www.youtube.com/watch?v=gqtrNXdlraM
 ---
-
-
 Quoting [Benn Jordan](https://www.youtube.com/watch?v=gqtrNXdlraM):
 
 > The point of all this maneuvering is decreasingly about turning a profit and increasingly about transitioning to a rent-based economy that hedges inflation

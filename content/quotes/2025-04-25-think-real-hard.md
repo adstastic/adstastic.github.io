@@ -3,8 +3,6 @@ title: "Think real hard"
 date: 2025-04-25
 ref: https://www.benkuhn.net/thinkrealhard/
 ---
-
-
 Quoting [benkuhn.net](https://www.benkuhn.net/thinkrealhard/):
 
 > A lot of the things people ask for advice on fall into this category. “How can I be happier?” “How can I be more productive?” “How can I have a bigger impact on the world?” Sure, there are basic life hacks like sleeping well or getting exercise. But 99% of the “secret”—the thing that separates me from Gell-Mann, or Jeff Dean—is tacit knowledge. It often can’t be articulated any better than “think real hard.” But, believe it or not, thinking real hard, for real long, *does* work.

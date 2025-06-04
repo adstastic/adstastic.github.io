@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://patrickdfarley.com/wielding-willpower/
 ---
-
-
 Quoting [on May 17](https://patrickdfarley.com/wielding-willpower/):
 
 > By willpower, I mean your ability to act according to your sober, carefully reasoned preferences. When those preferences “win out” often on big decisions, we feel like we’re in control of our lives, and we sometimes describe it as high willpower.

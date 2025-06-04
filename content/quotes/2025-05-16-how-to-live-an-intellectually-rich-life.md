@@ -3,8 +3,6 @@ title: "How to Live an Intellectually Rich Life"
 date: 2025-05-16
 ref: https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&utm_medium=ios&triedRedirect=true
 ---
-
-
 Quoting [Utsav Mamoria](https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&utm_medium=ios&triedRedirect=true):
 
 > Epistemic Anxiety is the feeling of uneasiness, tension, and concern when you want to know the truth. You worry that your knowledge is incomplete and full of errors, and you may believe it.

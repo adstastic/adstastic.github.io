@@ -3,8 +3,6 @@ title: "#648: James Clear, Atomic Habits — Simple Strategies for Building (And
 date: 2025-03-25
 ref: https://share.snipd.com/episode/5bdcdf32-7f6c-461a-a75b-e0849af100cb
 ---
-
-
 Quoting [The Tim Ferriss Show](https://share.snipd.com/episode/5bdcdf32-7f6c-461a-a75b-e0849af100cb):
 
 > **Questions vs. Advice**

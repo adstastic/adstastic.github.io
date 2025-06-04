@@ -3,8 +3,6 @@ title: "Agency > Intelligence"
 date: 2025-02-28
 ref: https://x.com/karpathy/status/1894099637218545984/?s=12&rw_tt_thread=True
 ---
-
-
 Quoting [Andrej Karpathy](https://x.com/karpathy/status/1894099637218545984/?s=12&rw_tt_thread=True):
 
 > “Agency, as a personality trait, refers to an individual's capacity to take initiative, make decisions, and exert control over their actions and environment. It’s about being proactive rather than reactive—someone with high agency doesn’t just let life happen to them; they shape it. Think of it as a blend of self-efficacy, determination, and a sense of ownership over one’s path.

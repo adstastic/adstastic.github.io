@@ -3,8 +3,6 @@ title: "The Tails Coming Apart As Metaphor For Life"
 date: 2025-02-15
 ref: https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life
 ---
-
-
 Quoting [Scott Alexander](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life):
 
 > understand [words as hidden inferences](https://www.lesswrong.com/posts/3nxs2WYDGzJbzcLMp/words-as-hidden-inferences) – they refer to a multidimensional correlation rather than to a single cohesive property.

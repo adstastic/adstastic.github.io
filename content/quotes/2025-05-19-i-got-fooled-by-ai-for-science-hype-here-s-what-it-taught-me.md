@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
 ---
-
-
 Quoting [Nick McGreivy](https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true):
 
 > in 2023 DeepMind [claimed](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) to have discovered 2.2 million crystal structures, [representing](https://www.nature.com/articles/s41586-023-06735-9) “an order-of-magnitude expansion in stable materials known to humanity.” But when [materials](https://x.com/Robert_Palgrave/status/1744383962913394758) [scientists](https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002) [analyzed these compounds](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643), they found it was “[mostly junk](https://www.aisnakeoil.com/p/scientists-should-use-ai-as-a-tool)” and “respectfully” suggested that the paper “does not report any new materials.”

@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://tim.blog/2024/11/10/derren-brown-transcript/
 ---
-
-
 Quoting Derren Brown on [Tim Ferriss #776](https://tim.blog/2024/11/10/derren-brown-transcript/).
 
 I used to watch a lot of Derren Brown's shows growing up, back when I was more interested in magic, mentalism, and psychology. 

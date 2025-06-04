@@ -3,8 +3,6 @@ title: "I Use Cursor Daily - Here's How I Avoid the Garbage Parts"
 date: 2025-03-14
 ref: https://www.nickcraux.com/blog/cursor-tips
 ---
-
-
 Quoting [nickcraux.com](https://www.nickcraux.com/blog/cursor-tips):
 
 > •   I like Composer (now called Agent) for simple, low impact changes. And Chat (Ask) for everything else. Just the step of manually having to click apply and taking that extra second to think about the changes it's making, and in which files it's happening, rather than just be presented with a wave of green changes ready to get smashed in.

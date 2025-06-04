@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.notboring.co/p/the-fusion-race
 ---
-
-
 Quoting [Packy McCormick](https://www.notboring.co/p/the-fusion-race):
 
 > Imagine a bizarro relay marathon in which one runner carries the baton for the first 26.0 miles, opens up a backpack full of batons, and hands them out liberally to a waiting horde of sprinters to dash all-out for the final 0.2 miles. That’s the best analogy we can come up with for this moment in the Fusion Race.

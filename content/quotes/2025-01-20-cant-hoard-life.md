@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk
 ---
-
-
 Quoting [ckarchive.com](https://ckarchive.com/b/68ueh8hkxrx6lukq88gqmtz7vxkkk):
 
 > “we cannot get anything out of life. There is no outside where we could take this thing to. There is no little pocket situated outside of life”

@@ -3,8 +3,6 @@ title: "How to Twitter Successfully"
 date: 2025-03-22
 ref: https://near.blog/how-to-twitter-successfully/
 ---
-
-
 Quoting [near](https://near.blog/how-to-twitter-successfully/):
 
 > Put an unreasonable amount of effort into your content.

@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/
 ---
-
-
 Quoting [Casey Handmer's blog](https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/):
 
 > One day you will die.<br>You only get a few chances to work on really big projects, to build the future, to move humanity forward. Choose wisely!<br>“What sort of project should I work on?”<br>It should be something at the limit of your capability, so that you grow the most and have the most leverage.<br>It should be something that you, personally, need to see exist in the world.<br>It should be something that would not occur if you don’t do it. You need to seek out inefficient markets for effort.

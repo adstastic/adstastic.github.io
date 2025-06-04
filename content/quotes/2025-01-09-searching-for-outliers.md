@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.benkuhn.net/outliers/
 ---
-
-
 Quoting [benkuhn.net](https://www.benkuhn.net/outliers/):
 
 > Light-tailed distributions most often occur because the outcome is the result of many independent contributions, while heavy-tailed distributions often arise from the result of processes that are multiplicative or self-reinforcing.

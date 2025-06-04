@@ -3,8 +3,6 @@ title: "Hallucinations in Code Are the Least Dangerous Form of LLM Mistakes"
 date: 2025-03-02
 ref: https://simonwillison.net/2025/Mar/2/hallucinations-in-code/#atom-everything
 ---
-
-
 Quoting [Simon Willison](https://simonwillison.net/2025/Mar/2/hallucinations-in-code/#atom-everything):
 
 > Proving to yourself that the code works is your job.

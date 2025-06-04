@@ -8,8 +8,6 @@ tags:
   - wisdom
 ref: https://usefulfictions.substack.com/p/how-to-be-more-agentic
 ---
-
-
 Quoting [Cate Hall](https://usefulfictions.substack.com/p/how-to-be-more-agentic):
 
 > radical agency is about finding real edges: things you are willing to do that others aren’t, often because they’re annoying or unpleasant. These don’t always surface in awareness to the point one is actually *choosing* -- often they live in a cloud of aversion that strategically obscures the tradeoff.

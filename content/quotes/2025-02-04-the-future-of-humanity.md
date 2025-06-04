@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://newsletter.rootsofprogress.org/p/the-future-of-humanity-is-in-management
 ---
-
-
 Quoting [Jason Crawford](https://newsletter.rootsofprogress.org/p/the-future-of-humanity-is-in-management):
 
 > what doesn’t make any sense is all of humanity starving to death from unemployment. Jobs and technology have a purpose: producing the good and services we need to live and thrive. If your model of the world includes the possibility that we would create the most advanced technology the world has ever seen, and the result would be mass starvation, then I think your model is fundamentally flawed.

@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512
 ---
-
-
 Quoting [Theo Seeds](https://medium.com/@theo.seeds/why-being-too-smart-makes-you-stupid-46a02e777512):
 
 > smart people have a bigger “bag of tricks” for justifying the stupid bullshit they believe. It’s easier for them to come up with a convincing explanation for believing something dumb. So they’re less likely to realize they’re wrong.

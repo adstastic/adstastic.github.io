@@ -10,8 +10,6 @@ tags:
   - ai
 ref: https://nealstephenson.substack.com/p/remarks-on-ai-from-nz
 ---
-
-
 Quoting [Neal Stephenson](https://nealstephenson.substack.com/p/remarks-on-ai-from-nz):
 
 ## How humans can coexist with other intelligences

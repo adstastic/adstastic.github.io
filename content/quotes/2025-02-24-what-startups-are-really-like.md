@@ -3,8 +3,6 @@ title: "What Startups Are Really Like"
 date: 2025-02-24
 ref: https://paulgraham.com/really.html
 ---
-
-
 Quoting [Paul Graham](https://paulgraham.com/really.html):
 
 > You haven't seen someone's true colors unless you've worked with them on a startup.

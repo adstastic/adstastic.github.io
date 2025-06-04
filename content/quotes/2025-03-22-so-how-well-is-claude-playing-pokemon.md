@@ -3,8 +3,6 @@ title: "So how well is Claude playing Pokémon?"
 date: 2025-03-22
 ref: https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon
 ---
-
-
 Quoting [Julian Bradshaw](https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon):
 
 > The funny thing is that pokemon is a simple, railroady enough game that RNG can beat the game given enough time (and this has been done)[[6]](https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon#fnn7pl47fim8), but it turns out to take a surprising amount of cognitive architecture to play the game in a fully-sensible-looking way  

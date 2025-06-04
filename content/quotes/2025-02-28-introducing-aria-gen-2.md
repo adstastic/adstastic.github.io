@@ -3,8 +3,6 @@ title: "Introducing Aria Gen 2"
 date: 2025-02-28
 ref: https://www.youtube.com/watch?v=GjZo2On_oOI
 ---
-
-
 Quoting [Meta Open Source](https://www.youtube.com/watch?v=GjZo2On_oOI):
 
 > Project Harrier, from the outset, was designed to begin a revolution around always-on, human-centric computing.

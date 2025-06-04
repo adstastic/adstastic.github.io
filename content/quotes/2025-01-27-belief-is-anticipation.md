@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences
 ---
-
-
 Quoting [Eliezer Yudkowsky](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences):
 
 > The rationalist virtue of empiricism consists of constantly asking which experiences our beliefs predict—or better yet, prohibit.

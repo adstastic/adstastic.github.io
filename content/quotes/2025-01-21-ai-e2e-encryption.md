@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption
 ---
-
-
 Quoting [Matthew Green](https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption):
 
 > In theory those systems could remove your need to ever touch your phone again: they’ll answer your text messages for you, order your food, swipe your dating profile, negotiate with your lenders, and generally anticipate your every want or need. The only ingredient they’ll need to make this future come true is virtually unrestricted access to all your private data, plus a whole gob of computing power to process it.

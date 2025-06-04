@@ -3,8 +3,6 @@ title: "Liberation Day, Tariffs, US v China Open Source, OpenAI Fundraise, $CRWV
 date: 2025-04-04
 ref: https://share.snipd.com/episode/7a0e5e21-8800-4ee0-ac2d-6fad23477192
 ---
-
-
 Quoting [BG2Pod with Brad Gerstner and Bill Gurley](https://share.snipd.com/episode/7a0e5e21-8800-4ee0-ac2d-6fad23477192):
 
 > **Florida's Comeback Win**

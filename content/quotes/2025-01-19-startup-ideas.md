@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://paulgraham.com/startupideas.html
 ---
-
-
 Quoting [Paul Graham](https://paulgraham.com/startupideas.html):
 
 > When a startup launches, there have to be at least some users who really need what they're making — not just people who could see themselves using it one day, but who want it urgently. Usually this initial group of users is small, for the simple reason that if there were something that large numbers of people urgently needed and that could be built with the amount of effort a startup usually puts into a version one, it would probably already exist. Which means you have to compromise on one dimension: you can either build something a large number of people want a small amount, or something a small number of people want a large amount. Choose the latter. Not all ideas of that type are good startup ideas, but nearly all good startup ideas are of that type.

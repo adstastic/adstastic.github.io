@@ -3,8 +3,6 @@ title: "How the Elite Rigged Society (And Why It’s Falling Apart) | David Broo
 date: 2025-03-11
 ref: https://www.youtube.com/watch?si=n__DbcXykSIZtVS8&v=QSa52TR9tCA&feature=youtu.be
 ---
-
-
 Quoting [Alliance for Responsible Citizenship](https://www.youtube.com/watch?si=n__DbcXykSIZtVS8&v=QSa52TR9tCA&feature=youtu.be):
 
 > if what is right and wrong depends on what each individual feels then we are outside the bounds of civilization

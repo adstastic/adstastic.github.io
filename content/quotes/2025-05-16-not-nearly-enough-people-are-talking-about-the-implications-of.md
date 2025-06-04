@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://x.com/chamath/status/1922096736308490416/
 ---
-
-
 Quoting [Chamath Palihapitiya](https://x.com/chamath/status/1922096736308490416/):
 
 > Replacing determinism or humans with probabilistic code is fraught with edge cases and require new ways of software development and process engineering that aren't well solved yet.

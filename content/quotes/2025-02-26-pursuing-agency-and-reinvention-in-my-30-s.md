@@ -9,8 +9,6 @@ tags:
   - best
 ref: https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention
 ---
-
-
 Quoting [Mike](https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention):
 
 > I'm 34 years old. About the age where you can no longer hide behind the fact that you have plenty of time to grow up and become the person you want to be. It's also not so far into middle age that your efforts in changing can't take root and produce fruit. At least, that's the hope that drives me.

@@ -3,8 +3,6 @@ title: "The Hobby Project"
 date: 2025-02-15
 ref: https://timefold.ai/blog/how-i-built-an-ai-company-to-save-my-open-source-project?utm_source=tldrnewsletter
 ---
-
-
 Quoting [Geoffrey De Smet](https://timefold.ai/blog/how-i-built-an-ai-company-to-save-my-open-source-project?utm_source=tldrnewsletter):
 
 > “You can’t build a world-class product as a hobby.”

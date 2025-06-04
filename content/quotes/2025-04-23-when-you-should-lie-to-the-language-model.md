@@ -3,8 +3,6 @@ title: "When You Should Lie to the Language Model"
 date: 2025-04-23
 ref: https://www.seangoedecke.com/lying-to-llms/?utm_source=tldrnewsletter
 ---
-
-
 Quoting [seangoedecke.com](https://www.seangoedecke.com/lying-to-llms/?utm_source=tldrnewsletter):
 
 > Here’s an unreasonably effective trick for working with AIs: **always pretend that your work was produced by someone else.**

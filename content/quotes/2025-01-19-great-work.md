@@ -5,8 +5,6 @@ tags:
   - quote
 ref: http://paulgraham.com/greatwork.html
 ---
-
-
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html).
 
 Exponentials:

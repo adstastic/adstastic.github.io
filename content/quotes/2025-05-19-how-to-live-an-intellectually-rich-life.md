@@ -7,8 +7,6 @@ tags:
   - re-read
 ref: https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
 ---
-
-
 Quoting [Utsav Mamoria](https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true):
 
 > Zhang’s work was never about the hustle culture which envelopes and consumes us, just like the swallowing trees of Moradoom do. His routine is a beautiful poem, pithy with a clear message - Consistency over Flashes of Brilliance. Repeatability over Spontaneous Genius.

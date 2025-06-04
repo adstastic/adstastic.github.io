@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.youtube.com/watch?v=hM_h0UA7upI
 ---
-
-
 Quoting Andrej Karpathy from [No Priors #80](https://www.youtube.com/watch?v=hM_h0UA7upI). 
 
 #### Self-Driving Cars

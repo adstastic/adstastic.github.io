@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://x.com/tautologer/status/1924021777719836774/?s=12&rw_tt_thread=True
 ---
-
-
 Quoting [tautologer](https://x.com/tautologer/status/1924021777719836774/?s=12&rw_tt_thread=True):
 
 > the optimal user interface is that you simply say this sentence aloud and then the list appears on your screen

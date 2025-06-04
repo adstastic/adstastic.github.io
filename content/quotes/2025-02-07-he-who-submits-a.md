@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.residentcontrarian.com/p/he-who-submits-a-resume-has-already?utm_source=tldrnewsletter
 ---
-
-
 Quoting [Resident Contrarian](https://www.residentcontrarian.com/p/he-who-submits-a-resume-has-already?utm_source=tldrnewsletter):
 
 > There’s a reason people sometimes get very serious about networking; for the most part, that’s how good jobs are found.

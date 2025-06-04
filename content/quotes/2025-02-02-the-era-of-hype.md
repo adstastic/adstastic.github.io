@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://francescofarina.substack.com/p/the-era-of-hype-why-the-model-is
 ---
-
-
 Quoting [Francesco Farina](https://francescofarina.substack.com/p/the-era-of-hype-why-the-model-is):
 
 > I’ve seen too many small fund managers praising their higher likelihood of success

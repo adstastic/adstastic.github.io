@@ -5,8 +5,6 @@ tags:
   - quote
 ref: https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true
 ---
-
-
 Quoting [swyx &amp; Alessio](https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true):
 
 > the two schools of thought in building AI products:

@@ -5,8 +5,6 @@ tags:
   - quote
 ref: http://paulgraham.com/greatwork.html
 ---
-
-
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html):
 
 > Develop a habit of working on your own projects. Don't let "work" mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own. It may be within some bigger project, but you'll be driving your part of it.
