@@ -1,17 +1,15 @@
 ---
 title: "What Startups Are Really Like"
 date: 2025-02-24
-slug: "what-startups-are-really-like"
 ref: https://paulgraham.com/really.html
 ---
-
 Quoting [Paul Graham](https://paulgraham.com/really.html):
 
 > You haven't seen someone's true colors unless you've worked with them on a startup.
 
 > I would rather cofound a startup with a friend than a stranger with higher output. Startups are so hard and emotional that the bonds and emotional and social support that come with friendship outweigh the extra output lost.
 
-> My relationship with my cofounder went from just being friends to seeing each other all the time, fretting over the finances and cleaning up shit. And the startup was our baby. I summed it up once like this: &#34;It's like we're married, but we're not fucking.&#34;
+> My relationship with my cofounder went from just being friends to seeing each other all the time, fretting over the finances and cleaning up shit. And the startup was our baby. I summed it up once like this: "It's like we're married, but we're not fucking."
 
 > the energy to keep a company going in lieu of unburdening success isn't free; it is siphoned from the founders themselves.
 
@@ -23,7 +21,7 @@ Quoting [Paul Graham](https://paulgraham.com/really.html):
 
 > One reason founders are surprised is that because they work fast, they expect everyone else to. There's a shocking amount of shear stress at every point where a startup touches a more bureaucratic organization, like a big company or a VC fund. That's why fundraising and the enterprise market kill and maim so many startups
 
-> But I think the reason most founders are surprised by how long it takes is that they're overconfident. They think they're going to be an instant success, like YouTube or Facebook. You tell them only 1 out of 100 successful startups has a trajectory like that, and they all think &#34;we're going to be that 1.&#34;
+> But I think the reason most founders are surprised by how long it takes is that they're overconfident. They think they're going to be an instant success, like YouTube or Facebook. You tell them only 1 out of 100 successful startups has a trajectory like that, and they all think "we're going to be that 1."
 
 > Because we're relaxed, it's so much easier to have fun doing what we do. Gone is the awkward nervous energy fueled by the desperate need to not fail guiding our actions. We can concentrate on doing what's best for our company, product, employees and customers.
 
@@ -35,11 +33,11 @@ Quoting [Paul Graham](https://paulgraham.com/really.html):
 
 > Why do people take too long on the first version? Pride, mostly. They hate to release something that could be better. They worry what people will say about them
 
-> Doing something &#34;simple&#34; at first glance does not mean you aren't doing something meaningful, defensible, or valuable.
+> Doing something "simple" at first glance does not mean you aren't doing something meaningful, defensible, or valuable.
 
 > Don't worry what people will say. If your first version is so impressive that trolls don't make fun of it, you waited too long to launch.
 
-> Now, when coding, I try to think &#34;How can I write this such that if people saw my code, they'd be amazed at how little there is and how little it does?&#34;
+> Now, when coding, I try to think "How can I write this such that if people saw my code, they'd be amazed at how little there is and how little it does?"
 
 > Over-engineering is poison.
 
@@ -77,4 +75,4 @@ Quoting [Paul Graham](https://paulgraham.com/really.html):
 
 Unconsciously, everyone expects a startup to be like a job, and that explains most of the surprises.
 
-> You probably can't overcome anything so pervasive as the model of work you grew up with. So the best solution is to be consciously aware of that. As you go into a startup, you'll be thinking &#34;everyone says it's really extreme.&#34; Your next thought will probably be &#34;but I can't believe it will be that bad.&#34; If you want to avoid being surprised, the next thought after that should be: &#34;and the reason I can't believe it will be that bad is that my model of work is a job.&#34;
+> You probably can't overcome anything so pervasive as the model of work you grew up with. So the best solution is to be consciously aware of that. As you go into a startup, you'll be thinking "everyone says it's really extreme." Your next thought will probably be "but I can't believe it will be that bad." If you want to avoid being surprised, the next thought after that should be: "and the reason I can't believe it will be that bad is that my model of work is a job."

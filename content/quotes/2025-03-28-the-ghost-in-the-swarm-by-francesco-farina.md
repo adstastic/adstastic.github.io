@@ -1,10 +1,8 @@
 ---
 title: "The Ghost in the Swarm - By Francesco Farina"
 date: 2025-03-28
-slug: "the-ghost-in-the-swarm-by-francesco-farina"
 ref: https://francescofarina.substack.com/p/the-ghost-in-the-swarm?source=queue
 ---
-
 Quoting [Francesco Farina](https://francescofarina.substack.com/p/the-ghost-in-the-swarm?source=queue):
 
 > The firehose of high-dimensional, real-time sensor data (vision, lidar, tactile, auditory, proprioceptive) from a world populated by embodied agents will dwarf the entire current internet dataset. Attempting to funnel this raw sensory stream back to central servers for storage and processing is not just economically daunting, it's likely physically impossible at scale. The world simply generates too much information, too quickly.

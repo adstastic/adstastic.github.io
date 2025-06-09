@@ -1,12 +1,10 @@
 ---
 title: "So you wanna de-bog yourself"
 date: 2025-01-01
-slug: "debog-yourself"
 tags:
   - quote
 ref: https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
 ---
-
 Quoting [Adam Mastroianni](https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself):
 
 > Being stuck is the psychological equivalent of standing knee-deep in a fetid bog, bog in every direction, bog as far as the eye can see. You go wading in search of dry land and only find more bog. Nothing works, no options seem good, it’s all bleh and meh and ho hum and no thanks and more bog. This is the kind of dire situation that drives people to do crazy things like ask a blogger for advice.

@@ -1,12 +1,10 @@
 ---
 title: "The era of hype: why the model is cracking"
 date: 2025-02-02
-slug: "the-era-of-hype"
 tags:
   - quote
 ref: https://francescofarina.substack.com/p/the-era-of-hype-why-the-model-is
 ---
-
 Quoting [Francesco Farina](https://francescofarina.substack.com/p/the-era-of-hype-why-the-model-is):
 
 > I’ve seen too many small fund managers praising their higher likelihood of success

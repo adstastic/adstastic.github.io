@@ -1,10 +1,8 @@
 ---
 title: "Daikokuten - 大黒天"
 date: 2025-03-28
-slug: "daikokuten-da-hei-tian"
 ref: https://janklug.substack.com/p/daikokuten
 ---
-
 Quoting [Jan](https://janklug.substack.com/p/daikokuten):
 
 > That’s what I don’t get about the folks out west - if you blast someone from a storm cloud for being human on a particularly stupid day, how the heck are they supposed to learn? Scare ‘em straight, I say!

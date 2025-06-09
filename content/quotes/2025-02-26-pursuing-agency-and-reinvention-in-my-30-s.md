@@ -1,7 +1,6 @@
 ---
 title: "Pursuing Agency and Reinvention in My 30's"
 date: 2025-02-26
-slug: "pursuing-agency-and-reinvention-in-my-30-s"
 tags:
   - i-feel-seen
   - re-read
@@ -10,7 +9,6 @@ tags:
   - best
 ref: https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention
 ---
-
 Quoting [Mike](https://pursuingagency.substack.com/p/pursuing-agency-and-reinvention):
 
 > I'm 34 years old. About the age where you can no longer hide behind the fact that you have plenty of time to grow up and become the person you want to be. It's also not so far into middle age that your efforts in changing can't take root and produce fruit. At least, that's the hope that drives me.
@@ -55,7 +53,7 @@ Quoting [Mike](https://pursuingagency.substack.com/p/pursuing-agency-and-reinven
 
 > **I've grown too cynical for sustained action.**
 
-•   I talk myself out of so many ideas because &#34;they'll never work,&#34; even though I can point to many people doing them already.
+•   I talk myself out of so many ideas because "they'll never work," even though I can point to many people doing them already.
     
 •   There's always some excuse: I'm too late, what they're doing could be more impressive, I need to gain the skills, it would take too long, etc.
 

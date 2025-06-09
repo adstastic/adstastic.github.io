@@ -1,10 +1,8 @@
 ---
 title: "A Theory of Grift"
 date: 2025-04-03
-slug: "a-theory-of-grift"
 ref: https://www.thediff.co/archive/a-theory-of-grift/
 ---
-
 Quoting [Byrne Hobart](https://www.thediff.co/archive/a-theory-of-grift/):
 
 > the heart of a grift is that you get something that, in a technical sense, is what you paid for, but that is also not worth what you paid for it.

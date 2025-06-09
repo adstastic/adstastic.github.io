@@ -1,10 +1,8 @@
 ---
 title: "What I'd Do as a College Freshman in 2025"
 date: 2025-04-23
-slug: "what-i-d-do-as-a-college-freshman-in-2025"
 ref: https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html?utm_source=tldrnewsletter
 ---
-
 Quoting [Blogger](https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html?utm_source=tldrnewsletter):
 
 > Being supported by AI tools is [not a substitute for mastery](https://muratbuffalo.blogspot.com/2018/03/master-your-tools.html). You can’t borrow skills. You have to earn them.

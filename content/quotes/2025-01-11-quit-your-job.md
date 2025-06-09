@@ -1,12 +1,10 @@
 ---
 title: "Quit Your Job"
 date: 2025-01-11
-slug: "quit-your-job"
 tags:
   - quote
 ref: https://www.palladiummag.com/2022/01/06/quit-your-job/
 ---
-
 Quoting [Wolf Tivy](https://www.palladiummag.com/2022/01/06/quit-your-job/):
 
 > The key implication is that while you have not yet found the unique opportunity that will be the engine and purpose of your empire, you have to adjust your sense of value. Value is very legible within a clear plan to reach a clear objective. But you cannot pursue interesting novelty—things that no one else is doing or which you have never seen before, or the little threads of nagging curiosity or doubt—by chasing along known direct value gradients. But that’s where the treasure is. That’s how you will find the place where you need to build. To get the biggest and most interesting payoffs, you have to start by chasing merely interesting novelty in an open-ended way

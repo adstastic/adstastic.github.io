@@ -1,10 +1,8 @@
 ---
 title: "28 Slightly Rude Notes on Writing"
 date: 2025-05-04
-slug: "28-slightly-rude-notes-on-writing"
 ref: https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing?r=5lwff8&utm_medium=ios&triedRedirect=true
 ---
-
 Quoting [Adam Mastroianni](https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing?r=5lwff8&utm_medium=ios&triedRedirect=true):
 
 > we only know about several early Christian heresies because we have records of people *complaining* about them. [[1]](https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing/#footnote-1-162370468) The original heretics’ writings, if they ever existed, have been lost.

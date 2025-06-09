@@ -1,12 +1,10 @@
 ---
 title: "How to do great work"
 date: 2025-01-19
-slug: "great-work"
 tags:
   - quote
 ref: http://paulgraham.com/greatwork.html
 ---
-
 Quoting [Paul Graham](http://paulgraham.com/greatwork.html).
 
 Exponentials:

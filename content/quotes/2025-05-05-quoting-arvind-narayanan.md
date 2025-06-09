@@ -1,10 +1,8 @@
 ---
 title: "Quoting Arvind Narayanan"
 date: 2025-05-05
-slug: "quoting-arvind-narayanan"
 ref: https://simonwillison.net/2025/May/5/arvind-narayanan/#atom-everything
 ---
-
 Quoting [Simon Willison's Weblog](https://simonwillison.net/2025/May/5/arvind-narayanan/#atom-everything):
 
 > AI is helpful despite being error-prone if it is faster to verify the output than it is to do the work yourself. For example, if you're using it to find a product that matches a given set of specifications, verification may be a lot faster than search.

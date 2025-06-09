@@ -1,10 +1,8 @@
 ---
 title: "Impact, Agency, and Taste"
 date: 2025-04-23
-slug: "impact-agency-and-taste"
 ref: https://www.benkuhn.net/impact/?utm_source=tldrnewsletter
 ---
-
 Quoting [benkuhn.net](https://www.benkuhn.net/impact/?utm_source=tldrnewsletter):
 
 > people’s biggest bottleneck eventually becomes their ability to get *leverage*—i.e., to find and execute work that has a big impact-per-hour multiplier.

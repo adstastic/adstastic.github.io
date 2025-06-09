@@ -1,10 +1,8 @@
 ---
 title: "Windsurf CEO: Betting on AI Agents, Pivoting in 48 Hours, and the Future of Coding"
 date: 2025-05-13
-slug: "windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding"
 ref: https://share.snipd.com/episode/49582313-880f-4bf9-877a-0803635eb5bd
 ---
-
 Quoting [Lightcone Podcast](https://share.snipd.com/episode/49582313-880f-4bf9-877a-0803635eb5bd):
 
 > **Choose Exciting Pivots**
@@ -117,7 +115,7 @@ Interesting. How do the evals work? Yeah. So the evals for code are actually rea
 
 > **Evals vs Vibes**
 
-- Balance rigorous evals with intuition, especially for complex AI apps; create a measurable &#34;hill to climb&#34; before adding complexity.
+- Balance rigorous evals with intuition, especially for complex AI apps; create a measurable "hill to climb" before adding complexity.
 - Vibes are valuable for easier things but harder to eval, and user data helps to build evals after the initial vibe.
 
 Transcript:

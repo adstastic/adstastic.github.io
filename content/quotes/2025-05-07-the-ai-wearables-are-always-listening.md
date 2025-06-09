@@ -1,10 +1,8 @@
 ---
 title: "The AI Wearables Are Always Listening"
 date: 2025-05-07
-slug: "the-ai-wearables-are-always-listening"
 ref: https://share.snipd.com/episode/a9d3f559-7d2c-4240-ade2-a552859bf503
 ---
-
 Quoting [The Vergecast](https://share.snipd.com/episode/a9d3f559-7d2c-4240-ade2-a552859bf503):
 
 > 1min Snip
@@ -13,7 +11,7 @@ Quoting [The Vergecast](https://share.snipd.com/episode/a9d3f559-7d2c-4240-ade2-
 
 > **Garbage Truck**
 
-- David Pierce shares that the best AI experience he had was with an app that records his son yelling &#34;garbage truck&#34;. 
+- David Pierce shares that the best AI experience he had was with an app that records his son yelling "garbage truck". 
 - He would pay for the app only if it provides the recording of his son yelling at garbage trucks.
 
 Transcript:

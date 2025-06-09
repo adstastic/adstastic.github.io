@@ -1,10 +1,8 @@
 ---
 title: "The Most Precious Resource Is Agency"
 date: 2025-02-26
-slug: "the-most-precious-resource-is-agency"
 ref: https://map.simonsarris.com/p/the-most-precious-resource-is-agency
 ---
-
 Quoting [Simon Sarris](https://map.simonsarris.com/p/the-most-precious-resource-is-agency):
 
 > Gaining agency is gaining the capacity to do something differently from, or in addition to, the events that simply happen to you. Most famous people go *off-script* early, usually in more than one way.
