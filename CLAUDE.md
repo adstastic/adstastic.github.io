@@ -21,6 +21,9 @@ hugo -D
 # Install Python dependencies (using uv)
 uv pip install -r pyproject.toml
 
+# Run all Python commands using uv
+uv run all python commands
+
 # Fetch and generate quote posts from Readwise
 python fetch_and_generate_quotes.py --start-date YYYY-MM-DD [--end-date YYYY-MM-DD]
 ```
@@ -141,3 +144,4 @@ The `fetch_and_generate_quotes.py` script:
 - Use `ag` instead of `rg` for code searching (rg is not installed)
 - Log using Python's `logging` module, not print statements
 - Minimize cognitive load - write readable, self-documenting code
+```

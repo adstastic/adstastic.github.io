@@ -1,11 +1,13 @@
 ---
-title: "I Got Fooled by AI-for-science Hype—here&#39;s What It Taught Me"
+title: "I Got Fooled by AI-for-science Hype—here's What It Taught Me"
 date: 2025-05-19
+slug: "i-got-fooled-by-ai-for-science-hype-here-s-what-it-taught-me"
 tags:
   - quote
 ref: https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true
 ---
-Quoting [Nick McGreivy](https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&amp;utm_medium=ios&amp;triedRedirect=true):
+
+Quoting [Nick McGreivy](https://www.understandingai.org/p/i-got-fooled-by-ai-for-science-hypeheres?r=5lwff8&utm_medium=ios&triedRedirect=true):
 
 > in 2023 DeepMind [claimed](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) to have discovered 2.2 million crystal structures, [representing](https://www.nature.com/articles/s41586-023-06735-9) “an order-of-magnitude expansion in stable materials known to humanity.” But when [materials](https://x.com/Robert_Palgrave/status/1744383962913394758) [scientists](https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002) [analyzed these compounds](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643), they found it was “[mostly junk](https://www.aisnakeoil.com/p/scientists-should-use-ai-as-a-tool)” and “respectfully” suggested that the paper “does not report any new materials.”
 
@@ -32,7 +34,7 @@ As a result, I’ve come to believe that AI has generally been less successful a
 
 > even when AI achieves genuinely impressive results *in* science, that doesn’t mean that AI has done something useful *for* science. More often, it reflects only the *potential* of AI to be useful down the road.
 
-This is because scientists working on AI (myself included) often work backwards. Instead of identifying a problem and then trying to find a solution, we start by assuming that AI will be the solution and then looking for problems to solve. But because it’s difficult to identify open scientific challenges that can be solved using AI, this “[hammer in search of a nail](https://x.com/MilesCranmer/status/1879542350541635882)” style of science means that researchers will often tackle problems which are suitable for using AI but which either have already been solved or don&#39;t create new scientific knowledge.
+This is because scientists working on AI (myself included) often work backwards. Instead of identifying a problem and then trying to find a solution, we start by assuming that AI will be the solution and then looking for problems to solve. But because it’s difficult to identify open scientific challenges that can be solved using AI, this “[hammer in search of a nail](https://x.com/MilesCranmer/status/1879542350541635882)” style of science means that researchers will often tackle problems which are suitable for using AI but which either have already been solved or don't create new scientific knowledge.
 
 > pitfalls often cause the successful results that do get published to reach overly optimistic conclusions about AI in science. The details and [severity](https://www.aisnakeoil.com/p/scientists-should-use-ai-as-a-tool) seem to differ [between](https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002) [fields](https://x.com/Robert_Palgrave/status/1744383962913394758), but [pitfalls mostly](https://www.nature.com/articles/d41586-019-02307-y#ref-CR2) have fallen into one of [four categories](https://arxiv.org/abs/2407.12220): [data leakage](https://reproducible.cs.princeton.edu/), [weak](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184604) [baselines](https://x.com/tunguz/status/1853545690565058723), [cherry-picking](https://news.ycombinator.com/item?id=36231147), and [misreporting](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643).
 

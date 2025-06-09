@@ -53,7 +53,7 @@ Quoting [Mike](https://pursuingagency.substack.com/p/pursuing-agency-and-reinven
 
 > **I've grown too cynical for sustained action.**
 
-•   I talk myself out of so many ideas because &#34;they'll never work,&#34; even though I can point to many people doing them already.
+•   I talk myself out of so many ideas because "they'll never work," even though I can point to many people doing them already.
     
 •   There's always some excuse: I'm too late, what they're doing could be more impressive, I need to gain the skills, it would take too long, etc.
 

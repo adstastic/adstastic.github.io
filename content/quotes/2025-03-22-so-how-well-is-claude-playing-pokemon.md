@@ -17,7 +17,7 @@ Thanks for coming to my ted talk but my overall thesis is still Executive Functi
 
 > This current Claudeplayspokemon run is actually an interesting encapsulation of current limitations in llms  
   
-That are more fundamental than just &#34;LLMs don't understand spatial reasoning&#34; (but they don't)  
+That are more fundamental than just "LLMs don't understand spatial reasoning" (but they don't)  
   
 They added a whole new memory system after Run #2 with short term and long-term text files and the ability to edit and store and archive and now he has a pretty good memory system that does improve navigation  
   
@@ -25,8 +25,8 @@ but now the lack of executive planning and goal-planning and grasp of reality is
   
 no amount of good memory system will save you if you just randomly see something and go:  
   
-> &#34;Oh I've achieved my goal!&#34;  
-> &#34;Time to delete all my past files about achieving this goal!&#34;  
+> "Oh I've achieved my goal!"  
+> "Time to delete all my past files about achieving this goal!"  
   
 when goal was not actually achieved[[5]](https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon#fn1efat5c1td1h)  
   
@@ -38,19 +38,19 @@ It really lacks a lot of human ability to plan, hold multiple goals at once, pri
   
 (at least not to a human level of efficiency, it will half-heartedly do some combat while the team is healthy then immediately abandon any thought of leveling if the team is moderately injured)  
   
-(It's also not capable of changing goals on the fly and going &#34;Well I'm too injured to make it, let's get some levels and bail&#34;)
+(It's also not capable of changing goals on the fly and going "Well I'm too injured to make it, let's get some levels and bail")
 
 > Executive Function (agents, etc.) has always been the big missing puzzle piece, and even with copious amounts of test-time compute, tool use, scaffolding, external memory, the latest and greatest LLM still is not at even a child's level.
 
-> the thing about ClaudePlaysPokémon is that it feels so close sometimes. Each &#34;action&#34; is reasoned carefully (if often on the basis of faulty knowledge), and of course Claude's irrepressible good humor is charming. If it could just plan a little better, or had a little outside direction, it'd clearly blow through the game no problem.
+> the thing about ClaudePlaysPokémon is that it feels so close sometimes. Each "action" is reasoned carefully (if often on the basis of faulty knowledge), and of course Claude's irrepressible good humor is charming. If it could just plan a little better, or had a little outside direction, it'd clearly blow through the game no problem.
 
 > it's fairly obvious if there was just someone human there to monitor Claude and give it some guidance maybe once every hour, it'd probably be 10x further through the game now  
   
-That's meaningful insomuch as from a &#34;taking people's jobs&#34; point of view it may be possible to, even if the AI really sucks at goal planning, just chain 10 bad AIs to one employee and have them monitor
+That's meaningful insomuch as from a "taking people's jobs" point of view it may be possible to, even if the AI really sucks at goal planning, just chain 10 bad AIs to one employee and have them monitor
 
 this still sucks ~9 jobs away from people
 
-> &#34;Executive Function&#34; and the brain regions associated with it are the largest and most recently evolved in humans  
+> "Executive Function" and the brain regions associated with it are the largest and most recently evolved in humans  
   
 which makes sense  
   
@@ -58,7 +58,7 @@ but a lot of goal-orientation and grasp on reality stuff is reasonably well-deve
   
 Not to a human level but better than most LLMs  
   
-So it's not just a matter of &#34;this is hard stuff that only elite humans do&#34;  
+So it's not just a matter of "this is hard stuff that only elite humans do"  
   
 No, a decent amount of this is fairly old stuff that's probably pretty deep in the brain, and the evolutionary pressure is presumably fairly strong to have developed it fast  
   

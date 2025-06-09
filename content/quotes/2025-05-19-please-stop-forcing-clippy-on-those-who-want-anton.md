@@ -1,11 +1,13 @@
 ---
 title: "Please Stop Forcing Clippy on Those Who Want Anton"
 date: 2025-05-19
+slug: "please-stop-forcing-clippy-on-those-who-want-anton"
 tags:
   - quote
 ref: https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true
 ---
-Quoting [swyx &amp; Alessio](https://www.latent.space/p/clippy-v-anton?r=4el8r&amp;utm_medium=ios&amp;triedRedirect=true):
+
+Quoting [swyx & Alessio](https://www.latent.space/p/clippy-v-anton?r=4el8r&utm_medium=ios&triedRedirect=true):
 
 > the two schools of thought in building AI products:
 

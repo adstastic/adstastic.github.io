@@ -31,7 +31,7 @@ And one from Texas. The Texas ladies are playing in the final four in Tampa. So 
 
 > **Market Reaction to Tariffs**
 
-- Trump's tariff announcement, dubbed &#34;Liberation Day,&#34; caused market uncertainty.
+- Trump's tariff announcement, dubbed "Liberation Day," caused market uncertainty.
 - Initial market reactions were positive, but quickly turned negative as details emerged.
 
 Transcript:

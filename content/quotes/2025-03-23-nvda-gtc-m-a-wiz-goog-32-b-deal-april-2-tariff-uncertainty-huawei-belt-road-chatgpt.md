@@ -184,7 +184,7 @@ Or do you just price to market, meaning I can't lose because of price. And so it
 
 > **Negative Gross Margin AI Theory**
 
-- Bill Gurley's &#34;Girly negative gross margin AI theory&#34; suggests that many AI startups operate at a loss to gain market share. 
+- Bill Gurley's "Girly negative gross margin AI theory" suggests that many AI startups operate at a loss to gain market share. 
 - This creates a buyer's market where consumers indirectly buy compute from hyperscalers at subsidized prices, potentially leading to triple-counting revenues and distorting market economics.
 
 Transcript:

@@ -115,7 +115,7 @@ Interesting. How do the evals work? Yeah. So the evals for code are actually rea
 
 > **Evals vs Vibes**
 
-- Balance rigorous evals with intuition, especially for complex AI apps; create a measurable &#34;hill to climb&#34; before adding complexity.
+- Balance rigorous evals with intuition, especially for complex AI apps; create a measurable "hill to climb" before adding complexity.
 - Vibes are valuable for easier things but harder to eval, and user data helps to build evals after the initial vibe.
 
 Transcript:

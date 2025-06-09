@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title | safeHTML }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify | safeHTML }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
