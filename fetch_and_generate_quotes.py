@@ -325,8 +325,7 @@ def generate_markdown_from_source(
     }
     logger.debug(f"Template data for '{source.title}': {template_data}")
 
-    date_prefix = post_date.strftime("%Y-%m-%d")
-    filename = f"{date_prefix}-{slug}.md"
+    filename = f"{slug}.md"
     output_file_path = output_dir_path / filename
 
     output_dir_path.mkdir(parents=True, exist_ok=True)
